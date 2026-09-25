@@ -1,0 +1,16 @@
+{
+  "candidate": "REAL-20M R=1 IDX2+IDX8 + separately calibrated linear750 IDX8 arbiter",
+  "role": "max-LM endpoint",
+  "reader_tokens": 20000256,
+  "reader_weights_sha256": "fc4bc22d7ac92bc517946f04528c8112c70835c3b000a006d17a8d3bf9cf5304",
+  "reader_resume_sha256": "69f15d4a099db82f8f443ead9a1a54da760bc32720e419874fdaecf817111406",
+  "reader_dataset": "ninnix/qwen-ple-reader-20m-milestone",
+  "arbiter_calibration_tokens": 749568,
+  "arbiter_checkpoint_sha256": "e044fb8eb11430a50238757d0a39f9bd16ed414859331fec669024d7483eeb9d",
+  "arbiter_dataset": "ninnix/qwen-ple-reader-scale-20m-arbitration-results",
+  "alpha2_frozen": 1.267012596130371,
+  "full_val_nll": 2.8515374587006765,
+  "five_domain_mean_nll": 2.3833581804995903,
+  "lambada_nll": 2.2112533617280423,
+  "evaluation_manifest": "qwen35-08b/reader-scale-20m/results/checkpoints.json"
+}

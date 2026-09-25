@@ -1,0 +1,59 @@
+[{"stream_name":"stdout","time":5.128286032,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 98.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.155806869,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 516.0/516.0 kB 33.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.203748984,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 95.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":49.804134242,"data":"frozen evaluation and calibration stage verified 58\n"}
+,{"stream_name":"stdout","time":57.704222499,"data":"R4 milestone and 15M parent SHA verified\n"}
+,{"stream_name":"stdout","time":80.094978634,"data":"hash ok; slots/head addrs e.g. (14605717, 24410875, 49313567, 72177428) | head0 range (0, 20000003)\n"}
+,{"stream_name":"stdout","time":80.169598183,"data":"reader identity ok; R=1 params: 5242882\n"}
+,{"stream_name":"stdout","time":80.169623564,"data":"injection ok\n"}
+,{"stream_name":"stdout","time":80.17080187,"data":"stores ok; manifests: []\n"}
+,{"stream_name":"stderr","time":80.262839614,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":102.810336286,"data":"\rLoading weights:   0%|          | 0/320 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/320 [00:00\u003c04:05,  1.30it/s]\rLoading weights: 100%|██████████| 320/320 [00:00\u003c00:00, 375.83it/s]\n"}
+,{"stream_name":"stderr","time":103.6308268,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":104.483312763,"data":"[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.\n"}
+,{"stream_name":"stdout","time":104.816566855,"data":"backbone ok dtype=torch.float16\n"}
+,{"stream_name":"stdout","time":104.891102449,"data":"inject at IDX [2, 8] = HUMAN [3, 9]\n"}
+,{"stream_name":"stdout","time":105.083975672,"data":"inject at IDX [2, 8] = HUMAN [3, 9]\n"}
+,{"stream_name":"stdout","time":105.108541134,"data":"compact PLE: 14396459 rows, 2.15 GiB mapped, scale=0.000199318\n"}
+,{"stream_name":"stderr","time":109.914270939,"data":"\rGenerating train split:   0%|          | 0/39905 [00:00\u003c?, ? examples/s]\rGenerating train split:  53%|█████▎    | 21000/39905 [00:00\u003c00:00, 183084.28 examples/s]\rGenerating train split: 100%|██████████| 39905/39905 [00:00\u003c00:00, 213667.28 examples/s]\n"}
+,{"stream_name":"stderr","time":109.954309069,"data":"\rGenerating test split:   0%|          | 0/10003 [00:00\u003c?, ? examples/s]\rGenerating test split: 100%|██████████| 10003/10003 [00:00\u003c00:00, 253706.05 examples/s]\n"}
+,{"stream_name":"stderr","time":109.992575286,"data":"\rGenerating validation split:   0%|          | 0/10042 [00:00\u003c?, ? examples/s]\rGenerating validation split: 100%|██████████| 10042/10042 [00:00\u003c00:00, 266454.11 examples/s]\n"}
+,{"stream_name":"stdout","time":109.99695246,"data":"dataset resolved: Rowan/hellaswag\n"}
+,{"stream_name":"stderr","time":112.319890088,"data":"\rGenerating test split:   0%|          | 0/5153 [00:00\u003c?, ? examples/s]\rGenerating test split: 100%|██████████| 5153/5153 [00:00\u003c00:00, 419633.99 examples/s]\n"}
+,{"stream_name":"stdout","time":112.32279482,"data":"dataset resolved: EleutherAI/lambada_openai\n"}
+,{"stream_name":"stdout","time":113.04685992,"data":"R4 reader loaded cd3a716c24a1f38d55180749192fa9fae761bfff5cfa45d29ff2c16f4167536b {'readers.2.gamma': 0.11522641032934189, 'readers.8.gamma': 0.14777357876300812}\n"}
+,{"stream_name":"stdout","time":144.144095208,"data":"R4 arb tokens 51200 ce 3.294523239135742 mean alpha8 0.12046113610267639\n"}
+,{"stream_name":"stdout","time":174.299812831,"data":"R4 arb tokens 102400 ce 3.269440174102783 mean alpha8 0.12603868544101715\n"}
+,{"stream_name":"stdout","time":204.888458468,"data":"R4 arb tokens 153600 ce 2.169304132461548 mean alpha8 0.12151952087879181\n"}
+,{"stream_name":"stdout","time":235.503968091,"data":"R4 arb tokens 204800 ce 1.6431397199630737 mean alpha8 0.13466419279575348\n"}
+,{"stream_name":"stdout","time":266.008138029,"data":"R4 arb tokens 256000 ce 3.473996639251709 mean alpha8 0.12689140439033508\n"}
+,{"stream_name":"stdout","time":296.619187539,"data":"R4 arb tokens 307200 ce 1.5253106355667114 mean alpha8 0.11096104979515076\n"}
+,{"stream_name":"stdout","time":327.490809114,"data":"R4 arb tokens 358400 ce 1.3959146738052368 mean alpha8 0.13597454130649567\n"}
+,{"stream_name":"stdout","time":358.58501494,"data":"R4 arb tokens 409600 ce 3.767246961593628 mean alpha8 0.1295037865638733\n"}
+,{"stream_name":"stdout","time":390.150248608,"data":"R4 arb tokens 460800 ce 2.257301092147827 mean alpha8 0.13312117755413055\n"}
+,{"stream_name":"stdout","time":415.060487448,"data":"arb checkpoint SHA/reopen reader-r4-arb500 500736 03d30265f41f18bc215b135a7efc31320cf73d62f19101b3753438462a8f7b9d\n"}
+,{"stream_name":"stdout","time":421.907208576,"data":"R4 arb tokens 512000 ce 3.064077615737915 mean alpha8 0.12787021696567535\n"}
+,{"stream_name":"stdout","time":452.753850708,"data":"R4 arb tokens 563200 ce 1.2633907794952393 mean alpha8 0.12496202439069748\n"}
+,{"stream_name":"stdout","time":483.539961001,"data":"R4 arb tokens 614400 ce 3.1754844188690186 mean alpha8 0.1418236792087555\n"}
+,{"stream_name":"stdout","time":514.340957297,"data":"R4 arb tokens 665600 ce 2.4625680446624756 mean alpha8 0.11886849999427795\n"}
+,{"stream_name":"stdout","time":545.291574061,"data":"R4 arb tokens 716800 ce 2.5193984508514404 mean alpha8 0.12933871150016785\n"}
+,{"stream_name":"stdout","time":564.915230691,"data":"arb checkpoint SHA/reopen reader-r4-arb750 749568 53a71cc77b8c1c0b539f1dd838b368f7bd48365031cff0d8b093e2a5c7505ac1\n"}
+,{"stream_name":"stdout","time":1259.184509868,"data":"reader-r4-arb750 full-val 2.852958443463432 domain mean 2.3842451108645086 LAMBADA 2.2167574710284046\n"}
+,{"stream_name":"stdout","time":1275.591620408,"data":"contrast reader-r4-arb750-vs-reader15m-linear750:\n"}
+,{"stream_name":"stdout","time":1275.591661083,"data":"  val_nll: d=-0.00083 [-0.00089,-0.00077] p=0\n"}
+,{"stream_name":"stdout","time":1275.591672069,"data":"  lambada_nll: d=-0.00052 [-0.00153,0.00049] p=0.3276\n"}
+,{"stream_name":"stdout","time":1275.591675288,"data":"  hs_acc: d=-0.00100 [-0.00300,0.00000] p=0.7504\n"}
+,{"stream_name":"stdout","time":1275.591678457,"data":"  lambada_acc: d=-0.00100 [-0.00500,0.00200] p=0.787\n"}
+,{"stream_name":"stdout","time":1275.591681468,"data":"  dom code: d=+0.00034 [0.00012,0.00057] p=0.0012\n"}
+,{"stream_name":"stdout","time":1275.59168442,"data":"  dom general: d=-0.00139 [-0.00165,-0.00113] p=0\n"}
+,{"stream_name":"stdout","time":1275.591687315,"data":"  dom math: d=+0.00064 [0.00039,0.00088] p=0\n"}
+,{"stream_name":"stdout","time":1275.59169044,"data":"  dom multilingual: d=-0.00035 [-0.00059,-0.00011] p=0.0046\n"}
+,{"stream_name":"stdout","time":1275.591693484,"data":"  dom scientific: d=-0.00141 [-0.00163,-0.00120] p=0\n"}
+,{"stream_name":"stdout","time":1278.050869909,"data":"R4 EARLY ARBITRATION COMPLETE\n"}
+,{"stream_name":"stderr","time":1283.041451062,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1283.041497764,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1283.252140806,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1283.252166546,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1283.841925546,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1285.01533832,"data":"[NbConvertApp] Writing 359043 bytes to __results__.html\n"}
+]

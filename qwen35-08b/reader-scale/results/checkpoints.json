@@ -1,0 +1,53 @@
+{
+  "reader_source": "ninnix/qwen-ple-reader-scale-7p5m-10m-p100/3",
+  "reader_shas": {
+    "7p5m": "5bd707cf0bed18e282102e5a579ad0ce53f2d7373209013b71df7fb7afe3fc29",
+    "10m": "2ab87c0a17eb54b8efb0e10ac65801157ea886a8375574c670c1c30a0d213528"
+  },
+  "arbitration_shas": {
+    "reader7p5m-arb500": "5b5f2ed7774683c96280b7b1764585ce2a01fd18025a0625c0c5c8f7b12a3a16",
+    "reader7p5m-arb750": "2ea59f22d88a3b60001a2733240ef598f0e6e828a6b2306a843cdc8a4469e192",
+    "reader10m-arb500": "1fce0d9cd06aaeca3d2ee0fb75cbdc8c05f0001844773778e9e93b813bb047c7",
+    "reader10m-arb750": "b580508310b50290924b1549b6b5e17cf727b8497fd1623a7c80a099098f489e"
+  },
+  "gamma": {
+    "7p5m": {
+      "readers.2.gamma": 0.07432379573583603,
+      "readers.8.gamma": 0.09812772274017334
+    },
+    "10m": {
+      "readers.2.gamma": 0.08575000613927841,
+      "readers.8.gamma": 0.11758368462324142
+    }
+  },
+  "alpha2_frozen": 1.267012596130371,
+  "calibration_shas": {
+    "500": "34bd7ce320f51f8b5683846527af9b35ba672085990356bf3ef55288219d4628",
+    "750": "379e484148e94b08e71870e6fabe67116260d965d9420b7a7d323cb09e4bd828"
+  },
+  "frozen_eval_shas": {
+    "target_id": "Qwen/Qwen3.5-0.8B",
+    "source_id": "Qwen/Qwen3.8-Flash-Next-FP8",
+    "tokenizer_rev": "2fc06364715b967f1860aea9cf38778875588b17",
+    "ple_revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+    "source_rev_prefix": "236dfdf28582",
+    "hellaswag": {
+      "dataset": "Rowan/hellaswag",
+      "rev": "218ec52e09a7e7462a5400043bb9a69a41d06b76",
+      "n": 1000
+    },
+    "lambada": {
+      "dataset": "EleutherAI/lambada_openai",
+      "rev": "900124bf3b8235c6daf21033af9948b3f07346c4",
+      "n": 1000
+    },
+    "val_full_sha256": "26ffe65b1f6457d2557dbacc98197d025932057e3c183e3cf1de8eefb7c2fe7c",
+    "domains": {
+      "general": "a9e12294eba002b5a4e9fce610ff39f8aed6d802e36e534e82ed367f96bb9aa5",
+      "code": "735f933ca4bc694562dbb2a6ab9c227c802268f7715448eba50e172ae450c421",
+      "math": "c27f42f5f69de1aaf26020c7e14c2c141f8fa8490c5d95952c06e1c5bffa6648",
+      "scientific": "c33632cf96170ca7ae92d4013702c14097fd79bb069c76e40fb3a531091936d8",
+      "multilingual": "65a26da5419aaa32520219d9d1c5909769a7a19a88ff16e85df7d69c38028a55"
+    }
+  }
+}

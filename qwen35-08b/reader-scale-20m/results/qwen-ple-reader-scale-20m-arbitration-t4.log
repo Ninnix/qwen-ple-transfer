@@ -1,0 +1,81 @@
+[{"stream_name":"stdout","time":6.195092137,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 106.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.220826009,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 516.0/516.0 kB 30.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.268393024,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 91.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":60.88839207,"data":"frozen evaluation and calibration stage verified 58\n"}
+,{"stream_name":"stdout","time":64.797306225,"data":"20M reader milestone SHA verified\n"}
+,{"stream_name":"stdout","time":65.887257501,"data":"15M canonical and earlier frozen references SHA verified\n"}
+,{"stream_name":"stdout","time":91.123708577,"data":"hash ok; slots/head addrs e.g. (14605717, 24410875, 49313567, 72177428) | head0 range (0, 20000003)\n"}
+,{"stream_name":"stdout","time":91.208292601,"data":"reader identity ok; R=1 params: 5242882\n"}
+,{"stream_name":"stdout","time":91.2083428,"data":"injection ok\n"}
+,{"stream_name":"stdout","time":91.208973403,"data":"stores ok; manifests: []\n"}
+,{"stream_name":"stderr","time":91.329009745,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":100.727544365,"data":"\rLoading weights:   0%|          | 0/320 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/320 [00:00\u003c04:22,  1.22it/s]\rLoading weights:  90%|████████▉ | 287/320 [00:00\u003c00:00, 418.41it/s]\rLoading weights: 100%|██████████| 320/320 [00:00\u003c00:00, 330.90it/s]\n"}
+,{"stream_name":"stderr","time":101.904213553,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":103.117445001,"data":"[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.\n"}
+,{"stream_name":"stdout","time":103.538462296,"data":"backbone ok dtype=torch.float16\n"}
+,{"stream_name":"stdout","time":103.628236579,"data":"inject at IDX [2, 8] = HUMAN [3, 9]\n"}
+,{"stream_name":"stdout","time":103.64039511,"data":"compact PLE: 14396459 rows, 2.15 GiB mapped, scale=0.000199318\n"}
+,{"stream_name":"stderr","time":109.352710804,"data":"\rGenerating train split:   0%|          | 0/39905 [00:00\u003c?, ? examples/s]\rGenerating train split:   3%|▎         | 1000/39905 [00:00\u003c00:05, 6787.31 examples/s]\rGenerating train split:  75%|███████▌  | 30000/39905 [00:00\u003c00:00, 142182.54 examples/s]\rGenerating train split: 100%|██████████| 39905/39905 [00:00\u003c00:00, 127480.57 examples/s]\n"}
+,{"stream_name":"stderr","time":109.397169861,"data":"\rGenerating test split:   0%|          | 0/10003 [00:00\u003c?, ? examples/s]\rGenerating test split: 100%|██████████| 10003/10003 [00:00\u003c00:00, 229176.78 examples/s]\n"}
+,{"stream_name":"stderr","time":109.438867572,"data":"\rGenerating validation split:   0%|          | 0/10042 [00:00\u003c?, ? examples/s]\rGenerating validation split: 100%|██████████| 10042/10042 [00:00\u003c00:00, 245139.89 examples/s]\n"}
+,{"stream_name":"stdout","time":109.443498413,"data":"dataset resolved: Rowan/hellaswag\n"}
+,{"stream_name":"stderr","time":112.078792935,"data":"\rGenerating test split:   0%|          | 0/5153 [00:00\u003c?, ? examples/s]\rGenerating test split: 100%|██████████| 5153/5153 [00:00\u003c00:00, 246119.71 examples/s]\n"}
+,{"stream_name":"stdout","time":112.081965903,"data":"dataset resolved: EleutherAI/lambada_openai\n"}
+,{"stream_name":"stdout","time":814.028545456,"data":"reader15m-linear750 full-val 2.853786112044422 domain mean 2.3846798831469393 LAMBADA 2.2172765764792763\n"}
+,{"stream_name":"stdout","time":814.030758553,"data":"15M canonical baseline reproduces prior P100 evaluation byte-for-byte\n"}
+,{"stream_name":"stdout","time":847.517574339,"data":"20m arb tokens 51200 ce 3.2903859615325928 mean alpha8 0.12273727357387543\n"}
+,{"stream_name":"stdout","time":880.128107749,"data":"20m arb tokens 102400 ce 3.2660508155822754 mean alpha8 0.12384199351072311\n"}
+,{"stream_name":"stdout","time":912.750219586,"data":"20m arb tokens 153600 ce 2.1636850833892822 mean alpha8 0.11806118488311768\n"}
+,{"stream_name":"stdout","time":945.595314489,"data":"20m arb tokens 204800 ce 1.6441115140914917 mean alpha8 0.13407433032989502\n"}
+,{"stream_name":"stdout","time":979.78977712,"data":"20m arb tokens 256000 ce 3.476456880569458 mean alpha8 0.12637729942798615\n"}
+,{"stream_name":"stdout","time":1014.296903401,"data":"20m arb tokens 307200 ce 1.5251961946487427 mean alpha8 0.11177974939346313\n"}
+,{"stream_name":"stdout","time":1047.291401428,"data":"20m arb tokens 358400 ce 1.3994561433792114 mean alpha8 0.1386137306690216\n"}
+,{"stream_name":"stdout","time":1081.191616164,"data":"20m arb tokens 409600 ce 3.7601373195648193 mean alpha8 0.13120660185813904\n"}
+,{"stream_name":"stdout","time":1114.8096698,"data":"20m arb tokens 460800 ce 2.2572779655456543 mean alpha8 0.1331462860107422\n"}
+,{"stream_name":"stdout","time":1140.309702284,"data":"arb checkpoint SHA/reopen reader20m-arb500 500736 b1733aec9ed9973f104b503e5ec52232d5c2b4c33d0fa15194c6389e47e30232\n"}
+,{"stream_name":"stdout","time":1147.513833175,"data":"20m arb tokens 512000 ce 3.0596373081207275 mean alpha8 0.12740322947502136\n"}
+,{"stream_name":"stdout","time":1180.147831588,"data":"20m arb tokens 563200 ce 1.2696361541748047 mean alpha8 0.12524957954883575\n"}
+,{"stream_name":"stdout","time":1212.788520748,"data":"20m arb tokens 614400 ce 3.172537088394165 mean alpha8 0.1413773000240326\n"}
+,{"stream_name":"stdout","time":1245.398562541,"data":"20m arb tokens 665600 ce 2.461364269256592 mean alpha8 0.11984861642122269\n"}
+,{"stream_name":"stdout","time":1278.019605462,"data":"20m arb tokens 716800 ce 2.5168216228485107 mean alpha8 0.12980884313583374\n"}
+,{"stream_name":"stdout","time":1299.117419099,"data":"arb checkpoint SHA/reopen reader20m-arb750 749568 e044fb8eb11430a50238757d0a39f9bd16ed414859331fec669024d7483eeb9d\n"}
+,{"stream_name":"stdout","time":1968.640696269,"data":"reader20m-arb750 full-val 2.8515374587006765 domain mean 2.3833581804995903 LAMBADA 2.2112533617280423\n"}
+,{"stream_name":"stdout","time":1985.668214902,"data":"contrast reader20m-arb750-vs-reader15m-linear750:\n"}
+,{"stream_name":"stdout","time":1985.668308418,"data":"  val_nll: d=-0.00225 [-0.00241,-0.00208] p=0\n"}
+,{"stream_name":"stdout","time":1985.668316371,"data":"  lambada_nll: d=-0.00602 [-0.00824,-0.00374] p=0\n"}
+,{"stream_name":"stdout","time":1985.668321437,"data":"  hs_acc: d=+0.00000 [-0.00300,0.00300] p=1\n"}
+,{"stream_name":"stdout","time":1985.668326503,"data":"  lambada_acc: d=+0.00200 [-0.00300,0.00800] p=0.5918\n"}
+,{"stream_name":"stdout","time":1985.668330888,"data":"  dom code: d=+0.00043 [-0.00012,0.00103] p=0.1334\n"}
+,{"stream_name":"stdout","time":1985.668335452,"data":"  dom general: d=-0.00449 [-0.00516,-0.00375] p=0\n"}
+,{"stream_name":"stdout","time":1985.668339652,"data":"  dom math: d=+0.00255 [0.00163,0.00342] p=0\n"}
+,{"stream_name":"stdout","time":1985.66835983,"data":"  dom multilingual: d=-0.00179 [-0.00250,-0.00109] p=0\n"}
+,{"stream_name":"stdout","time":1985.668363457,"data":"  dom scientific: d=-0.00331 [-0.00399,-0.00265] p=0\n"}
+,{"stream_name":"stdout","time":2002.570795148,"data":"contrast reader20m-arb750-vs-reader10m-arb750:\n"}
+,{"stream_name":"stdout","time":2002.570849965,"data":"  val_nll: d=-0.00554 [-0.00592,-0.00515] p=0\n"}
+,{"stream_name":"stdout","time":2002.570856884,"data":"  lambada_nll: d=-0.02524 [-0.03083,-0.01968] p=0\n"}
+,{"stream_name":"stdout","time":2002.57086184,"data":"  hs_acc: d=-0.00200 [-0.00600,0.00200] p=0.452\n"}
+,{"stream_name":"stdout","time":2002.570866951,"data":"  lambada_acc: d=+0.00700 [-0.00100,0.01600] p=0.1308\n"}
+,{"stream_name":"stdout","time":2002.570872255,"data":"  dom code: d=-0.00023 [-0.00144,0.00099] p=0.712\n"}
+,{"stream_name":"stdout","time":2002.570877101,"data":"  dom general: d=-0.00867 [-0.00985,-0.00731] p=0\n"}
+,{"stream_name":"stdout","time":2002.57088142,"data":"  dom math: d=-0.00130 [-0.00303,0.00036] p=0.1276\n"}
+,{"stream_name":"stdout","time":2002.570885998,"data":"  dom multilingual: d=-0.00591 [-0.00725,-0.00458] p=0\n"}
+,{"stream_name":"stdout","time":2002.57089018,"data":"  dom scientific: d=-0.00895 [-0.01028,-0.00765] p=0\n"}
+,{"stream_name":"stdout","time":2019.598614761,"data":"contrast reader20m-arb750-vs-reader5m-linear750:\n"}
+,{"stream_name":"stdout","time":2019.598686276,"data":"  val_nll: d=-0.01369 [-0.01440,-0.01297] p=0\n"}
+,{"stream_name":"stdout","time":2019.598694214,"data":"  lambada_nll: d=-0.04206 [-0.05226,-0.03224] p=0\n"}
+,{"stream_name":"stdout","time":2019.598700269,"data":"  hs_acc: d=-0.00400 [-0.01000,0.00200] p=0.2616\n"}
+,{"stream_name":"stdout","time":2019.598704429,"data":"  lambada_acc: d=+0.00700 [-0.00400,0.01900] p=0.2798\n"}
+,{"stream_name":"stdout","time":2019.598708828,"data":"  dom code: d=-0.00246 [-0.00501,-0.00008] p=0.042\n"}
+,{"stream_name":"stdout","time":2019.598713087,"data":"  dom general: d=-0.01860 [-0.02073,-0.01629] p=0\n"}
+,{"stream_name":"stdout","time":2019.598717118,"data":"  dom math: d=-0.00894 [-0.01176,-0.00626] p=0\n"}
+,{"stream_name":"stdout","time":2019.598721211,"data":"  dom multilingual: d=-0.01558 [-0.01757,-0.01361] p=0\n"}
+,{"stream_name":"stdout","time":2019.598725724,"data":"  dom scientific: d=-0.01494 [-0.01737,-0.01268] p=0\n"}
+,{"stream_name":"stdout","time":2026.191249548,"data":"HellaSwag trend {'hs_acc_by_reader': {'reader5m-linear750': 0.404, 'reader7p5m-arb750': 0.403, 'reader10m-arb750': 0.402, 'reader15m-linear750': 0.4, 'reader20m-arb750': 0.4}, 'slope_accuracy_per_million_tokens': {'estimate': -0.0002827586206896552, 'ci95': [-0.0006758620689655173, 6.206896551724137e-05], 'p': 0.117}, '20m_vs_5m_flips': {'gained': 3, 'lost': 7}}\n"}
+,{"stream_name":"stdout","time":2026.191288975,"data":"20M READER ARBITRATION COMPLETE\n"}
+,{"stream_name":"stderr","time":2032.221367416,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2032.22143157,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2032.48042243,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2032.480484648,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2033.130375703,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2034.510974569,"data":"[NbConvertApp] Writing 388655 bytes to __results__.html\n"}
+]

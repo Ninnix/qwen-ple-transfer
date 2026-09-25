@@ -1,0 +1,25 @@
+{
+  "tokens": 20000256,
+  "threshold": 20000000,
+  "full_val_raw_reader": 2.8437804117827965,
+  "dval": -0.061804570913781554,
+  "gamma": {
+    "readers.2.gamma": 0.1339699625968933,
+    "readers.8.gamma": 0.1611756831407547
+  },
+  "gate": [
+    0.6743943691253662,
+    0.35344693064689636
+  ],
+  "pre_eval_reader_sha256": "fc4bc22d7ac92bc517946f04528c8112c70835c3b000a006d17a8d3bf9cf5304",
+  "raw_resume_sha256": "97c408ed6aaad485a80661a39488044ade59c3293b4bb79cc75f46e2cbf9531b",
+  "bundle_sha256": {
+    "reader.safetensors": "fc4bc22d7ac92bc517946f04528c8112c70835c3b000a006d17a8d3bf9cf5304",
+    "metrics.json": "5b6e8863d2a9567c0a7624b8e61462af6a99b455505938e75e2dab51dc621f2a",
+    "run.json": "e8c0b45ac180d5ca35969ddd514b9008d1653392cfbb88e61b3f286f14463d3e",
+    "resume.pt": "69f15d4a099db82f8f443ead9a1a54da760bc32720e419874fdaecf817111406",
+    "reader.json": "23f443271db16f9690f3d469b2faa5640858e1391784155d49754353f529038d"
+  },
+  "resume_parent_sha256": "7d9369cd7a1c0bdacd3604746138a09b8fd2e5d7e9ae8212507ee4976cd86229",
+  "reader_source": "ninnix/qwen-ple-real-r1-reader-scale-15m-p100/1"
+}

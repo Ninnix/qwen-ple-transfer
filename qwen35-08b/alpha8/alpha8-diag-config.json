@@ -1,0 +1,43 @@
+{
+  "seeds": {
+    "eval": 1234,
+    "ple": 1234
+  },
+  "val_subset_blocks": 128,
+  "domain_subset_blocks": 32,
+  "lambada_rows": 1000,
+  "frozen_ref": {
+    "target_rev": "2fc06364715b967f1860aea9cf38778875588b17",
+    "source_rev_prefix": "236dfdf28582",
+    "ple_revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+    "ckpt_sha": {
+      "real-5m": "078d7b47b979dbdae1442cbcc15bc466f72b8942159ede8c02fad0daedb63594"
+    },
+    "ckpt_tokens": {
+      "real-5m": 5000192
+    },
+    "arb_sha": {
+      "arbitration-b.pt": "595d195a84c65acd2aa414d61726e080b54801b4676b3d7a2256ca8a7bcd9948",
+      "arbitration-c.pt": "2cbdd7913413c87ed45500d4496540fcbab30e3a97d6070a54e5f38d94eef3d9",
+      "arbitration-b.json": "0331a2e7b281a7469448c87edee67260cd8462412b486c6e56b9ea8b75f85230",
+      "arbitration-c.json": "89bf8edeb7d2e26dfb87cef15015615e8d364222971b49fbda074bdcd020035a",
+      "alpha8-stats.json": "0793e0b6899e6d27b7c37397c0374c33383477a631a83117760e031d8be9183a"
+    },
+    "mc": {
+      "lambada": {
+        "dataset": "EleutherAI/lambada_openai",
+        "rev": "900124bf3b8235c6daf21033af9948b3f07346c4",
+        "n": 1000
+      }
+    },
+    "val_full_sha256": "26ffe65b1f6457d2557dbacc98197d025932057e3c183e3cf1de8eefb7c2fe7c",
+    "domains": {
+      "general": "a9e12294eba002b5a4e9fce610ff39f8aed6d802e36e534e82ed367f96bb9aa5",
+      "code": "735f933ca4bc694562dbb2a6ab9c227c802268f7715448eba50e172ae450c421",
+      "math": "c27f42f5f69de1aaf26020c7e14c2c141f8fa8490c5d95952c06e1c5bffa6648",
+      "scientific": "c33632cf96170ca7ae92d4013702c14097fd79bb069c76e40fb3a531091936d8",
+      "multilingual": "65a26da5419aaa32520219d9d1c5909769a7a19a88ff16e85df7d69c38028a55"
+    }
+  },
+  "note": "analysis-only; backbone/PLE/reader/arb frozen; no R4; hellaswag skipped (ranking task)"
+}

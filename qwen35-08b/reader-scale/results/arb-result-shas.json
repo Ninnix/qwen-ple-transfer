@@ -1,0 +1,78 @@
+{
+  "source_kernel": "ninnix/qwen-ple-reader-scale-arbitration-p100/2",
+  "reader_source": "ninnix/qwen-ple-reader-scale-7p5m-10m-p100/3",
+  "files": {
+    "summary.json": {
+      "size": 697946,
+      "sha256": "32923c7223723440d7f2c7285462a6a683f7cb441de47ee08df5af20aca206c1"
+    },
+    "contrasts.json": {
+      "size": 680945,
+      "sha256": "53879fd53f9d44e82cbc8a1ce1bcdc2f5fac227463abd0d2592435280b679b99"
+    },
+    "checkpoints.json": {
+      "size": 2216,
+      "sha256": "89c72e3e8334f64553236381e84c934c2fdaefb9c4f43bbe3e74fd457007ab52"
+    },
+    "alpha8-paired.json": {
+      "size": 3908852,
+      "sha256": "ffa6a78df1baaf0be7e77f391671d91e6627ac87806d931fa90a7e87409a993a"
+    },
+    "eval-reader10m-arb500.json": {
+      "size": 77917,
+      "sha256": "5969b50aef7debc0cc51923cb5e0069444a7dcba00bf40b78e4344a19713ac06"
+    },
+    "eval-reader10m-arb750.json": {
+      "size": 77984,
+      "sha256": "0abdd8f9eba1191beedca2a95f6483177b97b106dbc1b14a35608fdc37c250d0"
+    },
+    "eval-reader5m-linear750.json": {
+      "size": 77982,
+      "sha256": "bb63c5791c57754216cd17d9adfc854495bf8d3ae93ae7f1bdce4e0b96d756ba"
+    },
+    "eval-reader7p5m-arb500.json": {
+      "size": 78028,
+      "sha256": "a8b788e0bee055eb0edaabd0ca4ab5947feba5bddb39f9815739d14741a24992"
+    },
+    "eval-reader7p5m-arb750.json": {
+      "size": 78059,
+      "sha256": "a8b799e1f637f8483eab12a7129a6ca974342e424e1a8bac2e706070dd56574f"
+    },
+    "alpha8-reader10m-arb500.pt": {
+      "size": 6062191,
+      "sha256": "c37ab6fc313cff4e9a679b7a0ce28f1256229ad30868f35153db681474d07bb5"
+    },
+    "alpha8-reader10m-arb750.pt": {
+      "size": 6062191,
+      "sha256": "42b5b579743774e0036d2c05a7412707ef100e1b62f717c6cc26f15d199234db"
+    },
+    "alpha8-reader5m-linear750.pt": {
+      "size": 6092427,
+      "sha256": "99285614150da67ee18b2b797f259bc1c7263d86379e07551f8a07f2f46c1a88"
+    },
+    "alpha8-reader7p5m-arb500.pt": {
+      "size": 6068541,
+      "sha256": "4109ae2c221c4c0fbb28ff22d905918ecee4775a0a97dba10eebae17840b965f"
+    },
+    "alpha8-reader7p5m-arb750.pt": {
+      "size": 6068541,
+      "sha256": "4dad78d81fcc37e1be71b1c66ecfd9cca1e3d139fed192356f33370c980ea1ea"
+    },
+    "arb-reader10m-arb500-500736.pt": {
+      "size": 6493,
+      "sha256": "1fce0d9cd06aaeca3d2ee0fb75cbdc8c05f0001844773778e9e93b813bb047c7"
+    },
+    "arb-reader10m-arb750-749568.pt": {
+      "size": 6493,
+      "sha256": "b580508310b50290924b1549b6b5e17cf727b8497fd1623a7c80a099098f489e"
+    },
+    "arb-reader7p5m-arb500-500736.pt": {
+      "size": 6501,
+      "sha256": "5b5f2ed7774683c96280b7b1764585ce2a01fd18025a0625c0c5c8f7b12a3a16"
+    },
+    "arb-reader7p5m-arb750-749568.pt": {
+      "size": 6501,
+      "sha256": "2ea59f22d88a3b60001a2733240ef598f0e6e828a6b2306a843cdc8a4469e192"
+    }
+  }
+}

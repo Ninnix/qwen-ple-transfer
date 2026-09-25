@@ -1,0 +1,15 @@
+{
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaP100",
+  "dataset_sources": ["ninnix/qwen-ple-arb-cont-750k-stage", "ninnix/qwen-ple-arb-p100-through750"],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": [],
+  "id": "ninnix/qwen-ple-idx8-arbiter-continuation-p100",
+  "title": "Qwen PLE IDX8 arbiter continuation (P100)"
+}

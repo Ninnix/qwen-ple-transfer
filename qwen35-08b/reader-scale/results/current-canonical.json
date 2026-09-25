@@ -1,0 +1,15 @@
+{
+  "candidate": "REAL-15M R=1 IDX2+IDX8 + separately calibrated linear750 IDX8 arbiter",
+  "reader_tokens": 15000064,
+  "reader_weights_sha256": "e4a760163ec07568178ab48aa533235a9af878183caf120d4e29ce1c8ce4b9dc",
+  "reader_resume_sha256": "7d9369cd7a1c0bdacd3604746138a09b8fd2e5d7e9ae8212507ee4976cd86229",
+  "reader_dataset": "ninnix/qwen-ple-reader-15m-milestone",
+  "arbiter_calibration_tokens": 749568,
+  "arbiter_checkpoint_sha256": "54b7a98dd5a6b0fcde69deddc8ad2efabfe86daaeca840e949c74ed3bd6d8138",
+  "arbiter_dataset": "ninnix/qwen-ple-reader-scale-15m-arbitration-results",
+  "alpha2_frozen": 1.267012596130371,
+  "full_val_nll": 2.853786112044422,
+  "five_domain_mean_nll": 2.3846798831469393,
+  "lambada_nll": 2.2172765764792763,
+  "evaluation_manifest": "qwen35-08b/reader-scale-15m/results/checkpoints.json"
+}

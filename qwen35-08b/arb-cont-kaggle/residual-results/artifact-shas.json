@@ -1,0 +1,29 @@
+{
+  "source_kernel": "ninnix/qwen-ple-idx8-residual-mlp-ablation-p100/2",
+  "files": {
+    "residual-mlp-500.pt": {
+      "size": 139053,
+      "sha256": "70e2e1b4d25fa8705bd41dc2bd3082d345f50aaea02d6656b71466c0a353d9d0"
+    },
+    "residual-mlp-750.pt": {
+      "size": 139053,
+      "sha256": "5d2c5ec77135e353f1398467fc4a1c091933ebb72407b6bbada99c9f2f84f5de"
+    },
+    "checkpoints.json": {
+      "size": 562,
+      "sha256": "3958b28c897538916c1520e2e09059e027ba91de1d70939b491a3967e9afbd2c"
+    },
+    "summary.json": {
+      "size": 558491,
+      "sha256": "ae94045f8d37e5a52ef9c6ecea25e546fb6ab0be15349a636927ad18b555a129"
+    },
+    "contrasts.json": {
+      "size": 493794,
+      "sha256": "6339ead89e2d5a8107909de024938c5710c4a72bcea22789eeaf8531337bc033"
+    },
+    "alpha8-paired.json": {
+      "size": 2829109,
+      "sha256": "69f371299e4a296ebd27f709ac22db9dc3b9e0667cf89c3096eecbd686a1f7c8"
+    }
+  }
+}

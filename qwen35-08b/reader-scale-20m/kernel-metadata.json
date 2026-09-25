@@ -1,0 +1,29 @@
+{
+  "code_file": "kaggle_reader_20m_canonical.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "ninnix/qwen38-ple-p00",
+    "ninnix/qwen38-ple-p01",
+    "ninnix/qwen38-ple-p02",
+    "ninnix/qwen38-ple-p03",
+    "ninnix/qwen38-ple-p04",
+    "ninnix/qwen38-ple-p05",
+    "ninnix/qwen38-ple-p06",
+    "ninnix/qwen38-ple-p07",
+    "ninnix/qwen38-ple-p08",
+    "ninnix/qwen38-ple-p09",
+    "ninnix/qwen38-ple-p10",
+    "ninnix/qwen-ple-arb-cont-750k-stage",
+    "ninnix/qwen-ple-reader-15m-milestone"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": [],
+  "id": "ninnix/qwen-ple-real-r1-reader-scale-20m-canonical-cache-t4",
+  "title": "Qwen PLE REAL R1 reader scale 20M canonical cache T4"
+}

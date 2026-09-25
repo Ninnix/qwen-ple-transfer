@@ -1,0 +1,31 @@
+{
+  "code_file": "kaggle_qwen35_08b_ple_eval_a2_arb_route.ipynb",
+  "competition_sources": [],
+  "dataset_sources": [
+    "ninnix/qwen38-ple-p00",
+    "ninnix/qwen38-ple-p01",
+    "ninnix/qwen38-ple-p02",
+    "ninnix/qwen38-ple-p03",
+    "ninnix/qwen38-ple-p04",
+    "ninnix/qwen38-ple-p05",
+    "ninnix/qwen38-ple-p06",
+    "ninnix/qwen38-ple-p07",
+    "ninnix/qwen38-ple-p08",
+    "ninnix/qwen38-ple-p09",
+    "ninnix/qwen38-ple-p10",
+    "ninnix/qwen-ple-reader-checkpoints",
+    "ninnix/qwen-ple-a2-v34",
+    "ninnix/qwen-ple-a2-final-v40",
+    "ninnix/qwen-ple-a2-arb"
+  ],
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "id": "ninnix/qwen3-5-0-8b-ple-target-side-reader-p100",
+  "is_private": "true",
+  "kernel_sources": [],
+  "kernel_type": "notebook",
+  "language": "python",
+  "machine_shape": "NvidiaTeslaP100",
+  "model_sources": [],
+  "title": "Qwen3.5-0.8B PLE Target-Side Reader (P100)"
+}

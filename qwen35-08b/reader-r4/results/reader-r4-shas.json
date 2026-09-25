@@ -1,0 +1,37 @@
+{
+  "source_kernel": "ninnix/qwen-ple-real-r4-reader-warm-start-early-1m-t4/3",
+  "files": {
+    "real-r4-early.reader.safetensors": {
+      "size": 104858912,
+      "sha256": "cd3a716c24a1f38d55180749192fa9fae761bfff5cfa45d29ff2c16f4167536b"
+    },
+    "real-r4-early.reader.json": {
+      "size": 369,
+      "sha256": "89c77761ceb91104ba8439fd1709332bb4e5f4d5347e57836c90562704a6a15e"
+    },
+    "real-r4-early.resume.pt": {
+      "size": 419454393,
+      "sha256": "3932457db2f0e4da88b6a0ce3adc8da36f0316083c3250c72ab659e34778c793"
+    },
+    "real-r4-early.run.json": {
+      "size": 1554,
+      "sha256": "a44b863a95e93d5172f5c2d035796f37b3d057258277f3f648ed76a3d31d951a"
+    },
+    "real-r4-early.metrics.json": {
+      "size": 342,
+      "sha256": "1100327de34e307aaf434a0d9fc353d191496242d1ca0e4d63b0e37c94b13f74"
+    },
+    "reader-r4-summary.json": {
+      "size": 1019,
+      "sha256": "d426335ccc407beec79e7405be7397d2978a2b36eb8a3b7d6425bea6689f9487"
+    },
+    "compact-r4.json": {
+      "size": 1036,
+      "sha256": "1d8d3cbb80e5ef399614f5dcd9adfd332ff2849a9914be7da5d10ac2e56adc2f"
+    },
+    "canonical-15m.json": {
+      "size": 824,
+      "sha256": "dd046d85afeb8f1eebda30d0cd261a646b24dcb771dcd72f33b059766a766b50"
+    }
+  }
+}

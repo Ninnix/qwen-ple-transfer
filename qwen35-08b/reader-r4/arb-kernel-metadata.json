@@ -1,0 +1,19 @@
+{
+  "code_file": "run_arb.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "ninnix/qwen-ple-arb-cont-750k-stage",
+    "ninnix/qwen-ple-reader-r4-early-1m-milestone",
+    "ninnix/qwen-ple-reader-scale-15m-arbitration-results"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": [],
+  "id": "ninnix/qwen-ple-real-r4-early-arbitration-t4",
+  "title": "Qwen PLE REAL R4 early arbitration T4"
+}

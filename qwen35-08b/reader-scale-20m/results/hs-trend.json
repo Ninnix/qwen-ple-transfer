@@ -1,0 +1,21 @@
+{
+  "hs_acc_by_reader": {
+    "reader5m-linear750": 0.404,
+    "reader7p5m-arb750": 0.403,
+    "reader10m-arb750": 0.402,
+    "reader15m-linear750": 0.4,
+    "reader20m-arb750": 0.4
+  },
+  "slope_accuracy_per_million_tokens": {
+    "estimate": -0.0002827586206896552,
+    "ci95": [
+      -0.0006758620689655173,
+      6.206896551724137e-05
+    ],
+    "p": 0.117
+  },
+  "20m_vs_5m_flips": {
+    "gained": 3,
+    "lost": 7
+  }
+}

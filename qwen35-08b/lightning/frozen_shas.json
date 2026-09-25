@@ -1,0 +1,11 @@
+{
+  "notebook_sha256": "e8eb4a69634ccc75a78ca84aa02f74beb38d40e0d89a56f4afc04e68aac041fc",
+  "frozen_blob_sha256": "c1bc811e033fe1f4332791a33041a07833e53d3af3dac6bf643d5584a04dc185",
+  "module_sha256": "9fbb1f7460b7b66e46f34756cc46bac33eb3f5a4e5ce34f932c8afa08a08cda6",
+  "cells": [
+    "c-hashing",
+    "c-reader",
+    "c-inject",
+    "c-ple"
+  ]
+}

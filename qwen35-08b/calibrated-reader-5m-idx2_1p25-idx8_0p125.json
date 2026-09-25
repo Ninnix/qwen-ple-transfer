@@ -1,0 +1,76 @@
+{
+  "format": "qwen-ple-reader-calibrated",
+  "version": 1,
+  "candidate": "real-5m-calibrated-idx2_1p25-idx8_0p125",
+  "base_artifact": {
+    "file": "real-5m-r1.reader.safetensors",
+    "run": "real-5m-r1.run.json",
+    "sha256": "078d7b47b979dbdae1442cbcc15bc466f72b8942159ede8c02fad0daedb63594",
+    "token_count": 5000192,
+    "placement_idx": [2, 8],
+    "branches": 1,
+    "learned_gamma": {
+      "2": 0.06166713312268257,
+      "8": 0.07537073642015457
+    },
+    "preserved_unchanged": true
+  },
+  "calibration": {
+    "site_multipliers": {
+      "2": 1.25,
+      "8": 0.125
+    },
+    "effective_gamma": {
+      "2": 0.07708391640335321,
+      "8": 0.009421342052519321
+    },
+    "application": "h = h + (gamma_base * mult) * o, applied in-memory at runtime; base weights never overwritten",
+    "storage": "multipliers stored separately in this manifest only; no weight file written"
+  },
+  "raw_setting": {
+    "site_multipliers": {
+      "2": 1.0,
+      "8": 1.0
+    },
+    "effective_gamma": {
+      "2": 0.06166713312268257,
+      "8": 0.07537073642015457
+    }
+  },
+  "source_model": "Qwen/Qwen3.8-Flash-Next-FP8",
+  "target_model": "Qwen/Qwen3.5-0.8B",
+  "tokenizer_rev": "2fc06364715b967f1860aea9cf38778875588b17",
+  "ple_revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+  "addressing": {
+    "vocab": 248320,
+    "eos": 248044,
+    "seed": 1234,
+    "ngram": 3,
+    "heads_per_ngram": 8,
+    "rows_per_part": 2500012,
+    "vocab_base": 20000000
+  },
+  "frozen_ref": {
+    "results_dataset": "ninnix/qwen-ple-a2-v34",
+    "hellaswag": {
+      "dataset": "Rowan/hellaswag",
+      "rev": "218ec52e09a7e7462a5400043bb9a69a41d06b76",
+      "n": 1000
+    },
+    "lambada": {
+      "dataset": "EleutherAI/lambada_openai",
+      "rev": "900124bf3b8235c6daf21033af9948b3f07346c4",
+      "n": 1000
+    },
+    "val_full_sha256": "26ffe65b1f6457d2557dbacc98197d025932057e3c183e3cf1de8eefb7c2fe7c",
+    "domains": {
+      "general": "a9e12294eba002b5a4e9fce610ff39f8aed6d802e36e534e82ed367f96bb9aa5",
+      "code": "735f933ca4bc694562dbb2a6ab9c227c802268f7715448eba50e172ae450c421",
+      "math": "c27f42f5f69de1aaf26020c7e14c2c141f8fa8490c5d95952c06e1c5bffa6648",
+      "scientific": "c33632cf96170ca7ae92d4013702c14097fd79bb069c76e40fb3a531091936d8",
+      "multilingual": "65a26da5419aaa32520219d9d1c5909769a7a19a88ff16e85df7d69c38028a55"
+    }
+  },
+  "runtime_contract": "reader math identical across runtimes; runtime loads base safetensors once, then multiplies per-site gamma by the coefficients above before injection",
+  "discipline": "inference-only; backbone and PLE frozen; reader grad-free; gammas scaled in-memory only and restored; no training; no R4; no arch change; no reader files written"
+}

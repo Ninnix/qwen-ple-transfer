@@ -1,0 +1,30 @@
+{
+  "format": "qwen-ple-compact",
+  "version": 1,
+  "token_train": 999936,
+  "token_val": 524288,
+  "requested_addresses": 24387584,
+  "address_count": 13112229,
+  "dedup_ratio": 1.8599113850131812,
+  "row_dim": 160,
+  "scale": 0.00019931793212890625,
+  "ple_revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+  "dataset_rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "train_skip_docs": 549,
+  "train_start": 15000064,
+  "train_end": 16000000,
+  "train_tokens_sha256": "0178b3c726deef4caf302b86f18921fa259d744c4c690b2f72da9733f52b33c5",
+  "target_rev": "2fc06364715b967f1860aea9cf38778875588b17",
+  "tokenizer": "native token ids (Cell 7 semantic proof)",
+  "hash": {
+    "ngram": 3,
+    "heads_per_ngram": 8,
+    "vocab_size": 248320,
+    "vocab_base": 20000000,
+    "seed": 1234,
+    "eos": 248044
+  },
+  "addrs_sha256": "2c1ae61e3094c3c45b88477a35c0bb272e427cbeffc6ff456ee5945758f4a467",
+  "rows_sha256": "fa3b197ae107987ec0a32ac71c972f48ba44ff29fb7484a93db05c5d626119f3",
+  "pattern": "freeze_stream_tokens+ngram_indices"
+}

@@ -1,0 +1,33 @@
+{
+  "source_kernel": "ninnix/qwen-ple-real-r1-reader-scale-15m-p100/1",
+  "files": {
+    "real-15m-r1.reader.safetensors": {
+      "size": 41943736,
+      "sha256": "e4a760163ec07568178ab48aa533235a9af878183caf120d4e29ce1c8ce4b9dc"
+    },
+    "real-15m-r1.reader.json": {
+      "size": 369,
+      "sha256": "23f443271db16f9690f3d469b2faa5640858e1391784155d49754353f529038d"
+    },
+    "real-15m-r1.resume.pt": {
+      "size": 167789297,
+      "sha256": "7d9369cd7a1c0bdacd3604746138a09b8fd2e5d7e9ae8212507ee4976cd86229"
+    },
+    "real-15m-r1.run.json": {
+      "size": 952,
+      "sha256": "437e36c5a4db8e10000980d044905584bc4a894fca24737312586744d8c6d2cf"
+    },
+    "real-15m-r1.metrics.json": {
+      "size": 340,
+      "sha256": "e4b95c69239f939557086e008c229948676f7988a7912837b5a9c6fd9371d48a"
+    },
+    "reader-15m-summary.json": {
+      "size": 1106,
+      "sha256": "f5287ad31c242096d496a9c6e707eb22f62c5633e7edcf5b0d0ef5297d19f86c"
+    },
+    "canonical-10m.json": {
+      "size": 788,
+      "sha256": "86e86af8e73c0709d037cf7361ebab2144b736157104ccf94762630bee0bafea"
+    }
+  }
+}

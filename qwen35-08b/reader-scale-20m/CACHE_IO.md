@@ -1,0 +1,7 @@
+# Canonical reader training I/O
+
+`build_notebook.py` now generates `kaggle_reader_20m_canonical.ipynb` with the suffix-only compact PLE cache, and `kernel-metadata.json` points to that notebook. `canonical_cache.py` supplies the same cache and training-token guards to the R=4 notebook. The full-prefix builder, original `kaggle_reader_20m.ipynb`, and its kernel metadata are retained as reference artifacts.
+
+The builder freezes the exact FineWebEdu prefix through the target threshold, slices at the saved reader step, hashes the sliced token bytes, and builds addresses and PLE rows only for that suffix plus frozen full validation. It reopens and hashes both cache files, checks sorted unique addresses and source PLE lookup equality on 2,048 sampled addresses, and rehashes the independently frozen training suffix before the first optimizer step. Reader milestones are saved, reopened, and SHA checked before evaluation.
+
+The prior 15M→20M suffix retry reproduced the full-prefix run exactly: reader weights SHA-256 `fc4bc22d7ac92bc517946f04528c8112c70835c3b000a006d17a8d3bf9cf5304`, raw optimizer checkpoint SHA-256 `97c408ed6aaad485a80661a39488044ade59c3293b4bb79cc75f46e2cbf9531b`, and raw full-val NLL `2.8437804117827965`. The cache fell from 14.668 GiB to 5.708 GiB; training time for that continuation fell from 20,551 to 3,981 seconds. The [original](results/reader-20m-summary.json), [suffix](results/reader-20m-suffix-summary.json), and independently retrieved [suffix cache manifest](results/compact-20m-suffix.json) retain the equivalence evidence.

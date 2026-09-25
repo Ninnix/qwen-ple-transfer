@@ -1,0 +1,46 @@
+{
+  "source_kernel": "ninnix/qwen-ple-reader-scale-15m-arbitration-p100/1",
+  "reader_source": "ninnix/qwen-ple-real-r1-reader-scale-15m-p100/1",
+  "files": {
+    "summary.json": {
+      "size": 279256,
+      "sha256": "180380dcdc21c0418a0c10844d1efcd06836ab9a8fd6a9c389952c0bf4eba2fe"
+    },
+    "contrast.json": {
+      "size": 87971,
+      "sha256": "579383991a2f2be48a49c01f79682866a138093d8fd51ff04543797da5b71d83"
+    },
+    "checkpoints.json": {
+      "size": 1996,
+      "sha256": "918c0c3b6445dbe135eb73e44e636fa4f9a7b79b3250f5b26fda9f65c39f2170"
+    },
+    "alpha8-paired.json": {
+      "size": 525710,
+      "sha256": "4d2d2a0a88254807cff2c7b28f30e6be86c456c7c4ab2b5d8ca80937b7961861"
+    },
+    "eval-reader10m-linear750.json": {
+      "size": 77984,
+      "sha256": "0abdd8f9eba1191beedca2a95f6483177b97b106dbc1b14a35608fdc37c250d0"
+    },
+    "eval-reader15m-arb750.json": {
+      "size": 78079,
+      "sha256": "b431786fceadee6855ff196481ffe2c829e6a1c58aa9cefa09d2373ae0fc174c"
+    },
+    "alpha8-reader10m-linear750.pt": {
+      "size": 6102105,
+      "sha256": "f789c06a73e362a67353f48ccd61f6deaf58b04c56f48148ff43e57f4e5464ac"
+    },
+    "alpha8-reader15m-arb750.pt": {
+      "size": 6062191,
+      "sha256": "2b2250ef531ef37e34e1a70f5400d7c1eff6590fd6ff008318293de488024b00"
+    },
+    "arb-reader15m-arb500-500736.pt": {
+      "size": 6493,
+      "sha256": "2dd4ffea28beba1afe2f892f5fadc686c754592409ea0e9538214a4024b74df1"
+    },
+    "arb-reader15m-arb750-749568.pt": {
+      "size": 6493,
+      "sha256": "54b7a98dd5a6b0fcde69deddc8ad2efabfe86daaeca840e949c74ed3bd6d8138"
+    }
+  }
+}

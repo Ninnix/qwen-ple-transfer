@@ -1,0 +1,30 @@
+{
+  "source_kernel": "ninnix/qwen-ple-idx8-arbiter-continuation-p100/4",
+  "source_stage_dataset": "ninnix/qwen-ple-arb-cont-750k-stage",
+  "frozen_reader_sha256": "078d7b47b979dbdae1442cbcc15bc466f72b8942159ede8c02fad0daedb63594",
+  "canonical_checkpoint": {
+    "total_tokens": 319488,
+    "checkpoint": "arbitration-c-319488.pt",
+    "sha256": "2cbdd7913413c87ed45500d4496540fcbab30e3a97d6070a54e5f38d94eef3d9"
+  },
+  "checkpoints": [
+    {
+      "total_tokens": 500736,
+      "checkpoint": "arbitration-cont-500k.pt",
+      "sha256": "31c9f09dfef29ec322cfb6e4fe0290720f6ec64445aae0311918630865bff87f",
+      "calibration_sha256": "34bd7ce320f51f8b5683846527af9b35ba672085990356bf3ef55288219d4628"
+    },
+    {
+      "total_tokens": 749568,
+      "checkpoint": "arbitration-cont-750k.pt",
+      "sha256": "228f357ecd533b83724fc625eed37698bccb3e21e638a5c5c7c012d6a84bfc28",
+      "calibration_sha256": "379e484148e94b08e71870e6fabe67116260d965d9420b7a7d323cb09e4bd828"
+    },
+    {
+      "total_tokens": 1001472,
+      "checkpoint": "arbitration-cont-1000k.pt",
+      "sha256": "7cd7b1c568da305c72c09b714d7f5446ff579979efd6524426e9c8ef5eb577bd",
+      "calibration_sha256": "ea82113766b8e62fabda5b63d46f2fed82a98b3bebe5f5374ad392662fd755eb"
+    }
+  ]
+}

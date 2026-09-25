@@ -1,0 +1,15 @@
+{
+  "code_file": "run_residual.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaP100",
+  "dataset_sources": ["ninnix/qwen-ple-arb-cont-750k-stage", "ninnix/qwen-ple-linear-idx8-baselines"],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": [],
+  "id": "ninnix/qwen-ple-idx8-residual-mlp-ablation-p100",
+  "title": "Qwen PLE IDX8 residual MLP ablation (P100)"
+}

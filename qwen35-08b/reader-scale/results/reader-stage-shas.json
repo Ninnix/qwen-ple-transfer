@@ -1,0 +1,53 @@
+{
+  "source_kernel": "ninnix/qwen-ple-reader-scale-7p5m-10m-p100/3",
+  "files": {
+    "real-7p5m-r1.reader.safetensors": {
+      "size": 41943736,
+      "sha256": "5bd707cf0bed18e282102e5a579ad0ce53f2d7373209013b71df7fb7afe3fc29"
+    },
+    "real-7p5m-r1.reader.json": {
+      "size": 369,
+      "sha256": "23f443271db16f9690f3d469b2faa5640858e1391784155d49754353f529038d"
+    },
+    "real-7p5m-r1.resume.pt": {
+      "size": 167789297,
+      "sha256": "c4efca607ffd8988f5561c95bb89976244e4fd4224b31ae9b24d58d5989aeebc"
+    },
+    "real-7p5m-r1.run.json": {
+      "size": 946,
+      "sha256": "c54d89794129147d6b3a99f9bebb8bd8ba221e54a2c3792044b0f10158cf49ba"
+    },
+    "real-7p5m-r1.metrics.json": {
+      "size": 407,
+      "sha256": "47c9435081483e1abc26f92add76ee27850f15a74a4531751183a0490ec106e7"
+    },
+    "real-10m-r1.reader.safetensors": {
+      "size": 41943736,
+      "sha256": "2ab87c0a17eb54b8efb0e10ac65801157ea886a8375574c670c1c30a0d213528"
+    },
+    "real-10m-r1.reader.json": {
+      "size": 369,
+      "sha256": "23f443271db16f9690f3d469b2faa5640858e1391784155d49754353f529038d"
+    },
+    "real-10m-r1.resume.pt": {
+      "size": 167789297,
+      "sha256": "dd763eab501ef1f78c30755373719748e798fbcf87ed121cd2226f91866f310f"
+    },
+    "real-10m-r1.run.json": {
+      "size": 948,
+      "sha256": "10a9b7bfe983919fdca03a23021c867b50d2f65f67ee0b9f69b0aa430c972c54"
+    },
+    "real-10m-r1.metrics.json": {
+      "size": 341,
+      "sha256": "76b6130184cb3e0d918776b0730f246f8444697d3ec0d5ff2e0ef6b6e838c368"
+    },
+    "reader-scale-summary.json": {
+      "size": 2193,
+      "sha256": "f4b6174501255cffc2facbeeee7f6b991283f06c8cb3b3707fc1a08d20347186"
+    },
+    "linear-750-eval.json": {
+      "size": 78006,
+      "sha256": "9c3f9aa54eecc262d6cc223e905c29901246a64192c17cf47c8f9b3c10a8068a"
+    }
+  }
+}

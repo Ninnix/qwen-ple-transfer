@@ -1,0 +1,77 @@
+{
+  "arms": [
+    "learned",
+    "shuffled",
+    "hard",
+    "easy"
+  ],
+  "val_nll": {
+    "learned": 2.865479222949004,
+    "shuffled": 2.868464432700506,
+    "hard": 2.8666312124164604,
+    "easy": 2.8694197411873104
+  },
+  "domains": {
+    "general": {
+      "learned": 3.1488142106864316,
+      "shuffled": 3.1520442664040043,
+      "hard": 3.150728901305077,
+      "easy": 3.1531651565939947
+    },
+    "code": {
+      "learned": 1.4981341931218037,
+      "shuffled": 1.4989176384390217,
+      "hard": 1.4986247932374361,
+      "easy": 1.4990650958977567
+    },
+    "math": {
+      "learned": 1.413728586148376,
+      "shuffled": 1.4166128173499657,
+      "hard": 1.414088920137887,
+      "easy": 1.4176602559546903
+    },
+    "scientific": {
+      "learned": 2.25613203627256,
+      "shuffled": 2.258253160988048,
+      "hard": 2.2566985561423105,
+      "easy": 2.2590214342987003
+    },
+    "multilingual": {
+      "learned": 3.66141135631942,
+      "shuffled": 3.664855871181899,
+      "hard": 3.663519107198995,
+      "easy": 3.6659588711135775
+    }
+  },
+  "hs_acc": {
+    "learned": 0.404,
+    "shuffled": 0.405,
+    "hard": 0.405,
+    "easy": 0.405
+  },
+  "lam_acc": {
+    "learned": 0.452,
+    "shuffled": 0.449,
+    "hard": 0.449,
+    "easy": 0.449
+  },
+  "lam_nll": {
+    "learned": 2.253586192113968,
+    "shuffled": 2.257095131486965,
+    "hard": 2.2566950329728424,
+    "easy": 2.256755886051804
+  },
+  "budget": {
+    "learned": 0.13359691281157904,
+    "shuffled": 0.1335969127736872,
+    "hard": 0.13359691284224293,
+    "easy": 0.13359691297541185
+  },
+  "invariant_vs_arbB": {
+    "learned_val_nll_vs_B": -1.1463454558047204e-05,
+    "learned_hs_acc_vs_B": 0.0,
+    "learned_lam_acc_vs_B": -0.0010000000000000009,
+    "learned_lam_nll_vs_B": -0.00010727195845294801
+  },
+  "note": "per-sequence alpha8 multiset exact in all arms; only placement differs; IDX2 fixed 1.25"
+}

@@ -1,0 +1,50 @@
+{
+  "7p5m": {
+    "tokens": 7500288,
+    "threshold": 7500000,
+    "full_val_raw_reader": 2.853484177426116,
+    "dval": -0.052100805270462125,
+    "gamma": {
+      "readers.2.gamma": 0.07432379573583603,
+      "readers.8.gamma": 0.09812772274017334
+    },
+    "gate": [
+      0.9820865392684937,
+      0.0889020711183548
+    ],
+    "pre_eval_reader_sha256": "5bd707cf0bed18e282102e5a579ad0ce53f2d7373209013b71df7fb7afe3fc29",
+    "raw_resume_sha256": "11ba64b2dbdbb400ab8162348f21a25d87c327b798c7fc2d1bda48cd1a979471",
+    "bundle_sha256": {
+      "run.json": "c54d89794129147d6b3a99f9bebb8bd8ba221e54a2c3792044b0f10158cf49ba",
+      "reader.json": "23f443271db16f9690f3d469b2faa5640858e1391784155d49754353f529038d",
+      "resume.pt": "c4efca607ffd8988f5561c95bb89976244e4fd4224b31ae9b24d58d5989aeebc",
+      "reader.safetensors": "5bd707cf0bed18e282102e5a579ad0ce53f2d7373209013b71df7fb7afe3fc29",
+      "metrics.json": "47c9435081483e1abc26f92add76ee27850f15a74a4531751183a0490ec106e7"
+    },
+    "resume_parent_sha256": "fb1fd83a93eef95bf41f98dc7145619cffacac7dadc9376ab797abdd0450902f"
+  },
+  "10m": {
+    "tokens": 10000384,
+    "threshold": 10000000,
+    "full_val_raw_reader": 2.850059624754053,
+    "dval": -0.05552535794252522,
+    "gamma": {
+      "readers.2.gamma": 0.08575000613927841,
+      "readers.8.gamma": 0.11758368462324142
+    },
+    "gate": [
+      0.9569294452667236,
+      0.14088191092014313
+    ],
+    "pre_eval_reader_sha256": "2ab87c0a17eb54b8efb0e10ac65801157ea886a8375574c670c1c30a0d213528",
+    "raw_resume_sha256": "b894754d427f3ca3943c9c7b432727d8719d2e323d91a4164a73db806d4a5fde",
+    "bundle_sha256": {
+      "run.json": "10a9b7bfe983919fdca03a23021c867b50d2f65f67ee0b9f69b0aa430c972c54",
+      "reader.json": "23f443271db16f9690f3d469b2faa5640858e1391784155d49754353f529038d",
+      "resume.pt": "dd763eab501ef1f78c30755373719748e798fbcf87ed121cd2226f91866f310f",
+      "reader.safetensors": "2ab87c0a17eb54b8efb0e10ac65801157ea886a8375574c670c1c30a0d213528",
+      "metrics.json": "76b6130184cb3e0d918776b0730f246f8444697d3ec0d5ff2e0ef6b6e838c368"
+    },
+    "resume_parent_sha256": "11ba64b2dbdbb400ab8162348f21a25d87c327b798c7fc2d1bda48cd1a979471"
+  }
+}

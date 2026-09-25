@@ -1,0 +1,135 @@
+[{"stream_name":"stderr","time":6.21319102,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.213935244,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.213940215,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.213942776,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.773091175,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.7731303480000005,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.773135995,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.773139868,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":8.093194309,"data":"python 3.12.13 working disk usage(total=20957446144, used=307200, free=20940361728)\n"}
+,{"stream_name":"stdout","time":8.093250865,"data":"input mounts ['/kaggle/input/datasets']\n"}
+,{"stream_name":"stdout","time":8.206296479,"data":"compute_cap: 7.5\n"}
+,{"stream_name":"stdout","time":11.393190977,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/12.3 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.3/12.3 MB\u001b[0m \u001b[31m188.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.3/12.3 MB\u001b[0m \u001b[31m205.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.3/12.3 MB\u001b[0m \u001b[31m205.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.3/12.3 MB\u001b[0m \u001b[31m97.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":11.443936884,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/516.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m516.0/516.0 kB\u001b[0m \u001b[31m33.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":11.494727914,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/3.4 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m3.4/3.4 MB\u001b[0m \u001b[31m244.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.4/3.4 MB\u001b[0m \u001b[31m94.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":24.704954044,"data":"\u001b[?25hNote: you may need to restart the kernel to use updated packages.\n"}
+,{"stream_name":"stdout","time":29.693779874,"data":"torch 2.10.0+cu128 | cap (7, 5)\n"}
+,{"stream_name":"stdout","time":41.67540908,"data":"5.17.0 5.0.0 0.8.0 1.11.0\n"}
+,{"stream_name":"stdout","time":41.70560358,"data":"Cfg(SOURCE_ID='Qwen/Qwen3.8-Flash-Next-FP8', TARGET_ID='Qwen/Qwen3.5-0.8B', MEM_DIM=2560, HIDDEN=1024, N_LAYERS=24, NGRAM=3, HEADS_PER_NGRAM=8, ROW_DIM=160, ROWS_PER_PART=2500012, VOCAB_BASE=20000000, SEED=1234, EOS=248044, VOCAB=248320, SEQ=512, VAL_FAST_TOKENS=65536, VAL_FULL_TOKENS=524288, DATASET_ID='HuggingFaceFW/fineweb-edu', DATASET_CONFIG='sample-10BT', SMOKE_TOKENS=5120, LR=3e-05, WD=0.01, WARMUP_FRAC=0.05, CKPTS=(100000, 250000, 500000), PLACEMENTS=((2,), (8,), (2, 8)), BRANCHES=1, GAMMA_INIT=0.001, SWEEP_ENABLED=False, BRANCH_ENABLED=False, REAL1M_ENABLED=False, REAL5M_ENABLED=False, STAGEA_ENABLED=False)\n"}
+,{"stream_name":"stdout","time":41.70563126,"data":"placements: IDX [2] = HUMAN [3] / IDX [8] = HUMAN [9] / IDX [2, 8] = HUMAN [3, 9]\n"}
+,{"stream_name":"stdout","time":41.705637927,"data":"sites=1 R=1: ~5.24M trainable\n"}
+,{"stream_name":"stdout","time":41.705642709,"data":"sites=2 R=1: ~10.49M trainable\n"}
+,{"stream_name":"stdout","time":41.705647552,"data":"sites=1 R=4: ~13.11M trainable\n"}
+,{"stream_name":"stdout","time":41.705651868,"data":"sites=2 R=4: ~26.21M trainable\n"}
+,{"stream_name":"stdout","time":41.866970942,"data":"hash ok; slots/head addrs e.g. (14605717, 24410875, 49313567, 72177428) | head0 range (0, 20000003)\n"}
+,{"stream_name":"stdout","time":41.971755544,"data":"reader identity ok; R=1 params: 5242882\n"}
+,{"stream_name":"stdout","time":41.993176835,"data":"injection ok\n"}
+,{"stream_name":"stdout","time":42.578974558,"data":"stores ok; manifests: ['/kaggle/input/datasets/ninnix/qwen38-ple-p00/manifest.json', '/kaggle/input/datasets/ninnix/qwen38-ple-p01/manifest.json', '/kaggle/input/datasets/ninnix/qwen38-ple-p02/manifest.json', '/kaggle/input/datasets/ninnix/qwen38-ple-p03/manifest.json', '/kaggle/input/datasets/ninnix/qwen38-ple-p04/manifest.json', '/kaggle/input/datasets/ninnix/qwen38-ple-p05/manifest.json', '/kaggle/input/datasets/ninnix/qwen38-ple-p06/manifest.json', '/kaggle/input/datasets/ninnix/qwen38-ple-p07/manifest.json', '/kaggle/input/datasets/ninnix/qwen38-ple-p08/manifest.json', '/kaggle/input/datasets/ninnix/qwen38-ple-p09/manifest.json', '/kaggle/input/datasets/ninnix/qwen38-ple-p10/manifest.json']\n"}
+,{"stream_name":"stdout","time":50.457724313,"data":"target rev 2fc06364715b | source rev 236dfdf28582\n"}
+,{"stream_name":"stdout","time":65.850996424,"data":"mapping diffs: 0 | target-only: 0 | source-only: 7\n"}
+,{"stream_name":"stdout","time":65.851089245,"data":"NATIVE token-ID addressing VALID: identical ids; training terminator eos = 248044\n"}
+,{"stream_name":"stdout","time":65.880000623,"data":"build with build_validation_artifacts(tok); read with load_validation(\"fast\"/\"full\")\n"}
+,{"stream_name":"stdout","time":66.366296807,"data":"hidden 1024 layers 24 vocab 248320 arch Qwen3_5Config\n"}
+,{"stream_name":"stdout","time":68.940448065,"data":"direct qwen3_5 import ok: Qwen3_5ForCausalLM\n"}
+,{"stream_name":"stderr","time":69.007822473,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":69.007844636,"data":"\n"}
+,{"stream_name":"stderr","time":69.007849942,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":78.31692233,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":78.316968681,"data":"\n"}
+,{"stream_name":"stderr","time":78.316974475,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":79.258099248,"data":"[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":79.258143485,"data":"\n"}
+,{"stream_name":"stderr","time":79.258148412,"data":"[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.\n"}
+,{"stream_name":"stdout","time":79.631315813,"data":"frozen load OK in torch.float16 footprint=1.40 GiB\n"}
+,{"stream_name":"stdout","time":79.6313632,"data":"model class: Qwen3_5ForCausalLM | decoder blocks: 24\n"}
+,{"stream_name":"stdout","time":79.631368556,"data":"backbone = ACTIVE_DTYPE: torch.float16\n"}
+,{"stream_name":"stdout","time":79.631372011,"data":"reader params/compute = FP32 (AdamW FP32; norms/scores FP32)\n"}
+,{"stream_name":"stdout","time":79.631375696,"data":"PLE dequant/output = FP32\n"}
+,{"stream_name":"stdout","time":79.631396283,"data":"reader residual output is cast back to backbone dtype\n"}
+,{"stream_name":"stdout","time":79.832964503,"data":"inject at IDX [2] = HUMAN [3]\n"}
+,{"stream_name":"stdout","time":79.907019257,"data":"identity max|dlogit|: 0.0\n"}
+,{"stream_name":"stdout","time":80.096153072,"data":"inject at IDX [8] = HUMAN [9]\n"}
+,{"stream_name":"stdout","time":81.135002356,"data":"loss 15.9872 reader_grads 4 backbone_grads 0\n"}
+,{"stream_name":"stdout","time":81.135077465,"data":"RandomPLE 16-head layout + determinism + sensitivity ok (1, 1, 2560)\n"}
+,{"stream_name":"stdout","time":81.135097945,"data":"PermutedPLE head-preserving bijective sample ok\n"}
+,{"stream_name":"stdout","time":81.620124367,"data":"mounted PLE rev=236dfdf285828023ca3bcd3f37366c58a3469b13 parts=128 scale=0.00019931793212890625\n"}
+,{"stream_name":"stdout","time":82.204653687,"data":"real PLE row ok scale= 0.00019931793212890625 std~ 0.008566269651055336\n"}
+,{"stream_name":"stdout","time":82.20468875,"data":"ALL CPU-capable correctness gates PASSED (mount gate informational))\n"}
+,{"stream_name":"stdout","time":82.257149807,"data":"trainer ready (threshold ckpts, val-injected, FineWeb-Edu-only stream)\n"}
+,{"stream_name":"stdout","time":83.012655704,"data":"validation ready\n"}
+,{"stream_name":"stdout","time":83.012688368,"data":"fast: 4c702b4313fca2fa7fc5ffaf242912ab48a1564fecda52dd01982e2b756e4abd\n"}
+,{"stream_name":"stdout","time":83.012692235,"data":"full: 26ffe65b1f6457d2557dbacc98197d025932057e3c183e3cf1de8eefb7c2fe7c\n"}
+,{"stream_name":"stdout","time":83.213249157,"data":"mounted PLE rev=236dfdf285828023ca3bcd3f37366c58a3469b13 parts=128 scale=0.00019931793212890625\n"}
+,{"stream_name":"stderr","time":83.410753202,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":83.41077966,"data":"\n"}
+,{"stream_name":"stderr","time":83.410783956,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":162.635800327,"data":"requested addresses: 88391680; unique: 37372369; dedup ratio 2.37x\n"}
+,{"stream_name":"stdout","time":162.636696237,"data":"cache dir: /kaggle/working/ple-08b/compact-20m-suffix\n"}
+,{"stream_name":"stdout","time":512.406849224,"data":"COMPACT: 37372369 unique rows (dedup 2.37x), 5.708 GiB, built in 429s, source read 140 MiB/s\n"}
+,{"stream_name":"stdout","time":512.595299895,"data":"compact PLE: 37372369 rows, 5.57 GiB mapped, scale=0.000199318\n"}
+,{"stream_name":"stdout","time":521.667902135,"data":"equivalence max|diff| on 2048 sampled addresses: 0.0\n"}
+,{"stream_name":"stdout","time":521.66795395,"data":"COMPACT BUILD OK (one cache serves IDX 2, 8, 2+8: placement never changes addresses)\n"}
+,{"stream_name":"stdout","time":523.753118703,"data":"15M reader resume SHA/reopen and published weights verified\n"}
+,{"stream_name":"stdout","time":523.952960529,"data":"inject at IDX [2, 8] = HUMAN [3, 9]\n"}
+,{"stream_name":"stdout","time":666.038320384,"data":"frozen disabled baselines 2.895546885152619 2.905584982696578\n"}
+,{"stream_name":"stdout","time":666.161025757,"data":"inject at IDX [2, 8] = HUMAN [3, 9]\n"}
+,{"stream_name":"stdout","time":666.161117051,"data":"continuation schedule: S0 29297 S1 39063 peak 1.5e-05 warm 200 (old scheduler NOT restored)\n"}
+,{"stream_name":"stdout","time":831.039017946,"data":"reader20 progress 15104000\n"}
+,{"stream_name":"stdout","time":1028.446467166,"data":"reader20 progress 15360000\n"}
+,{"stream_name":"stdout","time":1225.52205725,"data":"reader20 progress 15616000\n"}
+,{"stream_name":"stdout","time":1422.946103763,"data":"reader20 progress 15872000\n"}
+,{"stream_name":"stdout","time":1624.8758719,"data":"reader20 progress 16128000\n"}
+,{"stream_name":"stdout","time":1829.861464695,"data":"reader20 progress 16384000\n"}
+,{"stream_name":"stdout","time":2031.467481063,"data":"reader20 progress 16640000\n"}
+,{"stream_name":"stdout","time":2233.820196179,"data":"reader20 progress 16896000\n"}
+,{"stream_name":"stdout","time":2434.337519217,"data":"reader20 progress 17152000\n"}
+,{"stream_name":"stdout","time":2634.806381935,"data":"reader20 progress 17408000\n"}
+,{"stream_name":"stdout","time":2834.187883971,"data":"reader20 progress 17664000\n"}
+,{"stream_name":"stdout","time":3032.503502568,"data":"reader20 progress 17920000\n"}
+,{"stream_name":"stdout","time":3230.897981337,"data":"reader20 progress 18176000\n"}
+,{"stream_name":"stdout","time":3429.531976639,"data":"reader20 progress 18432000\n"}
+,{"stream_name":"stdout","time":3628.059034074,"data":"reader20 progress 18688000\n"}
+,{"stream_name":"stdout","time":3826.719661359,"data":"reader20 progress 18944000\n"}
+,{"stream_name":"stdout","time":4025.359578222,"data":"reader20 progress 19200000\n"}
+,{"stream_name":"stdout","time":4224.341301922,"data":"reader20 progress 19456000\n"}
+,{"stream_name":"stdout","time":4423.192515204,"data":"reader20 progress 19712000\n"}
+,{"stream_name":"stdout","time":4622.18979482,"data":"reader20 progress 19968000\n"}
+,{"stream_name":"stdout","time":4647.538531662,"data":"PRE-EVAL reader milestone 20000000 20000256 fc4bc22d7ac92bc517946f04528c8112c70835c3b000a006d17a8d3bf9cf5304\n"}
+,{"stream_name":"stdout","time":4801.66899167,"data":"{\n"}
+,{"stream_name":"stdout","time":4801.669033755,"data":" \"tokens\": 20000256,\n"}
+,{"stream_name":"stdout","time":4801.669040989,"data":" \"threshold\": 20000000,\n"}
+,{"stream_name":"stdout","time":4801.669046642,"data":" \"val_set\": \"full\",\n"}
+,{"stream_name":"stdout","time":4801.669052358,"data":" \"train_loss\": 2.8657639004792097,\n"}
+,{"stream_name":"stdout","time":4801.669066016,"data":" \"val_loss\": 2.8437804117827965,\n"}
+,{"stream_name":"stdout","time":4801.669071214,"data":" \"dval\": -0.061804570913781554,\n"}
+,{"stream_name":"stdout","time":4801.66907588,"data":" \"ppl\": 17.180592638216023,\n"}
+,{"stream_name":"stdout","time":4801.669080531,"data":" \"lr\": 0.0,\n"}
+,{"stream_name":"stdout","time":4801.669085191,"data":" \"gamma\": {\n"}
+,{"stream_name":"stdout","time":4801.669089618,"data":"  \"readers.2.gamma\": 0.1339699625968933,\n"}
+,{"stream_name":"stdout","time":4801.669094264,"data":"  \"readers.8.gamma\": 0.1611756831407547\n"}
+,{"stream_name":"stdout","time":4801.669098536,"data":" },\n"}
+,{"stream_name":"stdout","time":4801.669102984,"data":" \"gate\": [\n"}
+,{"stream_name":"stdout","time":4801.669107562,"data":"  0.6743943691253662,\n"}
+,{"stream_name":"stdout","time":4801.669112346,"data":"  0.35344693064689636\n"}
+,{"stream_name":"stdout","time":4801.669116666,"data":" ],\n"}
+,{"stream_name":"stdout","time":4801.669120868,"data":" \"gnorm\": 0.48141026496887207,\n"}
+,{"stream_name":"stdout","time":4801.669125486,"data":" \"peak_GiB\": 5.243,\n"}
+,{"stream_name":"stdout","time":4801.669130127,"data":" \"tok_s\": 4918.3,\n"}
+,{"stream_name":"stdout","time":4801.669134499,"data":" \"w_k_update\": 6.252085986121467,\n"}
+,{"stream_name":"stdout","time":4801.669139146,"data":" \"w_v_update\": 22.661862518720362,\n"}
+,{"stream_name":"stdout","time":4801.669143767,"data":" \"beta_update\": 0.01879405239773093,\n"}
+,{"stream_name":"stdout","time":4801.669148694,"data":" \"rss_MiB\": 13480.3\n"}
+,{"stream_name":"stdout","time":4801.669152878,"data":"}\n"}
+,{"stream_name":"stdout","time":4802.508868504,"data":"full reader resume SHA/reopen 97c408ed6aaad485a80661a39488044ade59c3293b4bb79cc75f46e2cbf9531b\n"}
+,{"stream_name":"stdout","time":4802.69649133,"data":"bundle wrote ['metrics.json', 'reader.json', 'reader.safetensors', 'resume.pt', 'run.json']\n"}
+,{"stream_name":"stdout","time":4803.53109067,"data":"READER 20M COMPLETE {'tokens': 20000256, 'threshold': 20000000, 'full_val_raw_reader': 2.8437804117827965, 'dval': -0.061804570913781554, 'gamma': {'readers.2.gamma': 0.1339699625968933, 'readers.8.gamma': 0.1611756831407547}, 'gate': (0.6743943691253662, 0.35344693064689636), 'pre_eval_reader_sha256': 'fc4bc22d7ac92bc517946f04528c8112c70835c3b000a006d17a8d3bf9cf5304', 'raw_resume_sha256': '97c408ed6aaad485a80661a39488044ade59c3293b4bb79cc75f46e2cbf9531b', 'bundle_sha256': {'reader.safetensors': 'fc4bc22d7ac92bc517946f04528c8112c70835c3b000a006d17a8d3bf9cf5304', 'reader.json': '23f443271db16f9690f3d469b2faa5640858e1391784155d49754353f529038d', 'run.json': 'e8c0b45ac180d5ca35969ddd514b9008d1653392cfbb88e61b3f286f14463d3e', 'metrics.json': '731a2aaaf76197ab29ee25a1a8cf3d06bc6eff6b457596b8fb48d1800021e023', 'resume.pt': '69f15d4a099db82f8f443ead9a1a54da760bc32720e419874fdaecf817111406'}, 'resume_parent_sha256': '7d9369cd7a1c0bdacd3604746138a09b8fd2e5d7e9ae8212507ee4976cd86229', 'reader_source': 'ninnix/qwen-ple-real-r1-reader-scale-15m-p100/1'}\n"}
+,{"stream_name":"stdout","time":4803.532517109,"data":"released completed 20M compact cache after checkpoint verification\n"}
+,{"stream_name":"stderr","time":4809.197559391,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4809.197606072,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4809.368465013,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4809.368518215,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4809.967483939,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":4810.32659846,"data":"[NbConvertApp] Writing 306366 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":4812.675241835,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4813.830155274,"data":"[NbConvertApp] Writing 799070 bytes to __results__.html\n"}
+]

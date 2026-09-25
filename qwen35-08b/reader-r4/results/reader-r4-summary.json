@@ -1,0 +1,21 @@
+{
+  "tokens": 16000000,
+  "additional_tokens": 999936,
+  "full_val_raw_reader": 2.8455539829810306,
+  "dval": -0.060030999715547484,
+  "pre_eval_reader_sha256": "cd3a716c24a1f38d55180749192fa9fae761bfff5cfa45d29ff2c16f4167536b",
+  "raw_resume_sha256": "4ee664e3d91c9b135abeae14edb862dd5bc4dd4282a2997bcf6d43d3722b176a",
+  "bundle_sha256": {
+    "run.json": "a44b863a95e93d5172f5c2d035796f37b3d057258277f3f648ed76a3d31d951a",
+    "reader.json": "89c77761ceb91104ba8439fd1709332bb4e5f4d5347e57836c90562704a6a15e",
+    "metrics.json": "1100327de34e307aaf434a0d9fc353d191496242d1ca0e4d63b0e37c94b13f74",
+    "reader.safetensors": "cd3a716c24a1f38d55180749192fa9fae761bfff5cfa45d29ff2c16f4167536b",
+    "resume.pt": "3932457db2f0e4da88b6a0ce3adc8da36f0316083c3250c72ab659e34778c793"
+  },
+  "warm_start_direct_max_abs": {
+    "2": 2.384185791015625e-07,
+    "8": 2.384185791015625e-07
+  },
+  "warm_start_logit_max_abs": 0.0390625,
+  "resume_parent_sha256": "7d9369cd7a1c0bdacd3604746138a09b8fd2e5d7e9ae8212507ee4976cd86229"
+}
