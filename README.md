@@ -1,5 +1,8 @@
 # qwen-ple-transfer
 
+[QwenGram 0.8B model on Hugging Face](https://huggingface.co/Ninnix96/Qwengram-0.8B) ·
+[llama.cpp runtime and setup guide](https://github.com/Ninnix/llama.cpp/blob/master/docs/qwengram.md)
+
 Cross-model transfer of the frozen n-gram PLE (Engram memory) from
 `Qwen/Qwen3.8-Flash-Next-FP8` into frozen Qwen text backbones by training
 only a small target-side reader. Backbone and PLE stay frozen; only reader
@@ -12,9 +15,7 @@ mandatory disabled/permuted/random-memory controls.
 
 ## Getting started
 
-For inference with the balanced 15M reader, download the [QwenGram 0.8B
-model](https://huggingface.co/Ninnix96/Qwengram-0.8B) and follow the
-[QwenGram guide in the llama.cpp fork](https://github.com/Ninnix/llama.cpp/blob/master/docs/qwengram.md).
+For inference with the balanced 15M reader, follow the runtime guide above.
 The external PLE is downloaded separately from the source credited there.
 
 Use Python 3.11 or newer from the repository root:
