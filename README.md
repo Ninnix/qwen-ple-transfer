@@ -101,6 +101,12 @@ regresses on math against 15M, so it does not replace the balanced canonical.
 The four-branch reader stopped after its first 999,936 additional tokens:
 aggregate NLL improved, while code and math regressed.
 
+On the original Kaggle frozen full-validation set, the 15M canonical reduced
+perplexity from 18.2759 (frozen backbone) to 17.3534, or 5.048%. A separate
+[GGUF runtime validation](qwen35-08b/gguf-runtime/README.md) found 99.1% Q8_0
+and 91.0% Q4_K_M retention of the BF16 reader NLL gain on a fixed WikiText-2
+slice using Ivan Fioravanti's Q4_1 PLE sidecar.
+
 ### Protocol and controls
 
 The target is `Qwen/Qwen3.5-0.8B` (hidden 1024, 24 layers). The frozen FP8
