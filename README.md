@@ -12,6 +12,11 @@ mandatory disabled/permuted/random-memory controls.
 
 ## Getting started
 
+For inference with the balanced 15M reader, download the [QwenGram 0.8B
+model](https://huggingface.co/Ninnix96/Qwengram-0.8B) and follow the
+[QwenGram guide in the llama.cpp fork](https://github.com/Ninnix/llama.cpp/blob/master/docs/qwengram.md).
+The external PLE is downloaded separately from the source credited there.
+
 Use Python 3.11 or newer from the repository root:
 
 ```sh
