@@ -1,0 +1,7 @@
+{
+  "dataset": "ninnix/qwengram-2b-checkpoints",
+  "new_or_updated_files": 21,
+  "all_hashes_match": true,
+  "manifest_sha256": "a987fee4eea3d19ced0cf02257a814b9088ad10d2294a08cf7ee7ea5c292f442",
+  "method": "Downloaded each new or updated comparison artifact and checked SHA256 and byte size"
+}

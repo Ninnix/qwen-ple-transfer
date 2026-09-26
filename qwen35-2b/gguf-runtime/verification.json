@@ -1,0 +1,49 @@
+{
+  "BF16": {
+    "stock_sha256": "95587d529b34d3ccdcb5083ff4797eb3417675c9df62c0ecd888231b34ec2445",
+    "qwengram_sha256": "2ccb173d7a9ea1f556754954125c1578abc8ff23a64ce1c966d4eb8acf00d2e5",
+    "stock_bytes": 3897387424,
+    "qwengram_bytes": 3981284192,
+    "exact_backbone_tensors": 335,
+    "exact_tokenizer_fields": 9,
+    "exact_fp32_extension_tensors": 11,
+    "backbone_types": {
+      "BF16": 195,
+      "F32": 140
+    }
+  },
+  "Q8_0": {
+    "stock_sha256": "b3ac4918610d8ec25949da1e36e31b3034e9ff1a4f2b807af8fb9e4881101a1f",
+    "qwengram_sha256": "a6d0950d916a68373eb531b16ec3cfa1980d32bb3f5d03591fe1ed6a70cbc5ac",
+    "stock_bytes": 2076674464,
+    "qwengram_bytes": 2160571232,
+    "exact_backbone_tensors": 335,
+    "exact_tokenizer_fields": 9,
+    "exact_fp32_extension_tensors": 11,
+    "backbone_types": {
+      "F32": 140,
+      "Q8_0": 195
+    }
+  },
+  "Q4_K_M": {
+    "stock_sha256": "bf4162e5a837986f4372c508182c7e533b28cc3ea9083d2e38bf8d349d75d0dd",
+    "qwengram_sha256": "c312b0116ad4c0d8abb31849267cd5242faea026433b1795e8c0dc3e8faf0f36",
+    "stock_bytes": 1312164256,
+    "qwengram_bytes": 1396061024,
+    "exact_backbone_tensors": 335,
+    "exact_tokenizer_fields": 9,
+    "exact_fp32_extension_tensors": 11,
+    "backbone_types": {
+      "F32": 140,
+      "Q6_K": 27,
+      "Q4_K": 168
+    }
+  },
+  "runtime": {
+    "base_commit": "ab878ab4ddb578698b2b39ba1b2f0b36f07385d7",
+    "patch_sha256": "9fbc76ba3ab96c315fe415d9d8788d32cf15d48c606bdf6afa48a49b5e8641cb",
+    "qwen35_cpp_sha256": "b12206494548471090c56d6361e93f458725251b4c7609a338711eeaa2abfbde",
+    "libllama_sha256": "04575038c0d4b89978bc993d497767f480919f5b158dd231bc18970a8d3f3aa5",
+    "quantizer_sha256": "c534d7131814907cdfdfdea578cf66b7c812a1e01077a184484b7d688aa18264"
+  }
+}

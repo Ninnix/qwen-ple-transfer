@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/home/nicolo/qwen-ple-transfer/llama.cpp/build-qwengram-cpu/bin/llama-perplexity",
+    "-m",
+    "/home/nicolo/qwen-ple-transfer/qwen35-2b/.artifacts/gguf/release/QwenGram-2B-Q8_0.gguf",
+    "-f",
+    "/home/nicolo/qwen-ple-transfer/qwen35-2b/.artifacts/gguf/wiki.test.raw",
+    "-c",
+    "256",
+    "-b",
+    "256",
+    "-ub",
+    "256",
+    "--chunks",
+    "64",
+    "--ppl-output-type",
+    "1",
+    "--no-warmup",
+    "-t",
+    "8",
+    "-ngl",
+    "0"
+  ],
+  "start_unix": 1790417961.452742,
+  "wall_seconds": 194.6318781375885,
+  "log_sha256": "66725e78fc438556b9d85663192234fbcd29649e2a06eea926175f8108297954"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Qwengram-2B",
+  "recipe": "REAL-10M + linear750",
+  "backbone": "Qwen/Qwen3.5-2B",
+  "backbone_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "ple_model": "Qwen/Qwen3.8-Flash-Next-FP8",
+  "ple_revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+  "ple_manifest_sha256": "bea49feaf18f97b7521c3c74773d07b9cdfd34453b6b420ee93d48858bd0c496",
+  "reader_tokens": 10000384,
+  "calibration_tokens": 749568,
+  "reader_branches": 1,
+  "hidden_size": 2048,
+  "injection_sites": [
+    {
+      "idx": 2,
+      "human_layer": 3,
+      "relative_depth": 0.125
+    },
+    {
+      "idx": 8,
+      "human_layer": 9,
+      "relative_depth": 0.375
+    }
+  ],
+  "early_alpha_bounds": [
+    0.75,
+    1.75
+  ],
+  "late_alpha_bounds": [
+    0.0,
+    0.5
+  ],
+  "early_alpha": 1.2085962295532227,
+  "gammas": {
+    "2": 0.10254941135644913,
+    "8": 0.138872429728508
+  },
+  "private_dataset": "ninnix/qwengram-2b-checkpoints",
+  "reader_file": "reader-10000384.safetensors",
+  "reader_sha256": "4f93cd735bd7cbe99d3d35e364b70222ee56b6c27574f12822ee58e143cd8feb",
+  "arbiter_file": "arb10-linear-749568.pt",
+  "arbiter_sha256": "3d021226f75baab7cf3bff71720be677401f4c018bc0e30ceea4cc9c3a79b14e",
+  "metrics": "milestone-compare/results/summary.json",
+  "decision": "milestone-compare/decision.md",
+  "status": "canonical balanced endpoint selected by matched milestone comparison",
+  "milestone_comparison": "milestone-compare/decision.md",
+  "research_endpoint": "qwengram-2b-15m.json"
+}

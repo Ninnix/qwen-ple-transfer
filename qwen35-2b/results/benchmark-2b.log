@@ -1,0 +1,61 @@
+[{"stream_name":"stderr","time":10.541895424,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.541959712,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.541966604,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.541970625,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.264420922,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.264463109,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.264466665,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.264469256,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.788638916,"data":"python 3.12.13 working disk usage(total=20957446144, used=172032, free=20940496896)\n"}
+,{"stream_name":"stdout","time":12.788705245,"data":"input mounts []\n"}
+,{"stream_name":"stdout","time":12.896410625,"data":"compute_cap: 7.5\n"}
+,{"stream_name":"stdout","time":17.354852984,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/12.3 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.2/12.3 MB\u001b[0m \u001b[31m127.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m \u001b[32m12.0/12.3 MB\u001b[0m \u001b[31m210.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.3/12.3 MB\u001b[0m \u001b[31m205.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.3/12.3 MB\u001b[0m \u001b[31m95.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":17.405769923,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/516.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m516.0/516.0 kB\u001b[0m \u001b[31m22.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":17.456329982,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/3.4 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m3.4/3.4 MB\u001b[0m \u001b[31m240.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.4/3.4 MB\u001b[0m \u001b[31m82.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":32.999711088,"data":"\u001b[?25hNote: you may need to restart the kernel to use updated packages.\n"}
+,{"stream_name":"stdout","time":40.774325828,"data":"torch 2.10.0+cu128 | cap (7, 5)\n"}
+,{"stream_name":"stdout","time":64.010036784,"data":"5.17.0 5.0.0 0.8.0 1.11.0\n"}
+,{"stream_name":"stdout","time":64.028373983,"data":"Cfg(SOURCE_ID='Qwen/Qwen3.8-Flash-Next-FP8', TARGET_ID='Qwen/Qwen3.5-2B', MEM_DIM=2560, HIDDEN=2048, N_LAYERS=24, NGRAM=3, HEADS_PER_NGRAM=8, ROW_DIM=160, ROWS_PER_PART=2500012, VOCAB_BASE=20000000, SEED=1234, EOS=248044, VOCAB=248320, SEQ=512, VAL_FAST_TOKENS=65536, VAL_FULL_TOKENS=524288, DATASET_ID='HuggingFaceFW/fineweb-edu', DATASET_CONFIG='sample-10BT', SMOKE_TOKENS=5120, LR=3e-05, WD=0.01, WARMUP_FRAC=0.05, CKPTS=(100000, 250000, 500000), PLACEMENTS=((2,), (8,), (2, 8)), BRANCHES=1, GAMMA_INIT=0.001, SWEEP_ENABLED=False, BRANCH_ENABLED=False, REAL1M_ENABLED=False, REAL5M_ENABLED=False, STAGEA_ENABLED=False)\n"}
+,{"stream_name":"stdout","time":64.028405473,"data":"placements: IDX [2] = HUMAN [3] / IDX [8] = HUMAN [9] / IDX [2, 8] = HUMAN [3, 9]\n"}
+,{"stream_name":"stdout","time":64.028411884,"data":"sites=1 R=1: ~10.49M trainable\n"}
+,{"stream_name":"stdout","time":64.0284166,"data":"sites=2 R=1: ~20.97M trainable\n"}
+,{"stream_name":"stdout","time":64.028422024,"data":"sites=1 R=4: ~26.21M trainable\n"}
+,{"stream_name":"stdout","time":64.028427056,"data":"sites=2 R=4: ~52.43M trainable\n"}
+,{"stream_name":"stdout","time":64.287711098,"data":"hash ok; slots/head addrs e.g. (14605717, 24410875, 49313567, 72177428) | head0 range (0, 20000003)\n"}
+,{"stream_name":"stdout","time":64.471434615,"data":"reader identity ok; R=1 params: 10485762\n"}
+,{"stream_name":"stdout","time":64.489202308,"data":"injection ok\n"}
+,{"stream_name":"stdout","time":64.532312558,"data":"stores ok; manifests: []\n"}
+,{"stream_name":"stderr","time":74.21734491,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":74.217383125,"data":"\n"}
+,{"stream_name":"stderr","time":74.217387289,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":74.25254105,"data":"target rev 15852e8c1636 | source rev 236dfdf28582\n"}
+,{"stream_name":"stdout","time":81.209159101,"data":"mapping diffs: 0 | target-only: 0 | source-only: 7\n"}
+,{"stream_name":"stdout","time":81.209228333,"data":"NATIVE token-ID addressing VALID: identical ids; training terminator eos = 248044\n"}
+,{"stream_name":"stdout","time":81.299329613,"data":"hidden 2048 layers 24 vocab 248320 arch Qwen3_5Config\n"}
+,{"stream_name":"stderr","time":83.889545461,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":83.889575624,"data":"\n"}
+,{"stream_name":"stderr","time":83.889580891,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stdout","time":83.969523176,"data":"direct qwen3_5 import ok: Qwen3_5ForCausalLM\n"}
+,{"stream_name":"stderr","time":116.735054628,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":116.735098881,"data":"\n"}
+,{"stream_name":"stderr","time":116.735104668,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":118.214371394,"data":"[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":118.214405556,"data":"\n"}
+,{"stream_name":"stderr","time":118.21440957,"data":"[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.\n"}
+,{"stream_name":"stdout","time":118.714851004,"data":"frozen load OK in torch.float16 footprint=3.51 GiB\n"}
+,{"stream_name":"stdout","time":118.714888532,"data":"model class: Qwen3_5ForCausalLM | decoder blocks: 24\n"}
+,{"stream_name":"stdout","time":118.714894138,"data":"backbone = ACTIVE_DTYPE: torch.float16\n"}
+,{"stream_name":"stdout","time":118.714897917,"data":"reader params/compute = FP32 (AdamW FP32; norms/scores FP32)\n"}
+,{"stream_name":"stdout","time":118.714902409,"data":"PLE dequant/output = FP32\n"}
+,{"stream_name":"stdout","time":118.714906888,"data":"reader residual output is cast back to backbone dtype\n"}
+,{"stream_name":"stdout","time":119.118470821,"data":"inject at IDX [2, 8] = HUMAN [3, 9]\n"}
+,{"stream_name":"stdout","time":122.460735745,"data":"BENCHMARK_2B {\"target_revision\": \"15852e8c16360a2fea060d615a32b45270f8a8fc\", \"dtype\": \"torch.float16\", \"placement_idx\": [2, 8], \"identity_max_abs_logit\": 0.0, \"forward_tok_s\": 3196.553840256425, \"training_tok_s\": 810.1868993257275, \"forward_peak_gib\": 4.3085479736328125, \"training_peak_gib\": 8.041831016540527, \"gpu1_allocated_gib\": 0.0, \"host_rss_mib\": 4737.328125, \"reader_params\": 20971524, \"loss\": 0.04838854819536209}\n"}
+,{"stream_name":"stderr","time":128.076922543,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":128.076963475,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":128.265654842,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":128.265682405,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":128.90911648,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":129.246672668,"data":"[NbConvertApp] Writing 220909 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":131.589833913,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":132.623384994,"data":"[NbConvertApp] Writing 596287 bytes to __results__.html\n"}
+]

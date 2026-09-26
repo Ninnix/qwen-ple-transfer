@@ -1,0 +1,165 @@
+{
+  "base_total": 319488,
+  "seed": 1234,
+  "sources": {
+    "general": {
+      "dataset": "Salesforce/wikitext",
+      "config": "wikitext-103-raw-v1",
+      "split": "train",
+      "kind": "text",
+      "segments": [
+        {
+          "dataset": "Salesforce/wikitext",
+          "config": "wikitext-103-raw-v1",
+          "split": "train",
+          "dataset_rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+          "docs": 2780,
+          "skipped_prefix_docs": 380,
+          "heldout_prefix_tokens": 32768,
+          "tokens": 166912
+        }
+      ],
+      "tokens": 166912,
+      "tokens_sha256": "2422de952eefce905c53f6a54e5ee2a97048ef2c1bdf83335f79da221e159fb3"
+    },
+    "narrative": {
+      "dataset": "roneneldan/TinyStories",
+      "config": null,
+      "split": "train",
+      "kind": "text",
+      "segments": [
+        {
+          "dataset": "roneneldan/TinyStories",
+          "config": null,
+          "split": "train",
+          "dataset_rev": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+          "docs": 932,
+          "skipped_prefix_docs": 174,
+          "heldout_prefix_tokens": 32768,
+          "tokens": 166912
+        }
+      ],
+      "tokens": 166912,
+      "tokens_sha256": "526516250010def46a7715e7150bbab590a19f57477158d66a181415f0e8622c"
+    },
+    "code": {
+      "dataset": "edward-io/starcoderdata-repo",
+      "config": null,
+      "split": "train",
+      "kind": "code",
+      "segments": [
+        {
+          "dataset": "edward-io/starcoderdata-repo",
+          "config": null,
+          "split": "train",
+          "dataset_rev": "222de3ecd6196882066fc55a864bac660fdc327c",
+          "docs": 8,
+          "skipped_prefix_docs": 8,
+          "heldout_prefix_tokens": 32768,
+          "tokens": 166912
+        }
+      ],
+      "tokens": 166912,
+      "tokens_sha256": "18d77df8a5af2c2a8406987718c89bc650b542228fbdf6d8003b36ad555bf072"
+    },
+    "math": {
+      "dataset": "openai/gsm8k",
+      "config": "main",
+      "split": "test",
+      "kind": "qa",
+      "segments": [
+        {
+          "dataset": "openai/gsm8k",
+          "config": "main",
+          "split": "test",
+          "dataset_rev": "740312add88f781978c0658806c59bc2815b9866",
+          "docs": 1057,
+          "skipped_prefix_docs": 177,
+          "heldout_prefix_tokens": 32768,
+          "tokens": 166912
+        }
+      ],
+      "tokens": 166912,
+      "tokens_sha256": "2812841718d830e34354d4de1ee876ccbc3087c577da810d5f0823af242c5724"
+    },
+    "scientific": {
+      "dataset": "allenai/sciq",
+      "config": null,
+      "split": "test",
+      "kind": "sci",
+      "segments": [
+        {
+          "dataset": "allenai/sciq",
+          "config": null,
+          "split": "test",
+          "dataset_rev": "2c94ad3e1aafab77146f384e23536f97a4849815",
+          "docs": 1000,
+          "skipped_prefix_docs": 277,
+          "heldout_prefix_tokens": 32768,
+          "tokens": 77027
+        },
+        {
+          "dataset": "allenai/sciq",
+          "config": null,
+          "split": "train",
+          "dataset_rev": "2c94ad3e1aafab77146f384e23536f97a4849815",
+          "docs": 829,
+          "skipped_prefix_docs": 0,
+          "heldout_prefix_tokens": 0,
+          "tokens": 89885,
+          "spill": true,
+          "reason": "primary split exhausted; same dataset/revision/filtering, disjoint docs"
+        }
+      ],
+      "tokens": 166912,
+      "tokens_sha256": "7c893368a81034e20f3142189e094a79c38e171e9f2c11dab48d88bff9cf9bfa"
+    },
+    "multilingual": {
+      "dataset": "HuggingFaceFW/fineweb-2",
+      "config": "deu_Latn",
+      "split": "train",
+      "kind": "text",
+      "segments": [
+        {
+          "dataset": "HuggingFaceFW/fineweb-2",
+          "config": "deu_Latn",
+          "split": "train",
+          "dataset_rev": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+          "docs": 306,
+          "skipped_prefix_docs": 48,
+          "heldout_prefix_tokens": 32768,
+          "tokens": 166912
+        }
+      ],
+      "tokens": 166912,
+      "tokens_sha256": "a1804793e02675a5896951c4a820d63a21ea4a21c02f2dedd8ede6e77cc6d341"
+    }
+  },
+  "milestones": {
+    "500": {
+      "total_tokens": 500736,
+      "blocks": 978,
+      "file": "calib-500k-blocks.uint32le",
+      "sha256": "34bd7ce320f51f8b5683846527af9b35ba672085990356bf3ef55288219d4628",
+      "segment_seed": 1734,
+      "note": "extension only; base prefix identical, never replayed"
+    },
+    "750": {
+      "total_tokens": 749568,
+      "blocks": 1464,
+      "file": "calib-750k-blocks.uint32le",
+      "sha256": "379e484148e94b08e71870e6fabe67116260d965d9420b7a7d323cb09e4bd828",
+      "segment_seed": 1984,
+      "note": "extension only; base prefix identical, never replayed"
+    },
+    "1000": {
+      "total_tokens": 1001472,
+      "blocks": 1956,
+      "file": "calib-1000k-blocks.uint32le",
+      "sha256": "ea82113766b8e62fabda5b63d46f2fed82a98b3bebe5f5374ad392662fd755eb",
+      "segment_seed": 2234,
+      "note": "extension only; base prefix identical, never replayed"
+    }
+  },
+  "eval_overlap": "checked"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "full",
+  "token_count": 524288,
+  "seq": 512,
+  "count": 1024,
+  "tokens_sha256": "26ffe65b1f6457d2557dbacc98197d025932057e3c183e3cf1de8eefb7c2fe7c",
+  "dataset": "HuggingFaceFW/fineweb-edu",
+  "config": "sample-10BT",
+  "dataset_rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "target_rev": "2fc06364715b967f1860aea9cf38778875588b17",
+  "docs": 549,
+  "skip_docs": 549
+}

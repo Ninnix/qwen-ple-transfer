@@ -1,0 +1,78 @@
+{
+  "10m": {
+    "tokens": 10000384,
+    "reader_sha256": "4f93cd735bd7cbe99d3d35e364b70222ee56b6c27574f12822ee58e143cd8feb",
+    "checkpoint_sha256": "63d23c3bf66c41c97f16da6a68d42bd6d7e9f3302e61e3a42b0ec88a5e905b55",
+    "provenance": {
+      "target_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "ple_revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+      "train_stream_sha256": "da94e4e3804753b25e4d05b6cef71975e7a943909302c5f3f5d81fddac9b04ef",
+      "train_manifest_sha256": "a70009257b3662578f41d5dd0e51bf04f6338cc5b4fd0abe322904fdcbd85f2e",
+      "eval_streams_sha256": "94d5cb15059c0c4a7f1ed80e48b90b20a5462f058eb8c0adabce32b5d0534307",
+      "compact_cache_sha256": "337b79203d5f74436b23470964c68154ab6cc73ed38f7fc8b3fa30ea0fd9da61",
+      "address_mapping_sha256": "350908df637fd8fa4c62ddeed09dcfada54eec4fbf2ed3d2a2f31c18aa2639d7",
+      "injection_idx": [
+        2,
+        8
+      ],
+      "human_layers": [
+        3,
+        9
+      ],
+      "reader_branches": 1,
+      "hidden": 2048,
+      "lr": 3e-05,
+      "weight_decay": 0.01,
+      "gamma_init": 0.001,
+      "schedule": {
+        "mode": "continuation",
+        "peak": 1.5e-05,
+        "warm_steps": 200,
+        "horizon_tokens": 10000000
+      }
+    },
+    "gammas": {
+      "readers.2.gamma": 0.10254941135644913,
+      "readers.8.gamma": 0.138872429728508
+    }
+  },
+  "15m": {
+    "tokens": 15000064,
+    "reader_sha256": "c04da614dff8126be5ec1ed234e7d27c0f51e5160293f8a7b057e55e05687547",
+    "checkpoint_sha256": "e2069f9d63ae3491ff3d26383c1818a98dd1073fa8026385c5e32098e2b748f9",
+    "provenance": {
+      "target_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "ple_revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+      "train_stream_sha256": "da94e4e3804753b25e4d05b6cef71975e7a943909302c5f3f5d81fddac9b04ef",
+      "train_manifest_sha256": "a70009257b3662578f41d5dd0e51bf04f6338cc5b4fd0abe322904fdcbd85f2e",
+      "eval_streams_sha256": "94d5cb15059c0c4a7f1ed80e48b90b20a5462f058eb8c0adabce32b5d0534307",
+      "compact_cache_sha256": "7f1cd946387ecf2a8399ded9530353c613a8d0bcef1de9a270e0011fef2bcb0e",
+      "address_mapping_sha256": "a197580d91b2eb224e45961d6dc83f78233bc430ffbe59f553ed6534866f3b60",
+      "injection_idx": [
+        2,
+        8
+      ],
+      "human_layers": [
+        3,
+        9
+      ],
+      "reader_branches": 1,
+      "hidden": 2048,
+      "lr": 3e-05,
+      "weight_decay": 0.01,
+      "gamma_init": 0.001,
+      "schedule": {
+        "mode": "continuation",
+        "peak": 1.5e-05,
+        "warm_steps": 200,
+        "horizon_tokens": 15000000
+      }
+    },
+    "gammas": {
+      "readers.2.gamma": 0.12320390343666077,
+      "readers.8.gamma": 0.17827960848808289
+    }
+  }
+}

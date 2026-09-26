@@ -1,0 +1,86 @@
+{
+  "arb10-eval-stock.json": {
+    "sha256": "0707fdab1efb534b4293df2939a77e25cbf18e083005f7dd5447aae5514ab341",
+    "size": 96158
+  },
+  "arb10-eval-raw-10m.json": {
+    "sha256": "52390b6e1482baed4375d5deca10db5f599394b8292e50d73bbf6d4db60394bf",
+    "size": 96229
+  },
+  "arb10-eval-linear750.json": {
+    "sha256": "67b6ae77deafa651bf5038c45a590cb09024582a8dbeebf7ef3fc1542098ed80",
+    "size": 78171
+  },
+  "arb10-bootstrap.json": {
+    "sha256": "fde9df7d0b1e5c59c7b3a47b4cc4eddd3994eac0de06ab27da29376fa3099617",
+    "size": 177905
+  },
+  "arb10-summary.json": {
+    "sha256": "c582ca085946cb71148a8cf3e83bd7f203c99d077ab7561021cb303f8c23272e",
+    "size": 4445
+  },
+  "arb10-stock-reproduction.json": {
+    "sha256": "563cf49e17a26899818ad74ae2dcbae3c4845805bfd08618d04783f401371b45",
+    "size": 127
+  },
+  "arb10-linear-500736.pt": {
+    "sha256": "c7a061ffa130979eacd295ef4770d28581afdf9f76090fc964b7814fc1095ea8",
+    "size": 39478
+  },
+  "arb10-linear-749568.pt": {
+    "sha256": "3d021226f75baab7cf3bff71720be677401f4c018bc0e30ceea4cc9c3a79b14e",
+    "size": 39478
+  },
+  "arb10-qwengram-2b-10m-linear750-comparison.log": {
+    "sha256": "cd28dc9e58cdb2669f55ed15bb02653326aa5f2a38358cedf6451516a8ec82a0",
+    "size": 20512
+  },
+  "milestone-comparison-protocol.json": {
+    "sha256": "559b8776752e42dd8ffb4f2e45d6ab152c2ca1bf93000a8dc6740002ed6ea4b2",
+    "size": 1531
+  },
+  "milestone-comparison-comparison.json": {
+    "sha256": "fe241eaaaa6aaaa18da8dfc9cc0a1cd505af45ffdb4d55901ee290c2a78fa978",
+    "size": 215885
+  },
+  "milestone-comparison-decision.md": {
+    "sha256": "8ace4601ab6d0d41f51312b03084a547e2050611e03a0c1005e3530c0859213d",
+    "size": 3585
+  },
+  "milestone-comparison-artifact-shas.json": {
+    "sha256": "0e84dcb8b7926b50c37cca1368ef7b79177422dd2854eb008cb2133a38aaa9f9",
+    "size": 1776
+  },
+  "milestone-comparison-milestone-provenance.json": {
+    "sha256": "1cf9ec9410dfab3b9bbb04f18f3ab3be9f6150381ea2db4110b55712d1dc4327",
+    "size": 2925
+  },
+  "milestone-comparison-compare.ipynb": {
+    "sha256": "0549127ffadf7674d5c06e1a4ce99ed6a74add27b31044cf75650584fbef0bf3",
+    "size": 64150
+  },
+  "milestone-comparison-analyze.py": {
+    "sha256": "e5f9652b2d6d1c3e57ae6ea083ae5984647ce2bf1ce271a31229a4dff1d9f3f1",
+    "size": 8396
+  },
+  "README.md": {
+    "sha256": "ca08cf44a4a12ed9737c86695c4bef33decb08be2b62e188b67529f8c99b1f3d",
+    "size": 3600
+  },
+  "qwengram-2b.json": {
+    "sha256": "5808f42044b4430802633d9a7ef7b1a9bd906ada7632133d08c37559d8343fc0",
+    "size": 1580
+  },
+  "qwengram-2b-15m.json": {
+    "sha256": "4f9f8fa4d1dbf11137145ec14a2cffc51474dcc5be368a433409cb9966e9464b",
+    "size": 1504
+  },
+  "decision.md": {
+    "sha256": "da3f5460f03e199ae67091a9298012ee6cda9537d393a3ae3d179b9f5d821ea4",
+    "size": 3900
+  },
+  "decision-original-15m.md": {
+    "sha256": "14d1d37d42a1285c1f59b7d3f84d5b315b000c7979f09aa0ffe31cd0c91bf254",
+    "size": 3651
+  }
+}

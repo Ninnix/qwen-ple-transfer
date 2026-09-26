@@ -1,0 +1,13 @@
+{
+  "name": "math",
+  "token_count": 32768,
+  "seq": 512,
+  "count": 64,
+  "tokens_sha256": "c27f42f5f69de1aaf26020c7e14c2c141f8fa8490c5d95952c06e1c5bffa6648",
+  "dataset": "openai/gsm8k",
+  "config": "main",
+  "split": "test",
+  "kind": "qa",
+  "dataset_rev": "740312add88f781978c0658806c59bc2815b9866",
+  "docs": 177
+}

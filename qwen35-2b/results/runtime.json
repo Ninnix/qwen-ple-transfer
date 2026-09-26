@@ -1,0 +1,52 @@
+{
+  "kernel_log_end_seconds": {
+    "control-qwengram-2b-controls-500k-t4.log": 4587.127439946,
+    "arb-qwengram-2b-linear750-evaluation-t4.log": 3495.627781171,
+    "qwengram-2b-reader-10-15m-t4.log": 5919.808844162,
+    "qwengram-2b-reader-5-10m-t4.log": 5596.508672073,
+    "qwengram-2b-reader-0-5m-t4.log": 5857.168853367
+  },
+  "total_kernel_wall_seconds": 25456.241590719,
+  "definition": "Sum of final notebook log timestamps; excludes Kaggle queues, inter-session idle time, and dataset uploads.",
+  "benchmark_wall_seconds": 132.623384994,
+  "total_with_benchmark_seconds": 25588.864975713,
+  "environment": {
+    "python": "3.12.13",
+    "torch": "2.10.0+cu128",
+    "transformers": "5.17.0",
+    "datasets": "5.0.0",
+    "safetensors": "0.8.0",
+    "huggingface_hub": "1.11.0",
+    "gpu": "Tesla T4 x2, model and reader on GPU0",
+    "backbone_dtype": "float16",
+    "reader_dtype": "float32",
+    "linear_attention_kernels": "reference PyTorch",
+    "sequence_length": 512
+  },
+  "reader_training_intervals": [
+    {
+      "start_tokens": 0,
+      "end_tokens": 1000448,
+      "wall_s": 1062.489708379,
+      "tok_s": 941.6072382727785
+    },
+    {
+      "start_tokens": 1000448,
+      "end_tokens": 5000192,
+      "wall_s": 4242.603181339,
+      "tok_s": 942.7570359615033
+    },
+    {
+      "start_tokens": 5000192,
+      "end_tokens": 10000384,
+      "wall_s": 5102.9787421559995,
+      "tok_s": 979.8575014026861
+    },
+    {
+      "start_tokens": 10000384,
+      "end_tokens": 15000064,
+      "wall_s": 5013.00820654,
+      "tok_s": 997.3412757388643
+    }
+  ]
+}

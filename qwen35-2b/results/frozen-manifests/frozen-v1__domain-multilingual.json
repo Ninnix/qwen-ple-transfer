@@ -1,0 +1,13 @@
+{
+  "name": "multilingual",
+  "token_count": 32768,
+  "seq": 512,
+  "count": 64,
+  "tokens_sha256": "65a26da5419aaa32520219d9d1c5909769a7a19a88ff16e85df7d69c38028a55",
+  "dataset": "HuggingFaceFW/fineweb-2",
+  "config": "deu_Latn",
+  "split": "train",
+  "kind": "text",
+  "dataset_rev": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+  "docs": 48
+}

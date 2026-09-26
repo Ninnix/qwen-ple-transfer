@@ -1,0 +1,17 @@
+{
+  "target_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "dtype": "torch.float16",
+  "placement_idx": [
+    2,
+    8
+  ],
+  "identity_max_abs_logit": 0.0,
+  "forward_tok_s": 3196.553840256425,
+  "training_tok_s": 810.1868993257275,
+  "forward_peak_gib": 4.3085479736328125,
+  "training_peak_gib": 8.041831016540527,
+  "gpu1_allocated_gib": 0.0,
+  "host_rss_mib": 4737.328125,
+  "reader_params": 20971524,
+  "loss": 0.04838854819536209
+}

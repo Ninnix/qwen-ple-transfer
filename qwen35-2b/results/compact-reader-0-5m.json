@@ -1,0 +1,32 @@
+{
+  "format": "qwen-ple-compact",
+  "version": 1,
+  "token_train": 5000192,
+  "token_val": 524288,
+  "requested_addresses": 88391680,
+  "address_count": 37325743,
+  "dedup_ratio": 2.368115753248368,
+  "row_dim": 160,
+  "scale": 0.00019931793212890625,
+  "ple_revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+  "dataset_rev": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "train_skip_docs": 549,
+  "full_train_sha256": "da94e4e3804753b25e4d05b6cef71975e7a943909302c5f3f5d81fddac9b04ef",
+  "train_manifest_sha256": "a70009257b3662578f41d5dd0e51bf04f6338cc5b4fd0abe322904fdcbd85f2e",
+  "train_start": 0,
+  "train_end": 5000192,
+  "train_tokens_sha256": "0ca69186be88241c7912323185d897d9c847cd02d25d2518a09a53f0bdd025b1",
+  "target_rev": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "tokenizer": "native token ids (Cell 7 semantic proof)",
+  "hash": {
+    "ngram": 3,
+    "heads_per_ngram": 8,
+    "vocab_size": 248320,
+    "vocab_base": 20000000,
+    "seed": 1234,
+    "eos": 248044
+  },
+  "addrs_sha256": "b2a01c076a21f46b3a7b24e386c143a90745291d054a66e7e61fc9eef13559d9",
+  "rows_sha256": "a355f46fcc7d0ea9b76dee03955acff0948584a1432752ce5ed4856fa3308219",
+  "pattern": "freeze_stream_tokens+ngram_indices"
+}

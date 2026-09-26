@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/nicolo/qwen-ple-transfer/llama.cpp/build-qwengram-cpu/bin/llama-quantize",
+    "--tensor-type",
+    "^qwengram[.]=f32",
+    "/home/nicolo/qwen-ple-transfer/qwen35-2b/.artifacts/gguf/release/QwenGram-2B-BF16.gguf",
+    "/home/nicolo/qwen-ple-transfer/qwen35-2b/.artifacts/gguf/release/QwenGram-2B-Q4_K_M.gguf",
+    "Q4_K_M",
+    "8"
+  ],
+  "start_unix": 1790418156.0853772,
+  "wall_seconds": 27.62161159515381,
+  "log_sha256": "0c96938dd0ef5a1cc97a01874002c56d865ad3263b3269d2e8f642a24a9c0c49"
+}

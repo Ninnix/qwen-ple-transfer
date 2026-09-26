@@ -1,0 +1,26 @@
+{
+  "full": "26ffe65b1f6457d2557dbacc98197d025932057e3c183e3cf1de8eefb7c2fe7c",
+  "fast": "4c702b4313fca2fa7fc5ffaf242912ab48a1564fecda52dd01982e2b756e4abd",
+  "domains": {
+    "general": "a9e12294eba002b5a4e9fce610ff39f8aed6d802e36e534e82ed367f96bb9aa5",
+    "code": "735f933ca4bc694562dbb2a6ab9c227c802268f7715448eba50e172ae450c421",
+    "math": "c27f42f5f69de1aaf26020c7e14c2c141f8fa8490c5d95952c06e1c5bffa6648",
+    "scientific": "c33632cf96170ca7ae92d4013702c14097fd79bb069c76e40fb3a531091936d8",
+    "multilingual": "65a26da5419aaa32520219d9d1c5909769a7a19a88ff16e85df7d69c38028a55"
+  },
+  "calibration": "379e484148e94b08e71870e6fabe67116260d965d9420b7a7d323cb09e4bd828",
+  "hellaswag": "d4bc90defd0392ea41b0fa6e1e0cb31abec77af923abb8bc38f8c62100810123",
+  "lambada": "25852984eb52cef6a1af49308ecdea05c2e9a759a39c80fc64c51d58b4672028",
+  "hellaswag_source": {
+    "dataset": "Rowan/hellaswag",
+    "config": null,
+    "rev": "218ec52e09a7e7462a5400043bb9a69a41d06b76",
+    "n": 1000
+  },
+  "lambada_source": {
+    "dataset": "EleutherAI/lambada_openai",
+    "config": null,
+    "rev": "900124bf3b8235c6daf21033af9948b3f07346c4",
+    "n": 1000
+  }
+}

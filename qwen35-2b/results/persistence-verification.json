@@ -1,0 +1,8 @@
+{
+  "dataset": "ninnix/qwengram-2b-checkpoints",
+  "manifest_sha256": "8cf613c0cea69bf088e3ca718f98a40f5899cd21a431744b60c3442a68392790",
+  "verified_file_count": 39,
+  "verified_bytes": 2577594820,
+  "all_hashes_match": true,
+  "method": "Downloaded the private dataset anew; checked every file in its milestone manifest against SHA256 and byte size."
+}

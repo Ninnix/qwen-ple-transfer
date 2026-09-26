@@ -1,0 +1,47 @@
+{
+  "name": "Qwengram-2B",
+  "recipe": "REAL-15M + linear750",
+  "backbone": "Qwen/Qwen3.5-2B",
+  "backbone_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "ple_model": "Qwen/Qwen3.8-Flash-Next-FP8",
+  "ple_revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+  "ple_manifest_sha256": "bea49feaf18f97b7521c3c74773d07b9cdfd34453b6b420ee93d48858bd0c496",
+  "reader_tokens": 15000064,
+  "calibration_tokens": 749568,
+  "reader_branches": 1,
+  "hidden_size": 2048,
+  "injection_sites": [
+    {
+      "idx": 2,
+      "human_layer": 3,
+      "relative_depth": 0.125
+    },
+    {
+      "idx": 8,
+      "human_layer": 9,
+      "relative_depth": 0.375
+    }
+  ],
+  "early_alpha_bounds": [
+    0.75,
+    1.75
+  ],
+  "late_alpha_bounds": [
+    0.0,
+    0.5
+  ],
+  "early_alpha": 1.1916725635528564,
+  "gammas": {
+    "2": 0.12320390343666077,
+    "8": 0.17827960848808289
+  },
+  "private_dataset": "ninnix/qwengram-2b-checkpoints",
+  "reader_file": "reader-15000064.safetensors",
+  "reader_sha256": "c04da614dff8126be5ec1ed234e7d27c0f51e5160293f8a7b057e55e05687547",
+  "arbiter_file": "arb-linear-749568.pt",
+  "arbiter_sha256": "335e8bf01726019b317b47f9a7b68c12f1ee2af29d617c80e937e77997d7d391",
+  "metrics": "results/metrics.md",
+  "decision": "results/decision.md",
+  "status": "transfer verified; experimental runtime release justified"
+}

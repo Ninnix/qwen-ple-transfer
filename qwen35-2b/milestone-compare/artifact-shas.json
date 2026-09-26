@@ -1,0 +1,47 @@
+{
+  "eval-stock.json": {
+    "sha256": "0707fdab1efb534b4293df2939a77e25cbf18e083005f7dd5447aae5514ab341",
+    "size": 96158,
+    "local_path": "milestone-compare/results/eval-stock.json"
+  },
+  "eval-raw-10m.json": {
+    "sha256": "52390b6e1482baed4375d5deca10db5f599394b8292e50d73bbf6d4db60394bf",
+    "size": 96229,
+    "local_path": "milestone-compare/results/eval-raw-10m.json"
+  },
+  "eval-linear750.json": {
+    "sha256": "67b6ae77deafa651bf5038c45a590cb09024582a8dbeebf7ef3fc1542098ed80",
+    "size": 78171,
+    "local_path": "milestone-compare/results/eval-linear750.json"
+  },
+  "bootstrap.json": {
+    "sha256": "fde9df7d0b1e5c59c7b3a47b4cc4eddd3994eac0de06ab27da29376fa3099617",
+    "size": 177905,
+    "local_path": "milestone-compare/results/bootstrap.json"
+  },
+  "summary.json": {
+    "sha256": "c582ca085946cb71148a8cf3e83bd7f203c99d077ab7561021cb303f8c23272e",
+    "size": 4445,
+    "local_path": "milestone-compare/results/summary.json"
+  },
+  "stock-reproduction.json": {
+    "sha256": "563cf49e17a26899818ad74ae2dcbae3c4845805bfd08618d04783f401371b45",
+    "size": 127,
+    "local_path": "milestone-compare/results/stock-reproduction.json"
+  },
+  "linear-500736.pt": {
+    "sha256": "c7a061ffa130979eacd295ef4770d28581afdf9f76090fc964b7814fc1095ea8",
+    "size": 39478,
+    "local_path": ".artifacts/arb10-linear-500736.pt"
+  },
+  "linear-749568.pt": {
+    "sha256": "3d021226f75baab7cf3bff71720be677401f4c018bc0e30ceea4cc9c3a79b14e",
+    "size": 39478,
+    "local_path": ".artifacts/arb10-linear-749568.pt"
+  },
+  "qwengram-2b-10m-linear750-comparison.log": {
+    "sha256": "cd28dc9e58cdb2669f55ed15bb02653326aa5f2a38358cedf6451516a8ec82a0",
+    "size": 20512,
+    "local_path": "milestone-compare/results/qwengram-2b-10m-linear750-comparison.log"
+  }
+}

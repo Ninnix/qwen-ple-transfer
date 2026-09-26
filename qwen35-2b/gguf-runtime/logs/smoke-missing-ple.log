@@ -1,0 +1,13 @@
+
+warning: no usable GPU found, --gpu-layers option will be ignored
+warning: one possible reason is that llama.cpp was compiled without GPU support
+warning: consult docs/build.md for compilation instructions
+0.00.003.700 I llama_completion: llama backend init
+0.00.003.713 I llama_completion: load the model and apply lora adapter, if any
+0.00.131.086 E llama_model_load: error loading model: error loading model hyperparameters: QwenGram: set QWENGRAM_PLE to Ivan's Q4_1 PLE GGUF
+0.00.131.096 E llama_model_load_from_file_impl: failed to load model
+0.00.131.940 E common_fit_params: encountered an error while trying to fit params to free device memory: failed to load model
+0.00.246.751 E llama_model_load: error loading model: error loading model hyperparameters: QwenGram: set QWENGRAM_PLE to Ivan's Q4_1 PLE GGUF
+0.00.246.758 E llama_model_load_from_file_impl: failed to load model
+0.00.246.766 E cmn  common_init_: failed to load model '/home/nicolo/qwen-ple-transfer/qwen35-2b/.artifacts/gguf/release/QwenGram-2B-Q8_0.gguf'
+0.00.246.772 E llama_completion: error: unable to create context

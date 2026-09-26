@@ -1,0 +1,54 @@
+{
+  "README.md": {
+    "size": 3149,
+    "sha256": "38017c0f105f8ba04cda58eaeb113a99af2ddac730b8f4f77e9342e6e5969b19"
+  },
+  "qwengram-2b.json": {
+    "size": 1432,
+    "sha256": "fad71f32b366566c863fb8fa74eb12b4649ff21c7970ad6138f919bb7b3a2a91"
+  },
+  "decision.md": {
+    "size": 3651,
+    "sha256": "14d1d37d42a1285c1f59b7d3f84d5b315b000c7979f09aa0ffe31cd0c91bf254"
+  },
+  "metrics.md": {
+    "size": 7048,
+    "sha256": "ecdc6204beef085a531fc5310102e53bb6d767fcc544c3317108454976fb8075"
+  },
+  "runtime.json": {
+    "size": 1580,
+    "sha256": "8500bdfe3af82640d9181a3fffb2942d7cf5a5092682c7c77cf31733add1ea8c"
+  },
+  "qualification.md": {
+    "size": 2943,
+    "sha256": "719113a534a322c8e0fd21a32c40e3bb38140a686099636c5284197d9c6df2cd"
+  },
+  "persistence-verification.json": {
+    "size": 354,
+    "sha256": "8aeee0595d2b99ff80f2ad42461633479a4af779c9120d6bcdd83ad06624a6b3"
+  },
+  "notebook-benchmark.ipynb": {
+    "size": 36621,
+    "sha256": "f604009d96744d8eddac93026fac9d7eb7d4d55262a2507f86c92abe7306f58b"
+  },
+  "notebook-reader-5m.ipynb": {
+    "size": 69327,
+    "sha256": "26c92732af3e5fcba350ccccda62ed72b6f7f5d1ee0f7f92f8a3a1d0cd53bd71"
+  },
+  "notebook-reader-10m.ipynb": {
+    "size": 69252,
+    "sha256": "7687644b90710d2e2c4f92b6fd207e6d3748ea6d8c976fcbc365e65b017ffbc4"
+  },
+  "notebook-reader-15m.ipynb": {
+    "size": 69406,
+    "sha256": "ba8000866391236c7e1dc326a6e4e4a7a2ab36a3cae63dde0dafc9a14de9ce30"
+  },
+  "notebook-linear750-evaluation.ipynb": {
+    "size": 62589,
+    "sha256": "587974a596578521effe8ae1ad45fd19e5418aa903d014a34998d085a023f00f"
+  },
+  "notebook-controls-500k.ipynb": {
+    "size": 72349,
+    "sha256": "82574a3bf4f94a82b54383a0c18cb6f68d973e01015287ec071e8510a420a44a"
+  }
+}

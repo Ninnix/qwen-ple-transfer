@@ -1,0 +1,15 @@
+{
+  "code_file": "benchmark.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": [],
+  "id": "ninnix/qwengram-2b-single-t4-qualification-benchmark",
+  "title": "Qwengram 2B single T4 qualification benchmark"
+}

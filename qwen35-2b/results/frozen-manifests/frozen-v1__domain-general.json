@@ -1,0 +1,13 @@
+{
+  "name": "general",
+  "token_count": 32768,
+  "seq": 512,
+  "count": 64,
+  "tokens_sha256": "a9e12294eba002b5a4e9fce610ff39f8aed6d802e36e534e82ed367f96bb9aa5",
+  "dataset": "Salesforce/wikitext",
+  "config": "wikitext-103-raw-v1",
+  "split": "test",
+  "kind": "text",
+  "dataset_rev": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "docs": 401
+}

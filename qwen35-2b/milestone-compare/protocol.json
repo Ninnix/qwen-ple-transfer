@@ -1,0 +1,31 @@
+{
+  "reference_notebook_sha256": "587974a596578521effe8ae1ad45fd19e5418aa903d014a34998d085a023f00f",
+  "comparison_notebook_sha256": "0549127ffadf7674d5c06e1a4ce99ed6a74add27b31044cf75650584fbef0bf3",
+  "reader_tokens": [
+    10000384,
+    15000064
+  ],
+  "calibration_tokens": 749568,
+  "new_training": "Only missing 10M linear arbiter; reader and backbone frozen",
+  "evaluation": "Same frozen full validation, five domains, HellaSwag-1000 and LAMBADA-1000",
+  "existing_15m_results": "SHA-verified persisted per-block/per-example outputs; no retraining",
+  "stock_reproduction": "Identical accuracy arrays; maximum per-block/per-example NLL difference <= 2e-6",
+  "contrasts": [
+    "raw_15m_minus_raw_10m",
+    "linear_15m_minus_linear_10m"
+  ],
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 1234,
+    "confidence": 0.95,
+    "method": "Original paired per-block/per-example bootstrap; domain mean stratified equally across five domains",
+    "intervals": "Marginal percentile intervals, no multiplicity adjustment"
+  },
+  "balanced_15m_rule": {
+    "full_val_and_domain_mean": "Both calibrated 15M-minus-10M NLL interval upper bounds < 0",
+    "other_nll_metrics": "No five-domain or LAMBADA NLL interval wholly above zero",
+    "accuracy": "HellaSwag and LAMBADA point estimates must not fall; no interval wholly below zero",
+    "otherwise": "10M canonical balanced endpoint; 15M max-LM/research endpoint",
+    "scope": "Conservative operational selection rule; overlapping intervals do not prove equivalence"
+  }
+}

@@ -1,0 +1,60 @@
+diff --git a/src/models/qwen35.cpp b/src/models/qwen35.cpp
+index 8d46529de..12a2214c2 100644
+--- a/src/models/qwen35.cpp
++++ b/src/models/qwen35.cpp
+@@ -4,6 +4,7 @@
+ #include "llama-batch.h"
+ 
+ #include <cstdlib>
++#include <cmath>
+ #include <stdexcept>
+ #include <vector>
+ 
+@@ -38,9 +39,16 @@ void llama_model_qwen35::load_arch_hparams(llama_model_loader & ml) {
+     std::string version;
+     qwengram.enabled = ml.get_key("qwengram.version", version, false);
+     if (qwengram.enabled) {
+-        if (version != "1" || hparams.n_layer() != 24 || hparams.n_embd != 1024) {
++        if (version != "1" || hparams.n_layer() != 24 || (hparams.n_embd != 1024 && hparams.n_embd != 2048)) {
+             throw std::runtime_error("QwenGram: unsupported model version or dimensions");
+         }
++        uint32_t hidden, memory, branches;
++        ml.get_key("qwengram.reader_hidden_dim", hidden);
++        ml.get_key("qwengram.reader_memory_dim", memory);
++        ml.get_key("qwengram.reader_branches", branches);
++        if (hidden != hparams.n_embd || memory != 2560 || branches != 1) {
++            throw std::runtime_error("QwenGram: reader dimensions differ from the backbone");
++        }
+         const char * path = std::getenv("QWENGRAM_PLE");
+         if (!path || !*path) throw std::runtime_error("QwenGram: set QWENGRAM_PLE to Ivan's Q4_1 PLE GGUF");
+         qwengram.ple = std::make_shared<llama_qwengram_ple>(path);
+@@ -141,12 +149,12 @@ void llama_model_qwen35::load_arch_tensors(llama_model_loader & ml) {
+     if (qwengram.enabled) {
+         for (int site = 0; site < 2; ++site) {
+             const int il = site == 0 ? 2 : 8;
+-            qwengram.key[site]   = create_tensor(tn(LLM_TENSOR_QWENGRAM_KEY,   "weight", il), {2560, 1024}, 0);
+-            qwengram.value[site] = create_tensor(tn(LLM_TENSOR_QWENGRAM_VALUE, "weight", il), {2560, 1024}, 0);
++            qwengram.key[site]   = create_tensor(tn(LLM_TENSOR_QWENGRAM_KEY,   "weight", il), {2560, n_embd}, 0);
++            qwengram.value[site] = create_tensor(tn(LLM_TENSOR_QWENGRAM_VALUE, "weight", il), {2560, n_embd}, 0);
+             qwengram.beta[site]  = create_tensor(tn(LLM_TENSOR_QWENGRAM_BETA, il), {1}, 0);
+             qwengram.gamma[site] = create_tensor(tn(LLM_TENSOR_QWENGRAM_GAMMA, il), {1}, 0);
+         }
+-        qwengram.gate_w = create_tensor(tn(LLM_TENSOR_QWENGRAM_GATE_W), {1024}, 0);
++        qwengram.gate_w = create_tensor(tn(LLM_TENSOR_QWENGRAM_GATE_W), {n_embd}, 0);
+         qwengram.gate_b = create_tensor(tn(LLM_TENSOR_QWENGRAM_GATE_B), {1}, 0);
+         qwengram.alpha2 = create_tensor(tn(LLM_TENSOR_QWENGRAM_ALPHA2), {1}, 0);
+     }
+@@ -289,11 +297,11 @@ ggml_tensor * llama_model_qwen35::graph::build_qwengram_reader(ggml_tensor * h,
+     ggml_tensor * q = ggml_rms_norm(ctx0, h32, 1e-6f);
+     ggml_tensor * k = ggml_rms_norm(ctx0, ggml_mul_mat(ctx0, qg.key[site], memory), 1e-6f);
+     ggml_tensor * score = ggml_sum_rows(ctx0, ggml_mul(ctx0, q, k));
+-    score = ggml_scale(ctx0, score, 1.0f / 32.0f);
++    score = ggml_scale(ctx0, score, 1.0f / std::sqrt(float(hparams.n_embd)));
+     ggml_tensor * gate = ggml_sigmoid(ctx0, ggml_add(ctx0, score, qg.beta[site]));
+     ggml_tensor * alpha = qg.alpha2;
+     if (site == 1) {
+-        ggml_tensor * w = ggml_reshape_2d(ctx0, qg.gate_w, 1024, 1);
++        ggml_tensor * w = ggml_reshape_2d(ctx0, qg.gate_w, hparams.n_embd, 1);
+         alpha = ggml_mul_mat(ctx0, w, q);
+         alpha = ggml_scale(ctx0, ggml_sigmoid(ctx0, ggml_add(ctx0, alpha, qg.gate_b)), 0.5f);
+     }

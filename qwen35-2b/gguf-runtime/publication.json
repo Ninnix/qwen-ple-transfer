@@ -1,0 +1,373 @@
+{
+  "repo": "Ninnix96/Qwengram-2b",
+  "url": "https://huggingface.co/Ninnix96/Qwengram-2b",
+  "commit": "5d71dd86a2ec6ed0c0a1f7970ec3ddf79ee6fe4f",
+  "public": true,
+  "verified_files": {
+    "LICENSE": {
+      "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+      "size": 11544,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "QwenGram-2B-BF16.gguf": {
+      "sha256": "2ccb173d7a9ea1f556754954125c1578abc8ff23a64ce1c966d4eb8acf00d2e5",
+      "size": 3981284192,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "QwenGram-2B-Q4_K_M.gguf": {
+      "sha256": "c312b0116ad4c0d8abb31849267cd5242faea026433b1795e8c0dc3e8faf0f36",
+      "size": 1396061024,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "QwenGram-2B-Q8_0.gguf": {
+      "sha256": "a6d0950d916a68373eb531b16ec3cfa1980d32bb3f5d03591fe1ed6a70cbc5ac",
+      "size": 2160571232,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "README.md": {
+      "sha256": "1145c71fc54eb5f3bd8fae061759366338dfa1ba8238f94285929d2445d736a3",
+      "size": 3749,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "arbiter.pt": {
+      "sha256": "3d021226f75baab7cf3bff71720be677401f4c018bc0e30ceea4cc9c3a79b14e",
+      "size": 39478,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "chat_template.jinja": {
+      "sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+      "size": 7755,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/10m/bootstrap.json": {
+      "sha256": "fde9df7d0b1e5c59c7b3a47b4cc4eddd3994eac0de06ab27da29376fa3099617",
+      "size": 177905,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/10m/eval-linear750.json": {
+      "sha256": "67b6ae77deafa651bf5038c45a590cb09024582a8dbeebf7ef3fc1542098ed80",
+      "size": 78171,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/10m/eval-raw-10m.json": {
+      "sha256": "52390b6e1482baed4375d5deca10db5f599394b8292e50d73bbf6d4db60394bf",
+      "size": 96229,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/10m/eval-stock.json": {
+      "sha256": "0707fdab1efb534b4293df2939a77e25cbf18e083005f7dd5447aae5514ab341",
+      "size": 96158,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/10m/qwengram-2b-10m-linear750-comparison.log": {
+      "sha256": "cd28dc9e58cdb2669f55ed15bb02653326aa5f2a38358cedf6451516a8ec82a0",
+      "size": 20512,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/10m/stock-reproduction.json": {
+      "sha256": "563cf49e17a26899818ad74ae2dcbae3c4845805bfd08618d04783f401371b45",
+      "size": 127,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/10m/summary.json": {
+      "sha256": "c582ca085946cb71148a8cf3e83bd7f203c99d077ab7561021cb303f8c23272e",
+      "size": 4445,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/arb-bootstrap.json": {
+      "sha256": "07e1dd6f5e9963bf0a7fcca49435e30bc9e78e82f1f9632ba74ccecc36552553",
+      "size": 177560,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/arb-eval-linear750.json": {
+      "sha256": "e842b42425d8bc5d85aeab76372cf0c5f4bac11d20e1bb8d9c60092dafa88543",
+      "size": 78021,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/arb-eval-raw-15m.json": {
+      "sha256": "0524e0ccc8027f146f7ec43c76eda1f84f74d25b70e493573cbc9c520c9d17ac",
+      "size": 96305,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/arb-eval-stock.json": {
+      "sha256": "0707fdab1efb534b4293df2939a77e25cbf18e083005f7dd5447aae5514ab341",
+      "size": 96158,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/decision-original-15m.md": {
+      "sha256": "14d1d37d42a1285c1f59b7d3f84d5b315b000c7979f09aa0ffe31cd0c91bf254",
+      "size": 3651,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/evaluation-streams.json": {
+      "sha256": "94d5cb15059c0c4a7f1ed80e48b90b20a5462f058eb8c0adabce32b5d0534307",
+      "size": 1155,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/milestone-artifact-shas.json": {
+      "sha256": "0e84dcb8b7926b50c37cca1368ef7b79177422dd2854eb008cb2133a38aaa9f9",
+      "size": 1776,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/milestone-comparison.json": {
+      "sha256": "fe241eaaaa6aaaa18da8dfc9cc0a1cd505af45ffdb4d55901ee290c2a78fa978",
+      "size": 215885,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/milestone-decision.md": {
+      "sha256": "f2145db24f4b124427bea23035bc44e0c48518c093dbff8ee9ff474894dd2cd6",
+      "size": 3601,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/milestone-milestone-provenance.json": {
+      "sha256": "1cf9ec9410dfab3b9bbb04f18f3ab3be9f6150381ea2db4110b55712d1dc4327",
+      "size": 2925,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/milestone-persistence-verification.json": {
+      "sha256": "1eef4d6a5dee547257b013f880b39490d6959a6c9fc8b8aa89a639492922941f",
+      "size": 296,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/milestone-protocol.json": {
+      "sha256": "559b8776752e42dd8ffb4f2e45d6ab152c2ca1bf93000a8dc6740002ed6ea4b2",
+      "size": 1531,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "qwengram-2b.json": {
+      "sha256": "5808f42044b4430802633d9a7ef7b1a9bd906ada7632133d08c37559d8343fc0",
+      "size": 1580,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "reader.safetensors": {
+      "sha256": "4f93cd735bd7cbe99d3d35e364b70222ee56b6c27574f12822ee58e143cd8feb",
+      "size": 83886776,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "research-15m/arbiter.pt": {
+      "sha256": "335e8bf01726019b317b47f9a7b68c12f1ee2af29d617c80e937e77997d7d391",
+      "size": 39478,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "research-15m/qwengram-2b.json": {
+      "sha256": "4f9f8fa4d1dbf11137145ec14a2cffc51474dcc5be368a433409cb9966e9464b",
+      "size": 1504,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "research-15m/reader.safetensors": {
+      "sha256": "c04da614dff8126be5ec1ed234e7d27c0f51e5160293f8a7b057e55e05687547",
+      "size": 83886776,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "runtime/README.md": {
+      "sha256": "02587fa9a335f40bec7d921cca7794ab407dd81965d100df62af33d63dbeb68f",
+      "size": 2391,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/llama-qwengram-2b.patch": {
+      "sha256": "9fbc76ba3ab96c315fe415d9d8788d32cf15d48c606bdf6afa48a49b5e8641cb",
+      "size": 3532,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/build-vulkan.log": {
+      "sha256": "86b5c8692c500d661694c3282f40d3143b4481025d911af7d71d5d61db46e1b3",
+      "size": 2473,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/convert-stock.log": {
+      "sha256": "6bfb8ceab3d7616d76a440b5e9b6a0aa618442686f85be1070ea8c1b18e698b3",
+      "size": 50012,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q4.log": {
+      "sha256": "0c96938dd0ef5a1cc97a01874002c56d865ad3263b3269d2e8f642a24a9c0c49",
+      "size": 56931,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q4.run.json": {
+      "sha256": "b510d2fcb778de68b7b0f53368675028c65dcc39dad6b5ce78b4b32cfc7f3922",
+      "size": 523,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q8.log": {
+      "sha256": "31081a1f8bb37f97d97677450255d8ae2e06f9019b36cdac9967d2712b0536f4",
+      "size": 56927,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q8.run.json": {
+      "sha256": "a30e51840356af3529fcff6f5f86c8c60242ce650c54061d951d9a7f74b73c47",
+      "size": 519,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q4.log": {
+      "sha256": "ab3a3166062629b5cfa517020ff1c0fcb13033ab98e8397c4594708ab80f5b8f",
+      "size": 52082,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q4.run.json": {
+      "sha256": "bef83d7c0db62c947ab076acce1966daf9f9f0d185e6159c6479624aea75fa8d",
+      "size": 495,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q8.log": {
+      "sha256": "7988ae669e58f8b78b42d4a6fdbaeb9bfb36d2034137c4751e1f5644e1e4ec28",
+      "size": 52078,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q8.run.json": {
+      "sha256": "f88ba2da0ced309f35acc5abd280d7635c5663d7b2c5e7a4d921888e6c495b75",
+      "size": 490,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-bf16.log": {
+      "sha256": "ab372aa1d87d3b2b766995655ddcbf9e5101bfacfd62841996d1b8d93dccbd2d",
+      "size": 4733,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-bf16.run.json": {
+      "sha256": "44ce57d905ceb24ec95f143bc915e1db1b85752d06b0dab3bd2a78c3efaf972b",
+      "size": 641,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q4.log": {
+      "sha256": "9d08f4564b85cd0dec8be4cddf7782d9f138e07ee749eec9ce995e85bdee58fb",
+      "size": 4726,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q4.run.json": {
+      "sha256": "b856b8d37baa9b0dec1d5f4866b39e1cf6beef4fc45804801b39be8fb1568e2d",
+      "size": 645,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q8.log": {
+      "sha256": "66725e78fc438556b9d85663192234fbcd29649e2a06eea926175f8108297954",
+      "size": 4730,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q8.run.json": {
+      "sha256": "fbe89ec7c4a91a3cee08cde11ea7026009b63ddbc442dbda68ef555bc375d878",
+      "size": 641,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-08b-regression.log": {
+      "sha256": "ed3c635197732aa1ac43a433249b9fcf1148ef5cb315df654f51ea52bdc8ab55",
+      "size": 3672,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-BF16-cpu.log": {
+      "sha256": "5725deac7ef50fcc99387f92a378f34e3f1560a59bfc29d8efc79b7fef89713a",
+      "size": 3663,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-BF16-vulkan.log": {
+      "sha256": "1dd85f2baecf8b1a02d5fac069ca2d7722137db4bca97242e1b097542a4a5a8e",
+      "size": 3457,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q4_K_M-cpu.log": {
+      "sha256": "9086b6e9ee7c677ffc08be0449d344478d2c3ee34c9bd481632f7b3bcfe28a4f",
+      "size": 3672,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q4_K_M-vulkan.log": {
+      "sha256": "37cd5f58adf804175df51cb465c3af1eb38c009e032338f7ed15f87e67c382c1",
+      "size": 3466,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q8_0-cpu.log": {
+      "sha256": "bc75e1d3ba5b3e8b8f97be9c1a1ba949f1313328d95bd644e38e9b7c7e78c1a7",
+      "size": 3661,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q8_0-vulkan.log": {
+      "sha256": "488fdd19a35e71887849789a1e2ba999268285e81d4c858ab1c55098be9f086a",
+      "size": 3455,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-invalid-ple.log": {
+      "sha256": "2c904a29657bb33366c9fbecec5e3ca8e50e849ce567175fcdbe7a5f9295646a",
+      "size": 1053,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-missing-ple.log": {
+      "sha256": "eba18664fd99e8beea974d121b101eb552b389104530de59889bc2dfcb24c289",
+      "size": 1095,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-bf16.log": {
+      "sha256": "bc424c9ec7022e9725c9d9adc35d2503724a2bb9a0bf04a02887739aacceee03",
+      "size": 4733,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-bf16.run.json": {
+      "sha256": "83a5d60ce6b239eb49010aa1bfa6d85dd4949ca7379338d510d109de39804c97",
+      "size": 629,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q4.log": {
+      "sha256": "c02f9caab650c673e2f19b3a71686e310edacab23baee88074cfd0efee88c370",
+      "size": 4727,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q4.run.json": {
+      "sha256": "ffb9ff945c7ef28feb8506d746419a47c37300a9eef39256d15ee9f8295a71b9",
+      "size": 628,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q8.log": {
+      "sha256": "13ee8185ca8a513527d5abb61c774dc5996ed8c3fbbf6df4e55bb4dd463c9ef0",
+      "size": 4730,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q8.run.json": {
+      "sha256": "68d0fdbbbbb4f6f2001e32d919009456aa7599bd7131885f1017eeedb5724618",
+      "size": 627,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/packaging.json": {
+      "sha256": "82152fa8dd54e8f11aef66205e77ea638cf054fa03fb537e1d5abab738e072bc",
+      "size": 482,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/results.json": {
+      "sha256": "fa08468bf1150310e39a681c7da83f5cfbb210e9a0599305b8e6379a2d9cbd86",
+      "size": 18383,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/sidecar-validation.json": {
+      "sha256": "b26333599c967f5c28d37c7c1760f8a3900c1390a3a14e6c18767fe631c1d174",
+      "size": 1042,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/smoke.json": {
+      "sha256": "dc93831533143627b03cfa9971ae825dc0ae240ae153aa34147167a00870faa2",
+      "size": 4492,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/source.json": {
+      "sha256": "71029d0a889a61ce980146f8ec40db4bf2d95f00dae9f381cc2e2f641852c4fb",
+      "size": 1379,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/verification.json": {
+      "sha256": "6fcad20a29af2298f37834e63b9b7eeebb668b2e5b3e43742261458c2db44f5c",
+      "size": 1774,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "tokenizer.json": {
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "size": 12807982,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "tokenizer_config.json": {
+      "sha256": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+      "size": 16709,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "SHA256.json": {
+      "sha256": "889200fbf591dd8e9859b7cee7c258fc229b1e06213dac47f79719ac116953ac",
+      "size": 12512,
+      "verification": "Downloaded content SHA256 and byte size"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "code",
+  "token_count": 32768,
+  "seq": 512,
+  "count": 64,
+  "tokens_sha256": "735f933ca4bc694562dbb2a6ab9c227c802268f7715448eba50e172ae450c421",
+  "dataset": "edward-io/starcoderdata-repo",
+  "config": null,
+  "split": "train",
+  "kind": "code",
+  "dataset_rev": "222de3ecd6196882066fc55a864bac660fdc327c",
+  "docs": 8
+}

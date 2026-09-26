@@ -1,0 +1,13 @@
+{
+  "name": "scientific",
+  "token_count": 32768,
+  "seq": 512,
+  "count": 64,
+  "tokens_sha256": "c33632cf96170ca7ae92d4013702c14097fd79bb069c76e40fb3a531091936d8",
+  "dataset": "allenai/sciq",
+  "config": null,
+  "split": "test",
+  "kind": "sci",
+  "dataset_rev": "2c94ad3e1aafab77146f384e23536f97a4849815",
+  "docs": 277
+}

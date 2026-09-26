@@ -1,0 +1,43 @@
+{
+  "target_model": "Qwen/Qwen3.5-2B",
+  "target_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "target_config_sha256": "ed1c1723241f23f7f4e23430759cbd7dcfb4103cbdfe052bfe7626b57c2615b4",
+  "target_tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "source_model": "Qwen/Qwen3.8-Flash-Next-FP8",
+  "source_revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+  "ple_manifest_sha256": "bea49feaf18f97b7521c3c74773d07b9cdfd34453b6b420ee93d48858bd0c496",
+  "source_tokenizer_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "hidden_size": 2048,
+  "decoder_layers": 24,
+  "vocab_size": 248320,
+  "injection_sites": [
+    {"idx": 2, "human_layer": 3, "relative_depth": 0.125},
+    {"idx": 8, "human_layer": 9, "relative_depth": 0.375}
+  ],
+  "layer_types": "linear,linear,linear,full repeated six times",
+  "attention": {
+    "full_attention_interval": 4,
+    "full_attention_heads": 8,
+    "full_attention_key_value_heads": 2,
+    "head_dim": 256,
+    "attention_output_gate": true,
+    "linear_key_heads": 16,
+    "linear_value_heads": 16,
+    "linear_key_head_dim": 128,
+    "linear_value_head_dim": 128,
+    "linear_conv_kernel_dim": 4,
+    "rms_norm_eps": 0.000001
+  },
+  "pretrained_dtype": "bfloat16",
+  "t4_backbone_dtype": "float16",
+  "mamba_ssm_dtype": "float32",
+  "ple_addressing": {"eos": 248044, "seed": 1234, "ngram": 3, "heads_per_ngram": 8, "rows_per_part": 2500012, "vocab_base": 20000000},
+  "tokenizer_compatibility": {
+    "shared_id_differences": 0,
+    "target_only_tokens": 0,
+    "source_only_ids": [248070, 248071, 248072, 248073, 248074, 248075, 248076],
+    "model_merges_equal": true,
+    "probe_encoding_equal": true
+  },
+  "status": "frozen before training"
+}
