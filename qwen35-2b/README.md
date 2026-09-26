@@ -8,7 +8,7 @@ The benchmark accuracy differences are inconclusive; this selection does
 not establish statistical superiority of 10M. The results below describe
 the completed original 15M study.
 
-**Released:** [BF16, Q8_0 and Q4_K_M GGUFs](https://huggingface.co/Ninnix96/Qwengram-2b),
+**Released:** [BF16, Q8_0, Q6_K and Q4_K_M GGUFs](https://huggingface.co/Ninnix96/Qwengram-2b),
 [matched runtime results and PLE sidecar validation](gguf-runtime/README.md),
 and [2B support in the llama.cpp fork](https://github.com/Ninnix/llama.cpp/commit/068fcb42662453bec15298ba6bd59f552190a468).
 The release preserves both endpoints and all four milestone evaluations.

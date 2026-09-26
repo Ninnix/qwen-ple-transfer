@@ -1,0 +1,60 @@
+{
+  "vulkan_devices": "Available devices:\n  Vulkan0: AMD BC-250 (RADV GFX1013) (15262 MiB, 14469 MiB free)\n",
+  "cpu": {
+    "stdout": "The capital of France is Paris.\nA. True\nB\n\n",
+    "command": [
+      "/home/nicolo/qwen-ple-transfer/llama.cpp/build-qwengram-cpu/bin/llama-completion",
+      "-m",
+      "/home/nicolo/qwen-ple-transfer/tmp/qwengram-q6/2b/QwenGram-2B-Q6_K.gguf",
+      "-p",
+      "The capital of France is",
+      "-n",
+      "8",
+      "-no-cnv",
+      "--temp",
+      "0",
+      "-s",
+      "1234",
+      "-ngl",
+      "0",
+      "-c",
+      "256",
+      "-b",
+      "256",
+      "-ub",
+      "256",
+      "-t",
+      "8",
+      "--no-warmup"
+    ]
+  },
+  "vulkan": {
+    "stdout": "The capital of France is Paris.\nA. True\nB\n\n",
+    "command": [
+      "/home/nicolo/qwen-ple-transfer/llama.cpp/build-qwengram-vulkan/bin/llama-completion",
+      "-m",
+      "/home/nicolo/qwen-ple-transfer/tmp/qwengram-q6/2b/QwenGram-2B-Q6_K.gguf",
+      "-p",
+      "The capital of France is",
+      "-n",
+      "8",
+      "-no-cnv",
+      "--temp",
+      "0",
+      "-s",
+      "1234",
+      "-ngl",
+      "99",
+      "-c",
+      "256",
+      "-b",
+      "256",
+      "-ub",
+      "256",
+      "-t",
+      "8",
+      "--no-warmup"
+    ]
+  },
+  "exact_greedy_match": true
+}

@@ -1,0 +1,96 @@
+{
+  "repo": "Ninnix96/Qwengram-2b",
+  "commit": "f84ef02e8ad858385031fc544bddd5917437f80a",
+  "verified_files": {
+    "QwenGram-2B-Q6_K.gguf": {
+      "sha256": "ca642379cdf2408a45d830609a72ff13167b4d00b17b421bb7fcaf5166b593da",
+      "bytes": 1690220384,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "README.md": {
+      "sha256": "ba9281bad72e12d66aee8b5170cb5dda1ea754b256812875b11214c9eee8e217",
+      "bytes": 5956,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "SHA256.json": {
+      "sha256": "a162241de43d82bad72b6abc4a54dc8fbbe6423c40d8c52252a1ab1944a119fc",
+      "bytes": 14604,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/README.md": {
+      "sha256": "b79d26a6dfd72ac8e921d59e036b0e15ce633a06531aef8bebd0d40fa970192a",
+      "bytes": 3080,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/analyze.py": {
+      "sha256": "152d415a6748e366b8d88220dc5bdb96596ab31079ffc9bc4455aa9535392b62",
+      "bytes": 4109,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q6.log": {
+      "sha256": "1e93b7c337046340af67a71f91ab681a7f593d169d2b7dac6d73dc4cbc7628fa",
+      "bytes": 56896,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q6.run.json": {
+      "sha256": "569782470633c2e287a559ce3082c0c932071d9bc9f5b3087120318d3ae5ef18",
+      "bytes": 495,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q6.log": {
+      "sha256": "46dd5428b778376257564dad0325f1b9c705211fbf916d6b4865074ef513e30d",
+      "bytes": 52071,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q6.run.json": {
+      "sha256": "6913a1c97180c13e41bdf196b207816bfb5a5e9a9db5f13e4865496b397130ab",
+      "bytes": 485,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q6.log": {
+      "sha256": "829425546e8542d3d92467a63f83197506cbf5241e1c4257ebdb139e9fa71de7",
+      "bytes": 4729,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q6.run.json": {
+      "sha256": "cee1ef22ccd85d43e4325bad2e9e0b3d7b9c8082fca55a9fe6224b87f0b45e26",
+      "bytes": 627,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q6_K-cpu.log": {
+      "sha256": "f01c0bf1a4ba89af0d0dfa71989e36ece71c0e8a7be134dd8ddf63c3e06abefd",
+      "bytes": 3659,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q6_K-vulkan.log": {
+      "sha256": "164e21c367361adbe443c08ac9b414a51a56df5d572d1262209d7004eb4853c5",
+      "bytes": 3453,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q6.log": {
+      "sha256": "7be4e258a1a585898ce40e95260616bee7c95cd6f5cf6345e226c0f1b2a6051c",
+      "bytes": 4729,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q6.run.json": {
+      "sha256": "4fe474135e70ef3d0458da8e86a56017ec601c42885a1ef6049862f4951646da",
+      "bytes": 622,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/q6-smoke.json": {
+      "sha256": "4d7975a9ae6577187b6c9a839186c3fc973eef7445dccd02150b68c0bb4cfeac",
+      "bytes": 1290,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/q6-verification.json": {
+      "sha256": "7bbae6a3b9cb0623d498bc2eca1528d5e88ec340827b07ba138f8cb9f34e0928",
+      "bytes": 930,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/results.json": {
+      "sha256": "c351e3462efc5a8b196b922caa25694fc07778029ad9a866bd2714cad043c776",
+      "bytes": 23279,
+      "verification": "Downloaded content SHA256 and byte size"
+    }
+  }
+}

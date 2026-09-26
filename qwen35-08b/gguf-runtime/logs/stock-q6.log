@@ -1,0 +1,92 @@
+warning: no usable GPU found, --gpu-layers option will be ignored
+warning: one possible reason is that llama.cpp was compiled without GPU support
+warning: consult docs/build.md for compilation instructions
+0.01.285.170 W model has unused tensor blk.24.attn_norm.weight (size = 4096 bytes) -- ignoring
+0.01.285.178 W model has unused tensor blk.24.post_attention_norm.weight (size = 4096 bytes) -- ignoring
+0.01.285.188 W model has unused tensor blk.24.attn_q.weight (size = 3440640 bytes) -- ignoring
+0.01.285.192 W model has unused tensor blk.24.attn_k.weight (size = 430080 bytes) -- ignoring
+0.01.285.195 W model has unused tensor blk.24.attn_v.weight (size = 430080 bytes) -- ignoring
+0.01.285.208 W model has unused tensor blk.24.attn_output.weight (size = 1720320 bytes) -- ignoring
+0.01.285.211 W model has unused tensor blk.24.attn_q_norm.weight (size = 1024 bytes) -- ignoring
+0.01.285.215 W model has unused tensor blk.24.attn_k_norm.weight (size = 1024 bytes) -- ignoring
+0.01.285.218 W model has unused tensor blk.24.ffn_gate.weight (size = 3010560 bytes) -- ignoring
+0.01.285.222 W model has unused tensor blk.24.ffn_down.weight (size = 3010560 bytes) -- ignoring
+0.01.285.226 W model has unused tensor blk.24.ffn_up.weight (size = 3010560 bytes) -- ignoring
+0.01.285.231 W model has unused tensor blk.24.nextn.eh_proj.weight (size = 1720320 bytes) -- ignoring
+0.01.285.235 W model has unused tensor blk.24.nextn.enorm.weight (size = 4096 bytes) -- ignoring
+0.01.285.240 W model has unused tensor blk.24.nextn.hnorm.weight (size = 4096 bytes) -- ignoring
+0.01.285.251 W model has unused tensor blk.24.nextn.shared_head_norm.weight (size = 4096 bytes) -- ignoring
+0.01.335.182 I cmn          init: llama threadpool init, n_threads = 8
+0.01.335.226 I 
+0.01.335.309 I system_info: n_threads = 8 (n_threads_batch = 8) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+0.01.335.325 I perplexity: tokenizing the input ..
+0.02.098.476 I perplexity: tokenization took 763.137 ms
+0.02.099.386 I perplexity: calculating perplexity over 64 chunks, n_ctx=256, batch_size=256, n_seq=1
+0.04.081.409 I perplexity: 1.98 seconds per pass - ETA 2.10 minutes
+       0  24.2812  3.189704  0.298538
+     256  18.9463  2.941607  0.201613
+     512  25.0480  3.220792  0.169515
+     768  27.1252  3.300464  0.151626
+    1024  26.1146  3.262493  0.134003
+    1280  24.8009  3.210878  0.119172
+    1536  25.6884  3.246040  0.109237
+    1792  24.5524  3.200809  0.100208
+    2048  23.6506  3.163387  0.093605
+    2304  22.0877  3.095022  0.087714
+    2560  23.5455  3.158934  0.085279
+    2816  24.1732  3.185243  0.081991
+    3072  23.9079  3.174207  0.078354
+    3328  24.0167  3.178751  0.075271
+    3584  23.6994  3.165451  0.072288
+    3840  23.9862  3.177477  0.070415
+    4096  24.6387  3.204319  0.068404
+    4352  25.3335  3.232129  0.066624
+    4608  25.3567  3.233043  0.064589
+    4864  25.5945  3.242378  0.062782
+    5120  25.7798  3.249590  0.061321
+    5376  26.1498  3.263843  0.060216
+    5632  25.8240  3.251305  0.058845
+    5888  25.4293  3.235902  0.057421
+    6144  25.3734  3.233701  0.056020
+    6400  25.7843  3.249767  0.054964
+    6656  26.0428  3.259742  0.053994
+    6912  25.1216  3.223726  0.052950
+    7168  25.8236  3.251288  0.052119
+    7424  24.9665  3.217534  0.050886
+    7680  25.1641  3.225417  0.050021
+    7936  25.4109  3.235177  0.049396
+    8192  24.7109  3.207246  0.048683
+    8448  23.9300  3.175132  0.047827
+    8704  24.1877  3.185845  0.047522
+    8960  24.3715  3.193415  0.046873
+    9216  24.5396  3.200288  0.046286
+    9472  24.7169  3.207487  0.045873
+    9728  24.5430  3.200426  0.045382
+    9984  24.5427  3.200414  0.044872
+   10240  24.2111  3.186812  0.044186
+   10496  23.7248  3.166520  0.043575
+   10752  23.6932  3.165189  0.043139
+   11008  23.4716  3.155790  0.042578
+   11264  22.7422  3.124224  0.041915
+   11520  22.0844  3.094870  0.041299
+   11776  21.9054  3.086731  0.040838
+   12032  21.1803  3.053073  0.040227
+   12288  20.7569  3.032880  0.039674
+   12544  20.5742  3.024036  0.039187
+   12800  20.1717  3.004279  0.038743
+   13056  19.8196  2.986672  0.038269
+   13312  19.0513  2.947137  0.037784
+   13568  18.9201  2.940227  0.037383
+   13824  18.5639  2.921219  0.036920
+   14080  18.1878  2.900751  0.036490
+   14336  18.2618  2.904809  0.036207
+   14592  18.0814  2.894883  0.035831
+   14848  18.1872  2.900716  0.035588
+   15104  18.1407  2.898158  0.035245
+   15360  18.2346  2.903320  0.034954
+   15616  18.0969  2.895739  0.034631
+   15872  17.9583  2.888051  0.034289
+   16128  18.1841  2.900546  0.034112
+
+1.59.235.881 I Final estimate: PPL = 18.1841 +/- 0.62030
+

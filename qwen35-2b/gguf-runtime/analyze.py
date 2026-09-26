@@ -13,6 +13,8 @@ logs = {
     "qwengram_bf16": here / "logs/qwengram-bf16.log",
     "stock_q8": here / "logs/stock-q8.log",
     "qwengram_q8": here / "logs/qwengram-q8.log",
+    "stock_q6": here / "logs/stock-q6.log",
+    "qwengram_q6": here / "logs/qwengram-q6.log",
     "stock_q4": here / "logs/stock-q4.log",
     "qwengram_q4": here / "logs/qwengram-q4.log",
 }
@@ -29,18 +31,18 @@ def read(path):
 
 scores = {name: read(path) for name, path in logs.items()}
 gains = {}
-for quant in ("bf16", "q8", "q4"):
+for quant in ("bf16", "q8", "q6", "q4"):
     stock, qwengram = scores["stock_" + quant], scores["qwengram_" + quant]
     gains[quant] = [a - b for a, b in zip(stock[1], qwengram[1])]
 
 rng = random.Random(1234)
-replicates = {name: [] for name in ("bf16", "q8", "q4", "q8_retention", "q4_retention", "q8_minus_bf16", "q4_minus_bf16")}
+replicates = {name: [] for name in ("bf16", "q8", "q6", "q4", "q8_retention", "q6_retention", "q4_retention", "q8_minus_bf16", "q6_minus_bf16", "q4_minus_bf16")}
 for _ in range(10000):
     indices = [rng.randrange(16) for _ in range(16)]
     sample = {quant: sum(sum(gains[quant][4 * i:4 * i + 4]) for i in indices) / 64 for quant in gains}
     for quant in gains:
         replicates[quant].append(sample[quant])
-    for quant in ("q8", "q4"):
+    for quant in ("q8", "q6", "q4"):
         replicates[quant + "_retention"].append(sample[quant] / sample["bf16"])
         replicates[quant + "_minus_bf16"].append(sample[quant] - sample["bf16"])
 
@@ -59,16 +61,17 @@ result = {
     "canonical": json.loads((here.parent / "qwengram-2b.json").read_text()),
     "ple_sidecar": json.loads((here / "sidecar-validation.json").read_text()),
     "verification": verification,
+    "q6_verification": json.loads((here / "q6-verification.json").read_text()),
     "log_sha256": {name: hashlib.sha256(path.read_bytes()).hexdigest() for name, path in logs.items()},
     "model_nll": mean,
     "model_ppl": {name: math.exp(value) for name, value in mean.items()},
     "reader_gain_nll": gain,
     "reader_gain_95ci": {quant: intervals[quant] for quant in gains},
     "perplexity_reduction_percent": {quant: 100 * (1 - math.exp(-gain[quant])) for quant in gains},
-    "retention": {quant: gain[quant] / gain["bf16"] for quant in ("q8", "q4")},
-    "retention_95ci": {quant: intervals[quant + "_retention"] for quant in ("q8", "q4")},
-    "gain_difference_vs_bf16": {quant: gain[quant] - gain["bf16"] for quant in ("q8", "q4")},
-    "gain_difference_95ci": {quant: intervals[quant + "_minus_bf16"] for quant in ("q8", "q4")},
+    "retention": {quant: gain[quant] / gain["bf16"] for quant in ("q8", "q6", "q4")},
+    "retention_95ci": {quant: intervals[quant + "_retention"] for quant in ("q8", "q6", "q4")},
+    "gain_difference_vs_bf16": {quant: gain[quant] - gain["bf16"] for quant in ("q8", "q6", "q4")},
+    "gain_difference_95ci": {quant: intervals[quant + "_minus_bf16"] for quant in ("q8", "q6", "q4")},
     "chunk_nll": {name: values[1] for name, values in scores.items()},
 }
 (here / "results.json").write_text(json.dumps(result, indent=2) + "\n")

@@ -1,0 +1,25 @@
+{
+  "precision": "Q6_K",
+  "source_bf16_sha256": {
+    "stock_bf16": "b36273a8c2f7115257101eabafc6cc54c3088c970617b3b7654686057613b797",
+    "qwengram_bf16": "8eee4d1061fcd9d60f223e50e510183d0818758b381ebf22ca192b0a6271318a",
+    "stock_q8": "206dcd4e12f3b846601335fa84716a0ed93c4cf47214fcead29cb492093a1f26",
+    "qwengram_q8": "ec5f65a28be248b41f981f1be3074dcb09a52987977bcda8d1c352711f01c043",
+    "stock_q4": "7c03ffe5eed6bce4392d68fe93cbffa7338391709bdc4124cc8982d4aeaff05f",
+    "qwengram_q4": "77500ea47628c2a40155a4d2b6468a1a4aec4950de3bc717268704e40be52e33"
+  },
+  "stock_sha256": "d61401f651eeb51696172e6455742b69d3e971e1811fb81aaf0bde2ed948a355",
+  "qwengram_sha256": "841d67b233af609544e56d2ce450b008d3f754a68120ab596c6a175562b8998b",
+  "qwengram_bytes": 688489952,
+  "exact_backbone_tensors": 335,
+  "exact_fp32_extension_tensors": 11,
+  "exact_tokenizer_fields": 9,
+  "backbone_types": {
+    "F32": 140,
+    "Q6_K": 195
+  },
+  "runtime_commit": "068fcb42662453bec15298ba6bd59f552190a468",
+  "libllama_sha256": "04575038c0d4b89978bc993d497767f480919f5b158dd231bc18970a8d3f3aa5",
+  "quantizer_sha256": "c534d7131814907cdfdfdea578cf66b7c812a1e01077a184484b7d688aa18264",
+  "dataset_sha256": "173c87a53759e0201f33e0ccf978e510c2042d7f2cb78229d9a50d79b9e7dd08"
+}
