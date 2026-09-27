@@ -1,7 +1,9 @@
 # qwen-ple-transfer
 
 [QwenGram 0.8B model on Hugging Face](https://huggingface.co/Ninnix96/Qwengram-0.8B) ·
-[llama.cpp runtime and setup guide](https://github.com/Ninnix/llama.cpp/blob/master/docs/qwengram.md)
+[Qwengram 2B](https://huggingface.co/Ninnix96/Qwengram-2B) ·
+[Qwengram 4B](https://huggingface.co/Ninnix96/Qwengram-4B) ·
+[llama.cpp runtime and setup guide](https://github.com/Ninnix/llama.cpp-qwengram/blob/master/docs/qwengram.md)
 
 Cross-model transfer of the frozen n-gram PLE (Engram memory) from
 `Qwen/Qwen3.8-Flash-Next-FP8` into frozen Qwen text backbones by training
@@ -48,8 +50,7 @@ python qwen35-08b/tools/kaggle_check.py
 by local Kaggle CLI commands. Kaggle does not copy local shell variables into
 a remote notebook. Attach account secrets named `HF_TOKEN` and, when the
 notebook performs Kaggle dataset operations, `KG_TOKEN`. The notebooks read
-environment variables first, then attached Kaggle secrets. The code does
-not read the ignored legacy `KEYS.md` or `KEYS.txt` files.
+environment variables first, then attached Kaggle secrets.
 
 The large reader checkpoints, frozen evaluation inputs, and PLE shards are
 external artifacts. To rerun a 0.8B notebook, attach the 11 pinned PLE shard
@@ -87,8 +88,14 @@ Lightning continuation, set `HF_TOKEN` in the Studio environment.
   + `tools/` ops scripts. See its README for protocol and results.
 - `qwen35-08b/ple-data/` — builder for the 11 pinned FP8 PLE shard datasets
   (`ninnix/qwen38-ple-p00` … `p10`: 33 shards, ~48.7 GiB, size+sha verified).
+- [`qwen35-2b/`](qwen35-2b/README.md) — completed 2B transfer study and GGUF runtime validation.
+- [`qwen35-4b/`](qwen35-4b/README.md) — completed 4B scaling reproduction on one Kaggle T4,
+  with independently calibrated 10M/15M readers, paired evaluation and 500K controls.
+  The canonical 15M + linear750 endpoint reduces frozen full-validation perplexity
+  by **2.784%**, with improvements on all five domains. See the
+  [decision](qwen35-4b/decision.md) and [BF16/Q8_0/Q6_K/Q4_K_M runtime validation](qwen35-4b/gguf-runtime/README.md).
 
-Shared addressing ground truth (both tracks): `vocab_size = 248320`,
+Shared addressing ground truth (all tracks): `vocab_size = 248320`,
 `eos = 248044` (`<|endoftext|>`, the PLE-training terminator),
 `seed = 1234`, `rows_per_part = 2_500_012`, 128 parts.
 
@@ -245,11 +252,11 @@ no additional R=1 scaling, R=4 training, or arbiter-capacity run followed.
 
 - Qwen team (Alibaba Cloud) for the open models this work builds on:
   `Qwen3.8-Flash-Next` (frozen PLE source), `Qwen3.6-35B-A3B` and
-  `Qwen3.5-0.8B` (frozen target backbones).
+  `Qwen3.5-0.8B`, `Qwen3.5-2B`, and `Qwen3.5-4B` (frozen target backbones).
 - Li et al., Cross-Model Memory Transfer via Target-Side Reader Adaptation
   (https://arxiv.org/html/2608.17050v2), for the frozen-memory transfer
   protocol, reader design, and ablations this project follows.
-- Kaggle for GPU compute and dataset hosting for the 0.8B track.
+- Kaggle for GPU compute and dataset hosting for the 0.8B, 2B and 4B tracks.
 - Modal for A100 80GB compute for the 35B track.
 - Hugging Face for model/dataset hosting (`HuggingFaceFW/fineweb-edu` for our reader-fitting corpus).
 

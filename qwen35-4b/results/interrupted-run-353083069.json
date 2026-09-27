@@ -1,0 +1,22 @@
+{
+  "session_id": 353083069,
+  "observed_execution_seconds": 5078.973261897001,
+  "last_confirmed_tokens": 2406400,
+  "recovered_tokens": 1000448,
+  "unobserved_runtime_after_disconnect": true,
+  "session_cancelled_confirmed_utc": "2026-09-26T21:19:17.524466+00:00",
+  "last_observed_log_sha256": "7d7a0412d5ce1944698bd0324d7d14ca2fcfacbc791ee3cfe664fbb18e304e0c",
+  "last_progress": {
+    "step": 4700,
+    "tokens": 2406400,
+    "loss": 2.7294516563415527,
+    "lr": 1.122674360705452e-05,
+    "tok_s": 367.5241650765101,
+    "gpu_peaks_gib": [
+      10.029051780700684
+    ],
+    "host_rss_mib": 10553.15234375
+  },
+  "cause": "Kaggle operation error code 1; Jupyter HTTP 404; server cancellation cause unavailable",
+  "next_transport": "Kaggle batch; unchanged qualified single-T4 notebook"
+}

@@ -1,0 +1,26 @@
+{
+  "strategy": "single-T4-checkpointed",
+  "gpu": 0,
+  "decoder_layers": 32,
+  "use_reentrant": false,
+  "preserve_rng_state": true,
+  "injection_hooks_recomputed": false,
+  "backbone_eval_mode_preserved": true,
+  "checkpoint_calls": 29,
+  "body_calls": 58,
+  "stock_max_abs_logit": 0.0,
+  "reader_max_abs_logit": 0.0,
+  "reader_gradient_max_abs": {
+    "readers.3.beta": 0.0,
+    "readers.3.gamma": 0.0,
+    "readers.3.keys.0.weight": 0.0,
+    "readers.3.value.weight": 0.0,
+    "readers.11.beta": 0.0,
+    "readers.11.gamma": 0.0,
+    "readers.11.keys.0.weight": 0.0,
+    "readers.11.value.weight": 0.0
+  },
+  "logit_atol": 0.002,
+  "gradient_atol": 1e-06,
+  "gradient_rtol": 0.0001
+}

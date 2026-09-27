@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-09-27T17:18:53.250639+00:00",
+  "interval_seconds": 1800,
+  "queue_exit_code": 0,
+  "final_report_marker": true,
+  "delivery": "existing Codex chat",
+  "timer": "qwengram-4b-monitor.timer",
+  "stopped_utc": "2026-09-27T17:34:31.622080+00:00",
+  "timer_active": false,
+  "stop_reason": "Final report privately persisted and SHA256 verified"
+}

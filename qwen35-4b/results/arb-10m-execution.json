@@ -1,0 +1,8 @@
+{
+  "job": "arb-10m",
+  "kernel_log_sha256": "af96e4b468b1dda495ee08fe815649fe378481ad414ffeb95bca2a3bef340df6",
+  "submitted_notebook_sha256": "d3a2e390b0f4086cfb4cc9f5de68ddcd3d793a7ff4123e62e249a22619d20d4e",
+  "kernel_elapsed_s": 6491.103448784,
+  "execution_transport": "batch",
+  "queue_time_included": false
+}

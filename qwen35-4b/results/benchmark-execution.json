@@ -1,0 +1,7 @@
+{
+  "job": "benchmark",
+  "kernel_log_sha256": "998f5dac862a66d7a95d46c36c118ec4af392d27fe3b97a821b19f237b27eafd",
+  "submitted_notebook_sha256": "6454d42c61dcdf96c0956d47405393f6cdcf1c2c96436ad753dd06498b13aac8",
+  "kernel_elapsed_s": 299.59365083700686,
+  "queue_time_included": false
+}

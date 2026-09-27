@@ -1,0 +1,10 @@
+{
+  "file": "QwenGram-4B-BF16.gguf",
+  "sha256": "f68448efd59df61e23eec8e9fa347ee13a78e3017966dbaee41e4fd15a4e8d5e",
+  "bytes": 8770490208,
+  "reader_sha256": "a981fb9f761c68bf950b5f74a1e7ea0f660e25b305a63c87719e8132a09de277",
+  "arbiter_sha256": "d0e0b3b97b1d725585f322d3d559d0c83f4c07f812aa45635c72f4bb034c9746",
+  "stock_backbone_sha256": "3990202d2a50d59b2778977cd42a75f9e912b37942ce5371206f67a54d533bec",
+  "exact_backbone_tensors": 441,
+  "exact_fp32_extension_tensors": 11
+}

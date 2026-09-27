@@ -1,0 +1,96 @@
+{
+  "0.8B": {
+    "stock": {
+      "val_nll": 2.905584982696578,
+      "hs_acc": 0.393,
+      "lambada_acc": 0.446,
+      "lambada_nll": 2.2582490698322655,
+      "domain_mean": 2.422349997182648
+    },
+    "canonical": {
+      "val_nll": 2.853786112044422,
+      "hs_acc": 0.4,
+      "lambada_acc": 0.456,
+      "lambada_nll": 2.2172765764792763,
+      "domain_mean": 2.3846798831469393
+    },
+    "canonical_reader_tokens": 15000064,
+    "raw_nll": 2.846232515958424,
+    "ppl_reduction_pct": 5.0480176058338095,
+    "raw_ppl_reduction_pct": 5.7625445072188475,
+    "alpha_early": 1.267012596130371,
+    "alpha_late": {
+      "mean": 0.12466147541999817,
+      "std": 0.14483369886875153,
+      "p05": 0.006523337215185165,
+      "p50": 0.05713994801044464,
+      "p95": 0.4719429016113281,
+      "n": 524288
+    },
+    "training": {
+      "tok_s": 1217.4168856879544,
+      "peak_gib": 5.243,
+      "note": "Corrected original cumulative-token numerator to 10M-to-15M suffix tokens; original tok_s 3652.5. Capability 7.5 in kernel log."
+    },
+    "control_order_full_val": "REAL > PERMUTED > RANDOM > DISABLED"
+  },
+  "2B": {
+    "stock": {
+      "val_nll": 2.649103886577248,
+      "domain_mean": 2.1806672344469042,
+      "domains": {
+        "general": 2.8416807861477427,
+        "code": 1.3611708723169016,
+        "math": 1.3171801081842172,
+        "scientific": 2.0735999441426793,
+        "multilingual": 3.309704461442981
+      },
+      "hs_acc": 0.456,
+      "lambada_acc": 0.541,
+      "lambada_nll": 1.8256678983907526
+    },
+    "canonical": {
+      "val_nll": 2.613753027295413,
+      "hs_acc": 0.47,
+      "lambada_acc": 0.545,
+      "lambada_nll": 1.7985358483999345,
+      "domain_mean": 2.154651068707968
+    },
+    "canonical_reader_tokens": 10000384,
+    "raw_nll": 2.6104452815307795,
+    "ppl_reduction_pct": 3.473331593817508,
+    "raw_ppl_reduction_pct": 3.7920897962326783,
+    "alpha_early": 1.2085962295532227,
+    "alpha_late": {
+      "mean": 0.11469564586877823,
+      "std": 0.14167051017284393,
+      "p05": 0.007410061080008745,
+      "p50": 0.04893580824136734,
+      "p95": 0.4770883023738861,
+      "n": 524288
+    },
+    "training": {
+      "tok_s": 974.5,
+      "peak_gib": 7.784
+    },
+    "control_order_full_val": "REAL > PERMUTED > RANDOM > DISABLED",
+    "research_raw15_ppl_reduction_pct": 4.0468907278613635
+  },
+  "notes": [
+    "Preserve the historical 2B canonical 10M decision; do not retroactively apply the 4B accuracy-CI rule.",
+    "Historical measurements, not a new across-scale randomized training comparison.",
+    "Throughput is reported per continuation leg including its validation; configurations and cache sizes differ."
+  ],
+  "source_shas": {
+    "qwen35-08b/reader-scale-20m/results/eval-reader15m-linear750.json": "b431786fceadee6855ff196481ffe2c829e6a1c58aa9cefa09d2373ae0fc174c",
+    "qwen35-08b/reader-scale-15m/results/reader-15m-summary.json": "f5287ad31c242096d496a9c6e707eb22f62c5633e7edcf5b0d0ef5297d19f86c",
+    "qwen35-4b/.artifacts/reference-08b/v34__summary.json": "7cde01d45c3b8e07de967af02be5eb1be3f4400f97cac8921a9879bb82b0aeee",
+    "qwen35-4b/.artifacts/reference-08b-reader15/qwen35-08b-ple-artifacts/real-15m-r1/metrics.json": "e4b95c69239f939557086e008c229948676f7988a7912837b5a9c6fd9371d48a",
+    "qwen35-08b/reader-scale-15m/results/checkpoints.json": "918c0c3b6445dbe135eb73e44e636fa4f9a7b79b3250f5b26fda9f65c39f2170",
+    "qwen35-2b/milestone-compare/results/summary.json": "c582ca085946cb71148a8cf3e83bd7f203c99d077ab7561021cb303f8c23272e",
+    "qwen35-2b/results/reader-10m-summary.json": "0f0ba95f5b613ea262931adf57b6d28cb730198804b7c0dd9bb7891412f52fe3",
+    "qwen35-2b/results/reader-15m-summary.json": "667c0adfdfedcb89f43f6c9985e26ccc865c4a1edf3cdf29749dc8360fb9349d",
+    "qwen35-2b/results/control-controls-500k-summary.json": "cfa20a46623532798318a17c6cfa3ec37fcd2676a8660ce6f1c239de0d7564e2",
+    "qwen35-08b/README.md": "9479d486f3085599e262d4869a3061c61396916c6d16186332903682a830d7c7"
+  }
+}

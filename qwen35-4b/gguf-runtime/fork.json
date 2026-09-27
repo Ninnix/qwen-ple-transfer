@@ -1,0 +1,13 @@
+{
+  "repo": "https://github.com/Ninnix/llama.cpp-qwengram",
+  "commit": "3616a858f2326e87ad8b48e1341a4e341b3dad73",
+  "tested_runtime": {
+    "base_commit": "068fcb42662453bec15298ba6bd59f552190a468",
+    "source_patch_sha256": "74a50a970e6578fe6a8e88a41c3240ec513095528811e452cadea19d37f7ecb7",
+    "models_h_sha256": "c08e41d6c1140e05f3543ad706071fc613967ea63d9c3b21a1ae22c2f924f914",
+    "qwen35_cpp_sha256": "ddba029b63a8b88ff44aa3accc898655d6b0be1213f337ef053b846b3ad22305",
+    "libllama_sha256": "f84a07c54c4e2c61c654c51650ce07e0fcd8c76a2c2e3dda0957b2d778b71272",
+    "quantizer_sha256": "c534d7131814907cdfdfdea578cf66b7c812a1e01077a184484b7d688aa18264"
+  },
+  "source_matches_tested_build": true
+}

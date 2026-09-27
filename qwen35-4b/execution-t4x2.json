@@ -1,0 +1,24 @@
+{
+  "strategy": "contiguous-T4x2",
+  "split_idx": 16,
+  "decoder_gpu0": [
+    0,
+    15
+  ],
+  "decoder_gpu1": [
+    16,
+    31
+  ],
+  "reader_devices": {
+    "3": 0,
+    "11": 0
+  },
+  "embedding_and_tied_head_gpu": 0,
+  "norm_gpu": 1,
+  "hidden_transfers_per_forward": 2,
+  "reason": "Measured single-T4 backward OOM",
+  "stock_logit_atol": 0.002,
+  "reader_gradient_atol": 1e-06,
+  "reader_gradient_rtol": 0.0001,
+  "reader_and_arbitration_math_unchanged": true
+}

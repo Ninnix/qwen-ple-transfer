@@ -1,0 +1,39 @@
+{
+  "checkpoint_sha256": "5d8aa62b5341fc9ed9e65ad3be81981d551a7e4cc212d3b7da76755a601c0fa0",
+  "reader_sha256": "5593cbb1d5edf5ab4f915d20a852193b720a77fbe583db7353421f92e0f95c51",
+  "one_m": {
+    "tokens": 1000448,
+    "threshold": 1000000,
+    "val_set": "fast",
+    "train_loss": 2.4752052614852373,
+    "val_loss": 2.4158790414813915,
+    "dval": -0.006608744656736221,
+    "ppl": 11.19961095437698,
+    "lr": 0.0,
+    "gamma": {
+      "readers.3.gamma": 0.03405068814754486,
+      "readers.11.gamma": 0.03905177488923073
+    },
+    "gate": [
+      0.9974316358566284,
+      0.00789314042776823
+    ],
+    "gnorm": 0.1466732770204544,
+    "peak_GiB": 10.029,
+    "gpu_peaks_gib": [
+      10.029047966003418
+    ],
+    "tok_s": 344.0,
+    "wall_s": 2907.918892025,
+    "w_k_update": 3.3941430329691724,
+    "w_v_update": 10.988201576375301,
+    "beta_update": 0.02773958830039781,
+    "rss_MiB": 10048.4
+  },
+  "original_log_sha256": "ba5b764cbfae212bdb979f58779975f8c9a346ca77c4dcdf9dba78eb95774ac9",
+  "original_notebook_sha256": "b7bc7de0c135c0976756e00b89b1eba4a1fa41165f8f8394a6e6025c1e8084b0",
+  "resume_tokens": 1000448,
+  "last_confirmed_tokens_before_disconnect": 1484800,
+  "session_id": 353023529,
+  "session_status": "CANCELLED, operation error code 1"
+}

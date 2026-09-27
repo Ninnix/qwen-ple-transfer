@@ -1,0 +1,15 @@
+{
+  "dataset": "HuggingFaceFW/fineweb-edu",
+  "config": "sample-10BT",
+  "dataset_revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "skip_documents": 549,
+  "first_training_document": 549,
+  "documents_read": 14517,
+  "last_training_document_exclusive": 15066,
+  "token_count": 15000064,
+  "seq": 512,
+  "sha256": "da94e4e3804753b25e4d05b6cef71975e7a943909302c5f3f5d81fddac9b04ef",
+  "eos": 248044,
+  "tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "target_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc"
+}

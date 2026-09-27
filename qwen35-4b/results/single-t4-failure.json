@@ -1,0 +1,64 @@
+{
+  "strategy": "single-T4",
+  "qualified": false,
+  "failure": "CUDA OOM during first backward, before any optimizer step",
+  "torch_allocated_gib_at_failure": 14.2,
+  "gpu_total_gib": 14.56,
+  "free_mib_at_failure": 130.81,
+  "requested_allocation_mib": 486.0,
+  "backbone_footprint_gib": 7.83,
+  "cache_bytes": 18329788,
+  "forward_tok_s": null,
+  "training_tok_s": null,
+  "peak_vram_exact": false,
+  "timing_note": "The failed notebook did not write the final benchmark report; the values above are from the OOM diagnostic.",
+  "log_sha256": "47d2e3b3309bb96be738dfdd6a902c15b213592966181f9668e1f3ba9bcde9a3",
+  "qualification": {
+    "passed_before_optimizer_step": true,
+    "disabled_max_abs_logit": 0.0,
+    "zero_gamma_max_abs_logit": 0.0,
+    "near_init_max_abs_logit": 0.0234375,
+    "injection_idx": [
+      3,
+      11
+    ],
+    "train_sha256": "da94e4e3804753b25e4d05b6cef71975e7a943909302c5f3f5d81fddac9b04ef",
+    "eval_manifest_sha256": "94d5cb15059c0c4a7f1ed80e48b90b20a5462f058eb8c0adabce32b5d0534307",
+    "cache_sha256": "784006b6fbaa414bed1ddc17fb8a91d7117a0a8bba2c3d79c5c337f65d5ee738",
+    "mapping_sha256": "a6a44095f7256012937e3e7ebba9e6f3065b22e7df09a87c30a0838a9467976a",
+    "lookup_max_abs_difference": 0.0,
+    "optimizer_tensor_count": 8,
+    "dtype": "torch.float16",
+    "target_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+  },
+  "runtime": {
+    "python": "3.12.13",
+    "torch": "2.10.0+cu128",
+    "cuda": "12.8",
+    "cudnn": 91002,
+    "packages": {
+      "transformers": "5.17.0",
+      "safetensors": "0.8.0",
+      "accelerate": "1.13.0",
+      "tokenizers": "0.23.2"
+    },
+    "gpus": [
+      {
+        "name": "Tesla T4",
+        "total_bytes": 15636037632,
+        "capability": [
+          7,
+          5
+        ]
+      },
+      {
+        "name": "Tesla T4",
+        "total_bytes": 15636037632,
+        "capability": [
+          7,
+          5
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "job": "train-10m",
+  "kernel_log_sha256": "4750a690fac1a116aecbd7f2fcfdc5c1eb69acc9de9f2efbceb44ef000b5d125",
+  "submitted_notebook_sha256": "061d383ffdf725de2013215a3e4addf5b5bfba914306a200ac2fd0ccc49c6264",
+  "kernel_elapsed_s": 15177.970580763,
+  "execution_transport": "batch",
+  "queue_time_included": false
+}

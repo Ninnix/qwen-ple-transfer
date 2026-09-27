@@ -1,0 +1,12 @@
+{
+  "0.8B": {
+    "model_sha256": "ec5f65a28be248b41f981f1be3074dcb09a52987977bcda8d1c352711f01c043",
+    "stdout": "The capital of France is Paris.\nThe capital of the United\n\n",
+    "reference": "Prior 0.8B regression using the published Q8_0 model and the pre-4B runtime"
+  },
+  "2B": {
+    "model_sha256": "b562dbcfac383a61808f8fe8df3af17666366ab0b6ad9cda4734cfe88fde2e50",
+    "stdout": "The capital of France is Paris.\nThe capital of France is\n\n",
+    "reference": "https://huggingface.co/Ninnix96/Qwengram-2B/commit/c5dca027ea314909ac331ba78f9cfe7b527baebd"
+  }
+}

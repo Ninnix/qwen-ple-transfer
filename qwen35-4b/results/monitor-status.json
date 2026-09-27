@@ -1,0 +1,159 @@
+{
+  "checked_utc": "2026-09-27T17:34:31.622080+00:00",
+  "job": "complete",
+  "kernel": "ninnix/qwengram-4b-controls-500k-t4",
+  "batch_version": 1,
+  "kaggle_status": "COMPLETE",
+  "pipeline_pid": 281056,
+  "pipeline_alive": false,
+  "phase": "Final decision report privately persisted and SHA256 verified; monitoring stopped; no further experiments",
+  "reader_training_complete": true,
+  "reader_total_tokens": 15000064,
+  "current_attempt_training_tok_s": null,
+  "last_durable_checkpoint_tokens": 15000064,
+  "last_durable_checkpoint_sha256": "d0e0b3b97b1d725585f322d3d559d0c83f4c07f812aa45635c72f4bb034c9746",
+  "checkpoint_roundtrip_verified": true,
+  "persisted_milestones": [
+    "5M",
+    "10M",
+    "15M"
+  ],
+  "current_attempt_failure_observed": false,
+  "gpu_quota_remaining_hours": 4.155473888888892,
+  "quota_checked_utc": "2026-09-27T17:20:15.470256+00:00",
+  "completed_reader_stage_tok_s": 356.1,
+  "completed_reader_peak_vram_gib": [
+    10.029051780700684
+  ],
+  "raw_15m_full_val_nll": 2.3945494116868993,
+  "stock_full_val_nll": 2.4246974839389672,
+  "raw_15m_full_val_ppl_reduction_pct": 2.9698151868979394,
+  "canonical_decision_pending": false,
+  "calibration_checkpoint_privately_persisted": true,
+  "calibration_complete": true,
+  "current_evaluation_tok_s": null,
+  "monitor_timer_active": false,
+  "pipeline_liveness_source": "ps -p and ps -eo",
+  "raw_10m_evaluation_complete": true,
+  "raw_10m_full_val_nll": 2.3978714600001294,
+  "raw_10m_domain_mean_nll": 1.9491785883670218,
+  "eta_remaining_hours": [
+    0,
+    0
+  ],
+  "eta_checked_utc": "2026-09-27T17:34:31.622080+00:00",
+  "eta_basis": "Measured control training about 26 minutes plus initial full validation about 10.5 minutes; final full/domain scoring repeats per condition. RANDOM final evaluation, PERMUTED and REAL training/evaluations, uploads and paired analysis remain.",
+  "completed_10m_calibration": {
+    "reader_tokens": 10000384,
+    "calibration_tokens": 749568,
+    "training_tok_s": 355.7521289945324,
+    "peak_vram_gib": 9.711692810058594,
+    "wall_s": 2106.995120784,
+    "evaluation_complete": true,
+    "privately_persisted": true,
+    "checkpoint": {
+      "artifact": "arb10-linear-749568.pt",
+      "sha256": "cf37ae07a23ec4ad61468489493970164795b33f678964b9d149671f266f141b",
+      "completed_utc": 1790508866.9927623
+    },
+    "full_val_nll": {
+      "stock": 2.4246974839389672,
+      "raw": 2.3978714600001294,
+      "linear750": 2.3991673096518693
+    },
+    "ppl_reduction_pct": {
+      "raw": 2.6469402189232216,
+      "linear750": 2.5207035160813906
+    }
+  },
+  "last_durable_artifact": "decision.md",
+  "last_durable_artifact_sha256": "185aa407a3af792906e70d0c354b2fa9f03433f28af70f0b35fc1caaf7e26cd3",
+  "last_durable_artifact_calibration_tokens": 749568,
+  "last_durable_artifact_reader_tokens": 15000064,
+  "live_log_available": true,
+  "live_log_note": "CONTROLS_COMPLETE emitted; all four conditions evaluated and downloaded",
+  "calibrated_10m_evaluation_complete": true,
+  "queue_delay_observed_minutes": 45,
+  "queue_diagnostics": "Kaggle status QUEUED with no failure message; GPU quota usage unchanged since prior check; pipeline alive. No retry submitted.",
+  "eta_note": "Complete",
+  "live_log_sha256": "53f31c304da2437e8ee0a744eb8b421064b0911ffaf82008b2c73bd9ce0f9b9f",
+  "queue_resolved_observed_utc": "2026-09-27T12:47:44.043570+00:00",
+  "raw_15m_evaluation_complete": true,
+  "raw_15m_domain_mean_nll": 1.9452386215941548,
+  "completed_15m_calibration": {
+    "reader_tokens": 15000064,
+    "calibration_tokens": 749568,
+    "training_tok_s": 385.4106922832778,
+    "peak_vram_gib": 9.711692810058594,
+    "wall_s": 1944.855228482,
+    "evaluation_complete": true,
+    "privately_persisted": true,
+    "checkpoint": {
+      "artifact": "arb15-linear-749568.pt",
+      "sha256": "d0e0b3b97b1d725585f322d3d559d0c83f4c07f812aa45635c72f4bb034c9746",
+      "completed_utc": 1790519183.7607505
+    },
+    "full_val_nll": {
+      "stock": 2.4246974839389672,
+      "raw": 2.3945494116868993,
+      "linear750": 2.396458789443783
+    },
+    "ppl_reduction_pct": {
+      "raw": 2.9698151868979394,
+      "linear750": 2.7843709250349624
+    }
+  },
+  "calibrated_15m_evaluation_complete": true,
+  "current_control_condition": "REAL",
+  "current_control_tokens": 500224,
+  "control_budget_tokens": 500224,
+  "completed_controls": [
+    "DISABLED",
+    "RANDOM",
+    "PERMUTED",
+    "REAL"
+  ],
+  "current_control_step": 977,
+  "current_gpu_peaks_gib": [
+    9.931389808654785
+  ],
+  "current_host_rss_mib": 8131.7421875,
+  "qualification_passed": true,
+  "cache_lookup_max_abs_difference": 0.0,
+  "controls_cache_build_seconds": 1451,
+  "controls_cache_gib": 3.152,
+  "controls_cache_sha256": "209957565218351e1a8c44d7215462a7efa12cc1c2190c72bf48d5ef8c4bd4ae",
+  "controls_mapping_sha256": "a7eb85615b155b824a1d07cfc5a179879862cb061548fab17cd285b9fdb843c4",
+  "current_control_progress": {
+    "condition": "REAL",
+    "tokens": 500224,
+    "step": 977,
+    "state": "COMPLETE"
+  },
+  "completed_control_training": [
+    "RANDOM",
+    "PERMUTED",
+    "REAL"
+  ],
+  "completed_random_training_tok_s": 323.6226015341285,
+  "completed_random_training_plus_validation_tok_s": 229.6,
+  "remote_control_checkpoint": "reader-real-500224.pt",
+  "remote_control_checkpoint_sha256": "d43cf85802da316757bc65359bdad677f19507dfe53f60a996e236f917961bff",
+  "remote_control_checkpoint_privately_persisted": true,
+  "completed_permuted_training_tok_s": 366.32073669031183,
+  "permuted_reader_weights_sha256": "119e84cb70fd98a398c35221e9fa70f206a9d116afbab2a20e69ce665831dfcf",
+  "permuted_optimizer_checkpoint_observed": true,
+  "completed_real_training_tok_s": 366.5324598394174,
+  "all_gpu_jobs_complete": true,
+  "monitor_stopped_utc": "2026-09-27T17:34:31.622080+00:00",
+  "controls_privately_persisted": true,
+  "controls_roundtrip_verified": true,
+  "controls_summary_sha256": "3bd30f93b15504f0a7f368449cb346e4605d539dd282e00a11a9630b3460a5a7",
+  "last_durable_checkpoint": "arb15-linear-749568.pt",
+  "last_durable_checkpoint_calibration_tokens": 749568,
+  "final_report_persisted": true,
+  "final_report_roundtrip_verified": true,
+  "final_report_sha256": "185aa407a3af792906e70d0c354b2fa9f03433f28af70f0b35fc1caaf7e26cd3",
+  "canonical_reader_m": 15,
+  "canonical": "REAL-15M + linear750"
+}

@@ -1,0 +1,8 @@
+BF16-cpu 'The capital of France is Paris.\nThe capital of France is\n\n'
+BF16-vulkan 'The capital of France is Paris.\nThe capital of France is\n\n'
+Q8_0-cpu 'The capital of France is Paris.\nThe capital of France is\n\n'
+Q8_0-vulkan 'The capital of France is Paris.\nThe capital of France is\n\n'
+Q6_K-cpu 'The capital of France is Paris.\nThe capital of France is\n\n'
+Q6_K-vulkan 'The capital of France is Paris.\nA. True\nB\n\n'
+Q4_K_M-cpu 'The capital of France is Paris.\nThe capital of France is\n\n'
+Q4_K_M-vulkan 'The capital of France is Paris.\nThe capital of France is\n\n'

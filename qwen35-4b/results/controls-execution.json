@@ -1,0 +1,8 @@
+{
+  "job": "controls",
+  "kernel_log_sha256": "a836f77287597334228905a5681710edf30630764afa367712d560276fcefc9a",
+  "submitted_notebook_sha256": "05dcbdb7f7d0d18a9610cf5d39cc8b84611ad19d53d7488e210d6bfaafb6d737",
+  "kernel_elapsed_s": 10130.375228859,
+  "execution_transport": "batch",
+  "queue_time_included": false
+}

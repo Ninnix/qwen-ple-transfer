@@ -1,0 +1,7 @@
+stock-bf16.log complete 418.8 s
+quant-stock-q8.log complete 14.4 s
+stock-q8.log complete 490.3 s
+quant-stock-q6.log complete 53.5 s
+stock-q6.log complete 611.9 s
+quant-stock-q4.log complete 63.3 s
+stock-q4.log complete 400.2 s

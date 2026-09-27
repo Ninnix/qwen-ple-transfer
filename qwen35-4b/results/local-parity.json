@@ -1,0 +1,25 @@
+{
+  "reader_output_max_abs_diff": 0,
+  "reader_gradient_max_abs_diff": 0,
+  "arbitration_output_max_abs_diff": 0,
+  "arbitration_gradient_max_abs_diff": 0,
+  "gate_hidden_detached": true,
+  "addressing_positions": 2048,
+  "addressing_equal": true,
+  "hidden": 2560,
+  "sites": [
+    3,
+    11
+  ],
+  "checkpointed_decoder_cpu_output_and_gradient_equal": true,
+  "checkpointed_injection_hooks_once": true,
+  "notebook_shas": {
+    "arb-10m/arb-10m.ipynb": "d988a9b99a08761e45ebbcf7baf7a69936160455b763a41ec915b4615c8444c0",
+    "arb-15m/arb-15m.ipynb": "e0e83addf3363a430313dc749d32f0b00b249d579c47fb77bbc89f0861b4c94e",
+    "benchmark/benchmark.ipynb": "6454d42c61dcdf96c0956d47405393f6cdcf1c2c96436ad753dd06498b13aac8",
+    "controls/controls.ipynb": "a912ffd069fa2d37989bf2ea671fc5c351d8170f973fce3d57641cea5a494c39",
+    "train-10m/train-10m.ipynb": "89866f209d3fba18bc78660e3bef52659fab7386424e9dee8d66c6d6753a2f15",
+    "train-15m/train-15m.ipynb": "c4d20031b27a62960a560c433f86e00535b72ba320fbec0f23d376c7a6adfb7e",
+    "train-5m/train-5m.ipynb": "b1f3386024b8acb1a03832578e5d11626224acc5912711673937b68bf6ca6658"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "forced_disconnect": true,
+  "automatic_reconnect": true,
+  "cell_executed_once": true,
+  "remote_log_complete": true,
+  "kernel_restarted_before_model_work": true
+}

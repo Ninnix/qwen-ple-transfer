@@ -1,0 +1,7 @@
+qwengram-bf16.log complete 477.9 s
+quant-qwengram-q8.log complete 15.7 s
+qwengram-q8.log complete 529.2 s
+quant-qwengram-q6.log complete 50.2 s
+qwengram-q6.log complete 613.9 s
+quant-qwengram-q4.log complete 64.5 s
+qwengram-q4.log complete 404.9 s

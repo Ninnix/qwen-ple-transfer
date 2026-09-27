@@ -1,0 +1,22 @@
+{
+  "stock_sha256": "afa6a7dc0455ff7e49745bcd10b64d45c4a1de7b2457d2dbf62f2b08775166cd",
+  "qwengram_sha256": "73c0e6c6da7f43ba30edd7eb8f1a4eebbf4f1d19b76118d9cd7885996635179a",
+  "stock_bytes": 3563027776,
+  "qwengram_bytes": 3667898208,
+  "exact_backbone_tensors": 441,
+  "exact_tokenizer_fields": 9,
+  "exact_fp32_extension_tensors": 11,
+  "backbone_types": {
+    "F32": 184,
+    "Q6_K": 257
+  },
+  "precision": "Q6_K",
+  "runtime_base_commit": "068fcb42662453bec15298ba6bd59f552190a468",
+  "source_patch_sha256": "74a50a970e6578fe6a8e88a41c3240ec513095528811e452cadea19d37f7ecb7",
+  "libllama_sha256": "f84a07c54c4e2c61c654c51650ce07e0fcd8c76a2c2e3dda0957b2d778b71272",
+  "quantizer_sha256": "c534d7131814907cdfdfdea578cf66b7c812a1e01077a184484b7d688aa18264",
+  "source_bf16_sha256": {
+    "stock_bf16": "3990202d2a50d59b2778977cd42a75f9e912b37942ce5371206f67a54d533bec",
+    "qwengram_bf16": "f68448efd59df61e23eec8e9fa347ee13a78e3017966dbaee41e4fd15a4e8d5e"
+  }
+}

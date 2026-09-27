@@ -1,0 +1,23 @@
+{
+  "python": "3.12.13",
+  "torch": "2.10.0+cu128",
+  "cuda_visible_devices": "0",
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "packages": {
+    "transformers": "5.17.0",
+    "safetensors": "0.8.0",
+    "accelerate": "1.13.0",
+    "tokenizers": "0.23.2"
+  },
+  "gpus": [
+    {
+      "name": "Tesla T4",
+      "total_bytes": 15636037632,
+      "capability": [
+        7,
+        5
+      ]
+    }
+  ]
+}

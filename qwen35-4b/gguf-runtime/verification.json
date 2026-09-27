@@ -1,0 +1,63 @@
+{
+  "BF16": {
+    "stock_sha256": "3990202d2a50d59b2778977cd42a75f9e912b37942ce5371206f67a54d533bec",
+    "qwengram_sha256": "f68448efd59df61e23eec8e9fa347ee13a78e3017966dbaee41e4fd15a4e8d5e",
+    "stock_bytes": 8665619776,
+    "qwengram_bytes": 8770490208,
+    "exact_backbone_tensors": 441,
+    "exact_tokenizer_fields": 9,
+    "exact_fp32_extension_tensors": 11,
+    "backbone_types": {
+      "BF16": 257,
+      "F32": 184
+    }
+  },
+  "Q8_0": {
+    "stock_sha256": "e1bc2489a1232a948960570b85914821a8c4fa6fc9b813ce01595cbcd544546c",
+    "qwengram_sha256": "6084961e0d7fd2202f67102227ba8e3fd5de6756775dfdcb122813269f9d4f58",
+    "stock_bytes": 4610579776,
+    "qwengram_bytes": 4715450208,
+    "exact_backbone_tensors": 441,
+    "exact_tokenizer_fields": 9,
+    "exact_fp32_extension_tensors": 11,
+    "backbone_types": {
+      "F32": 184,
+      "Q8_0": 257
+    }
+  },
+  "Q6_K": {
+    "stock_sha256": "afa6a7dc0455ff7e49745bcd10b64d45c4a1de7b2457d2dbf62f2b08775166cd",
+    "qwengram_sha256": "73c0e6c6da7f43ba30edd7eb8f1a4eebbf4f1d19b76118d9cd7885996635179a",
+    "stock_bytes": 3563027776,
+    "qwengram_bytes": 3667898208,
+    "exact_backbone_tensors": 441,
+    "exact_tokenizer_fields": 9,
+    "exact_fp32_extension_tensors": 11,
+    "backbone_types": {
+      "F32": 184,
+      "Q6_K": 257
+    }
+  },
+  "Q4_K_M": {
+    "stock_sha256": "e201ed96b16a889d66fadeb156353ad811727e09360c9dbb4a9d520f139b780f",
+    "qwengram_sha256": "14ff08a1db4f52cb8bcad283fef12494622c5ca45d28f5cd981e2097aae2a7d5",
+    "stock_bytes": 2783446336,
+    "qwengram_bytes": 2888316768,
+    "exact_backbone_tensors": 441,
+    "exact_tokenizer_fields": 9,
+    "exact_fp32_extension_tensors": 11,
+    "backbone_types": {
+      "F32": 184,
+      "Q6_K": 35,
+      "Q4_K": 222
+    }
+  },
+  "runtime": {
+    "base_commit": "068fcb42662453bec15298ba6bd59f552190a468",
+    "source_patch_sha256": "74a50a970e6578fe6a8e88a41c3240ec513095528811e452cadea19d37f7ecb7",
+    "models_h_sha256": "c08e41d6c1140e05f3543ad706071fc613967ea63d9c3b21a1ae22c2f924f914",
+    "qwen35_cpp_sha256": "ddba029b63a8b88ff44aa3accc898655d6b0be1213f337ef053b846b3ad22305",
+    "libllama_sha256": "f84a07c54c4e2c61c654c51650ce07e0fcd8c76a2c2e3dda0957b2d778b71272",
+    "quantizer_sha256": "c534d7131814907cdfdfdea578cf66b7c812a1e01077a184484b7d688aa18264"
+  }
+}

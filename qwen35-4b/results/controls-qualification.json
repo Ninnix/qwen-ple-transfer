@@ -1,0 +1,42 @@
+{
+  "passed_before_optimizer_step": true,
+  "disabled_max_abs_logit": 0.0,
+  "zero_gamma_max_abs_logit": 0.0,
+  "near_init_max_abs_logit": 0.0234375,
+  "injection_idx": [
+    3,
+    11
+  ],
+  "train_sha256": "da94e4e3804753b25e4d05b6cef71975e7a943909302c5f3f5d81fddac9b04ef",
+  "eval_manifest_sha256": "94d5cb15059c0c4a7f1ed80e48b90b20a5462f058eb8c0adabce32b5d0534307",
+  "cache_sha256": "209957565218351e1a8c44d7215462a7efa12cc1c2190c72bf48d5ef8c4bd4ae",
+  "mapping_sha256": "a7eb85615b155b824a1d07cfc5a179879862cb061548fab17cd285b9fdb843c4",
+  "lookup_max_abs_difference": 0.0,
+  "optimizer_tensor_count": 8,
+  "dtype": "torch.float16",
+  "target_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "execution": {
+    "strategy": "single-T4-checkpointed",
+    "gpu": 0,
+    "decoder_gpu0": [
+      0,
+      31
+    ],
+    "reader_devices": {
+      "3": 0,
+      "11": 0
+    },
+    "embedding_and_tied_head_gpu": 0,
+    "norm_gpu": 0,
+    "use_reentrant": false,
+    "preserve_rng_state": true,
+    "checkpoint_scope": "decoder forward bodies only; module injection hooks execute once",
+    "reason": "User requested single-GPU execution after ordinary single-T4 backward OOM",
+    "stock_logit_atol": 0.002,
+    "reader_gradient_atol": 1e-06,
+    "reader_gradient_rtol": 0.0001,
+    "reader_and_arbitration_math_unchanged": true,
+    "cuda_visible_devices": "0"
+  },
+  "execution_parity_sha256": "3189deac7906c56a2447ef6b049a0c37a1ae5abc2198f442534c1848d5d37546"
+}

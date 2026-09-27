@@ -1,0 +1,23 @@
+{
+  "strategy": "single-T4-checkpointed",
+  "gpu": 0,
+  "decoder_gpu0": [
+    0,
+    31
+  ],
+  "reader_devices": {
+    "3": 0,
+    "11": 0
+  },
+  "embedding_and_tied_head_gpu": 0,
+  "norm_gpu": 0,
+  "use_reentrant": false,
+  "preserve_rng_state": true,
+  "checkpoint_scope": "decoder forward bodies only; module injection hooks execute once",
+  "reason": "User requested single-GPU execution after ordinary single-T4 backward OOM",
+  "stock_logit_atol": 0.002,
+  "reader_gradient_atol": 1e-06,
+  "reader_gradient_rtol": 0.0001,
+  "reader_and_arbitration_math_unchanged": true,
+  "cuda_visible_devices": "0"
+}

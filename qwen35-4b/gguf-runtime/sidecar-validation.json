@@ -1,0 +1,25 @@
+{
+  "ple_sha256": "66db3ab390f4dd5063ecc89cc180f4713898577682347001bf64ab8e328527a1",
+  "tokens_sha256": "837fb23bba385f6dd268dfd6dde7595ac16edeb46ef97ee77d2ecdeca1900e1d",
+  "tokens": 256,
+  "rows_per_pass": 4096,
+  "reference_hashing_sha256": "0c1d1b42dfd50559feb2e47afba5257d23555e0187e1bc9461cdc28075f1c2aa",
+  "runtime_source_sha256": "44d5d1566713e1b192eb22db584c4c5f26ccdb5303064cdc48174438dc31758c",
+  "reference": "Unchanged PyTorch addressing + GGUF Python Q4_1 dequantization",
+  "checks": "Full prefill, split prefill, token decode, EOS boundaries, repeated position-zero reset",
+  "runs": {
+    "256": {
+      "max_abs_diff": 0.0,
+      "output_sha256": "fed4bbf78e4a392c5c177b3f62eeb7cf227bdd892014d55af67f0cb1c5ca9eaf"
+    },
+    "17": {
+      "max_abs_diff": 0.0,
+      "output_sha256": "fed4bbf78e4a392c5c177b3f62eeb7cf227bdd892014d55af67f0cb1c5ca9eaf"
+    },
+    "1": {
+      "max_abs_diff": 0.0,
+      "output_sha256": "fed4bbf78e4a392c5c177b3f62eeb7cf227bdd892014d55af67f0cb1c5ca9eaf"
+    }
+  },
+  "ple_unchanged": true
+}

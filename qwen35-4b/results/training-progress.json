@@ -1,0 +1,20 @@
+{
+  "stage": "reader 0-5M",
+  "observed_utc": "2026-09-26T15:15:51.414976+00:00",
+  "kernel": "ninnix/qwengram-4b-reader-0-5m-t4",
+  "session_id": 353023529,
+  "execution_strategy": "single-T4-checkpointed",
+  "training": {
+    "step": 100,
+    "tokens": 51200,
+    "loss": 3.0947341918945312,
+    "lr": 2.999991395358972e-05,
+    "tok_s": 305.9075028788194,
+    "gpu_peaks_gib": [
+      10.029047966003418
+    ],
+    "host_rss_mib": 9894.54296875
+  },
+  "event_log_prefix_sha256": "6d5e4a31827610c4b84e62fd7d92dfa85222d2caf2e4a6ed7cd66a1b03d34f72",
+  "qualification_private_roundtrip_sha256": "f36e9dc4d042437f78392ecde49f7fcca5fd4bb7f3b586ac9beb8b294d7d8d58"
+}

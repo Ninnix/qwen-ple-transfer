@@ -1,0 +1,95 @@
+{
+  "track": "Qwengram-4B scaling/reproduction",
+  "reference_files": {
+    "qwen35-2b/train-5m/train_5m.ipynb": "26c92732af3e5fcba350ccccda62ed72b6f7f5d1ee0f7f92f8a3a1d0cd53bd71",
+    "qwen35-2b/train-10m/train_10m.ipynb": "7687644b90710d2e2c4f92b6fd207e6d3748ea6d8c976fcbc365e65b017ffbc4",
+    "qwen35-2b/train-15m/train_15m.ipynb": "ba8000866391236c7e1dc326a6e4e4a7a2ab36a3cae63dde0dafc9a14de9ce30",
+    "qwen35-2b/arb-eval/arb_eval.ipynb": "587974a596578521effe8ae1ad45fd19e5418aa903d014a34998d085a023f00f",
+    "qwen35-2b/controls/controls_500k.ipynb": "82574a3bf4f94a82b54383a0c18cb6f68d973e01015287ec071e8510a420a44a",
+    "qwen35-2b/frozen.json": "1c318b9bfd34308c493c847ab0679588d0e514bb2d98390be4c35acbd3e43dc4",
+    "qwen35-2b/results/reader-train-15m.json": "a70009257b3662578f41d5dd0e51bf04f6338cc5b4fd0abe322904fdcbd85f2e",
+    "qwen35-2b/results/evaluation-streams.json": "94d5cb15059c0c4a7f1ed80e48b90b20a5462f058eb8c0adabce32b5d0534307",
+    "qwen35-2b/milestone-compare/protocol.json": "559b8776752e42dd8ffb4f2e45d6ab152c2ca1bf93000a8dc6740002ed6ea4b2"
+  },
+  "model_manifest_sha256": "f8e8c8d5826d4abfa19bea82f85f0411e35684deb4fa8ed047e0c90ba94dc9c3",
+  "reader_token_milestones": [
+    5000192,
+    10000384,
+    15000064
+  ],
+  "reader_training_objective": "ordinary shifted causal next-token CE",
+  "reader_recipe": "Exact 2B R=1 reader; hidden 2560; injection IDX3/IDX11; frozen backbone and PLE",
+  "train_stream_sha256": "da94e4e3804753b25e4d05b6cef71975e7a943909302c5f3f5d81fddac9b04ef",
+  "train_manifest_sha256": "a70009257b3662578f41d5dd0e51bf04f6338cc5b4fd0abe322904fdcbd85f2e",
+  "evaluation_manifest_sha256": "94d5cb15059c0c4a7f1ed80e48b90b20a5462f058eb8c0adabce32b5d0534307",
+  "arbitration": {
+    "reader_endpoints": [
+      10000384,
+      15000064
+    ],
+    "calibration_tokens": 749568,
+    "independent_gates": true,
+    "early_bound": [
+      0.75,
+      1.75
+    ],
+    "early_init": 1.25,
+    "late_bound": [
+      0.0,
+      0.5
+    ],
+    "late_init": 0.125,
+    "late_input": "RMSNorm(pre-injection hidden.detach())",
+    "trainable_parameters": [
+      "alpha_early_raw",
+      "late_linear_w",
+      "late_linear_b"
+    ],
+    "objective": "same reference CE + 2*(mean(alpha_late)-0.125)^2",
+    "optimizer_legs": [
+      [
+        0,
+        500736
+      ],
+      [
+        500736,
+        749568
+      ]
+    ]
+  },
+  "controls": {
+    "budget_tokens": 500224,
+    "conditions": [
+      "DISABLED",
+      "RANDOM",
+      "PERMUTED",
+      "REAL"
+    ],
+    "disabled": "fixed stock evaluation, zero injection; no trainable active memory parameters"
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 1234,
+    "confidence": 0.95,
+    "method": "paired original per-block/per-example; equal-domain stratified mean",
+    "intervals": "marginal percentile, no multiplicity adjustment"
+  },
+  "balanced_15m_rule": {
+    "aggregate": "Calibrated 15M-minus-10M full-val and domain-mean NLL CI upper bounds < 0",
+    "domains_and_lambada_nll": "No individual domain or LAMBADA NLL CI wholly above zero",
+    "benchmarks": "No HellaSwag or LAMBADA accuracy CI wholly below zero",
+    "otherwise": "10M canonical, 15M research; preserve both raw endpoints",
+    "interpretation": "Failure to detect regression is not proof of equivalence; report all point estimates and intervals"
+  },
+  "qualification": {
+    "disabled_max_abs_logit_tolerance": 0.002,
+    "cache_max_abs_difference": 0.0,
+    "stock_repeat_nll_tolerance": 2e-06,
+    "single_t4_min_free_headroom_gib": 0.5,
+    "single_t4_min_training_tok_s": 150,
+    "benchmark_steps": 12
+  },
+  "gpu_strategy": "Single T4 first; contiguous decoder model parallel only on demonstrated fit/reliability/throughput failure",
+  "no_search": true,
+  "stop_after": "Final measured decision and cross-scale report; no runtime release in this track"
+}

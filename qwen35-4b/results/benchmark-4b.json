@@ -1,0 +1,80 @@
+{
+  "passed_before_optimizer_step": true,
+  "disabled_max_abs_logit": 0.0,
+  "zero_gamma_max_abs_logit": 0.0,
+  "near_init_max_abs_logit": 0.0234375,
+  "injection_idx": [
+    3,
+    11
+  ],
+  "train_sha256": "da94e4e3804753b25e4d05b6cef71975e7a943909302c5f3f5d81fddac9b04ef",
+  "eval_manifest_sha256": "94d5cb15059c0c4a7f1ed80e48b90b20a5462f058eb8c0adabce32b5d0534307",
+  "cache_sha256": "784006b6fbaa414bed1ddc17fb8a91d7117a0a8bba2c3d79c5c337f65d5ee738",
+  "mapping_sha256": "a6a44095f7256012937e3e7ebba9e6f3065b22e7df09a87c30a0838a9467976a",
+  "lookup_max_abs_difference": 0.0,
+  "optimizer_tensor_count": 8,
+  "dtype": "torch.float16",
+  "target_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "execution": {
+    "strategy": "single-T4-checkpointed",
+    "gpu": 0,
+    "decoder_gpu0": [
+      0,
+      31
+    ],
+    "reader_devices": {
+      "3": 0,
+      "11": 0
+    },
+    "embedding_and_tied_head_gpu": 0,
+    "norm_gpu": 0,
+    "use_reentrant": false,
+    "preserve_rng_state": true,
+    "checkpoint_scope": "decoder forward bodies only; module injection hooks execute once",
+    "reason": "User requested single-GPU execution after ordinary single-T4 backward OOM",
+    "stock_logit_atol": 0.002,
+    "reader_gradient_atol": 1e-06,
+    "reader_gradient_rtol": 0.0001,
+    "reader_and_arbitration_math_unchanged": true,
+    "cuda_visible_devices": "0"
+  },
+  "execution_parity_sha256": "3189deac7906c56a2447ef6b049a0c37a1ae5abc2198f442534c1848d5d37546",
+  "forward_tok_s": 1387.991013376137,
+  "training_tok_s": 406.206483390831,
+  "forward_peaks_gib": [
+    8.194759368896484
+  ],
+  "training_peak_gib": 9.93139362335205,
+  "gpu_peaks_gib": [
+    9.93139362335205
+  ],
+  "gpu_reserved_peaks_gib": [
+    10.71875
+  ],
+  "gpu_totals_gib": [
+    14.56219482421875
+  ],
+  "gpu_headroom_gib": [
+    4.630801200866699
+  ],
+  "inter_gpu_transfer": null,
+  "host_rss_mib": 4350.43359375,
+  "cache_bytes": 18329788,
+  "training_wall_s": 15.125312498000085,
+  "reader_parameters": 26214404,
+  "loss": 2.7120351791381836,
+  "benchmark_reader_discarded": true,
+  "configuration_qualified": true,
+  "single_t4_qualified": true,
+  "execution_details": {
+    "strategy": "single-T4-checkpointed",
+    "gpu": 0,
+    "decoder_layers": 32,
+    "use_reentrant": false,
+    "preserve_rng_state": true,
+    "injection_hooks_recomputed": false,
+    "backbone_eval_mode_preserved": true,
+    "checkpoint_calls": 377,
+    "body_calls": 754
+  }
+}

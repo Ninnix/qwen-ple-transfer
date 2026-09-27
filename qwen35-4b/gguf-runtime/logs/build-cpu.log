@@ -1,0 +1,79 @@
+-- llama.cpp version: 0.5.0-dev
+CMAKE_BUILD_TYPE=Release
+-- Warning: ccache not found - consider installing it for faster compilation or disable this warning with GGML_CCACHE=OFF
+-- CMAKE_SYSTEM_PROCESSOR: x86_64
+-- GGML_SYSTEM_ARCH: x86
+-- Including CPU backend
+-- x86 detected
+-- Adding CPU backend variant ggml-cpu: -march=native 
+-- ggml version: 0.25.3
+-- ggml commit:  068fcb426
+-- OpenSSL found: 3.6.4
+-- Generating embedded license file for target: llama-app
+-- Configuring done (0.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/nicolo/qwen-ple-transfer/llama.cpp/build-qwengram-cpu
+[  0%] Building CXX object common/CMakeFiles/llama-common-base.dir/build-info.cpp.o
+[  0%] Built target cpp-httplib
+[  2%] Building C object ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o
+[  4%] Linking CXX static library libllama-common-base.a
+[  4%] Built target llama-common-base
+[  6%] Linking CXX shared library ../../bin/libggml-base.so
+[ 11%] Built target ggml-base
+[ 11%] Linking CXX shared library ../../bin/libggml-cpu.so
+[ 22%] Built target ggml-cpu
+[ 22%] Linking CXX shared library ../../bin/libggml.so
+[ 24%] Built target ggml
+[ 24%] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_7_cxx.cxx.o
+[ 26%] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_9_cxx.cxx.o
+[ 26%] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_8_cxx.cxx.o
+[ 28%] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_6_cxx.cxx.o
+In file included from /home/nicolo/qwen-ple-transfer/llama.cpp/build-qwengram-cpu/src/CMakeFiles/llama.dir/Unity/unity_7_cxx.cxx:49:
+/home/nicolo/qwen-ple-transfer/llama.cpp/src/models/qwen35.cpp: In constructor ‘llama_model_qwen35::graph::graph(const llama_model_qwen35&, const llm_graph_params&)’:
+/home/nicolo/qwen-ple-transfer/llama.cpp/src/models/qwen35.cpp:230:36: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const uint32_t’ {aka ‘const unsigned int’} [-Wsign-compare]
+  230 |         if (qwengram_memory && (il == model.qwengram.layers[0] || il == model.qwengram.layers[1])) {
+      |                                 ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/nicolo/qwen-ple-transfer/llama.cpp/src/models/qwen35.cpp:230:70: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const uint32_t’ {aka ‘const unsigned int’} [-Wsign-compare]
+  230 |         if (qwengram_memory && (il == model.qwengram.layers[0] || il == model.qwengram.layers[1])) {
+      |                                                                   ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/nicolo/qwen-ple-transfer/llama.cpp/src/models/qwen35.cpp:231:68: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const uint32_t’ {aka ‘const unsigned int’} [-Wsign-compare]
+  231 |             inpL = build_qwengram_reader(inpL, qwengram_memory, il == model.qwengram.layers[0] ? 0 : 1);
+      |                                                                 ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 28%] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_5_cxx.cxx.o
+[ 28%] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_4_cxx.cxx.o
+[ 31%] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_3_cxx.cxx.o
+[ 31%] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_2_cxx.cxx.o
+[ 31%] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_1_cxx.cxx.o
+[ 33%] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_0_cxx.cxx.o
+[ 33%] Building CXX object src/CMakeFiles/llama.dir/llama.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/llama.dir/llama-model.cpp.o
+[ 33%] Linking CXX shared library ../bin/libllama.so
+[ 57%] Built target llama
+[ 57%] Linking CXX shared library ../bin/libllama-common.so
+[ 97%] Built target llama-common
+[ 97%] Linking CXX shared library ../../bin/libllama-completion-impl.so
+[100%] Built target llama-completion-impl
+[100%] Linking CXX executable ../../bin/llama-completion
+[100%] Built target llama-completion
+[  2%] Built target llama-common-base
+[  2%] Built target cpp-httplib
+[ 11%] Built target ggml-base
+[ 22%] Built target ggml-cpu
+[ 24%] Built target ggml
+[ 57%] Built target llama
+[ 97%] Built target llama-common
+[ 97%] Linking CXX shared library ../../bin/libllama-perplexity-impl.so
+[100%] Built target llama-perplexity-impl
+[100%] Linking CXX executable ../../bin/llama-perplexity
+[100%] Built target llama-perplexity
+[  2%] Built target llama-common-base
+[  2%] Built target cpp-httplib
+[ 11%] Built target ggml-base
+[ 22%] Built target ggml-cpu
+[ 24%] Built target ggml
+[ 57%] Built target llama
+[ 97%] Built target llama-common
+[ 97%] Linking CXX shared library ../../bin/libllama-quantize-impl.so
+[ 97%] Built target llama-quantize-impl
+[100%] Linking CXX executable ../../bin/llama-quantize
+[100%] Built target llama-quantize

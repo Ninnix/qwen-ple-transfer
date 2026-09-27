@@ -1,0 +1,828 @@
+{
+  "repo": "Ninnix96/Qwengram-4B",
+  "url": "https://huggingface.co/Ninnix96/Qwengram-4B",
+  "commit": "feec8eaecb2fc2aed4be2af8462c2075b8cebfab",
+  "public": true,
+  "verified_files": {
+    "LICENSE": {
+      "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+      "size": 11544,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "QwenGram-4B-BF16.gguf": {
+      "sha256": "f68448efd59df61e23eec8e9fa347ee13a78e3017966dbaee41e4fd15a4e8d5e",
+      "size": 8770490208,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "QwenGram-4B-Q4_K_M.gguf": {
+      "sha256": "14ff08a1db4f52cb8bcad283fef12494622c5ca45d28f5cd981e2097aae2a7d5",
+      "size": 2888316768,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "QwenGram-4B-Q6_K.gguf": {
+      "sha256": "73c0e6c6da7f43ba30edd7eb8f1a4eebbf4f1d19b76118d9cd7885996635179a",
+      "size": 3667898208,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "QwenGram-4B-Q8_0.gguf": {
+      "sha256": "6084961e0d7fd2202f67102227ba8e3fd5de6756775dfdcb122813269f9d4f58",
+      "size": 4715450208,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "README.md": {
+      "sha256": "74e4b6a9b5aafccb218c22aec9c40f4a0b850084110e2e48cfea4bc0600cbba3",
+      "size": 7004,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "arbiter.pt": {
+      "sha256": "d0e0b3b97b1d725585f322d3d559d0c83f4c07f812aa45635c72f4bb034c9746",
+      "size": 45497,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "chat_template.jinja": {
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "size": 7756,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/decision.md": {
+      "sha256": "185aa407a3af792906e70d0c354b2fa9f03433f28af70f0b35fc1caaf7e26cd3",
+      "size": 9684,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/execution.json": {
+      "sha256": "7dad80a97996f8eb15ee80270b12a6771f5492689334f24b6d626e5f8b0c624e",
+      "size": 609,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/frozen.json": {
+      "sha256": "f8e8c8d5826d4abfa19bea82f85f0411e35684deb4fa8ed047e0c90ba94dc9c3",
+      "size": 4412,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/protocol.json": {
+      "sha256": "b78bab6c7a0a2b67a694946b0cac0bea0b04f0373b7418a0934366714ea3d32a",
+      "size": 3846,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb-10m-execution-parity.json": {
+      "sha256": "3189deac7906c56a2447ef6b049a0c37a1ae5abc2198f442534c1848d5d37546",
+      "size": 687,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb-10m-execution.json": {
+      "sha256": "615989eb95eabd3d2cbc52255ad8f69d95f96ee01ce16c0afdaced59dc64ba47",
+      "size": 317,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb-10m-qualification.json": {
+      "sha256": "8f8f0c91dafe23c05374b0afe66724be99e15412d10cea28f5940bb0d40a69cd",
+      "size": 1472,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb-10m-runtime.json": {
+      "sha256": "9d565052c2a43c4f012426c4c9e082e4a2e81e66dae456ff2be4cb3d1b316b96",
+      "size": 393,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb-15m-execution-parity.json": {
+      "sha256": "3189deac7906c56a2447ef6b049a0c37a1ae5abc2198f442534c1848d5d37546",
+      "size": 687,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb-15m-execution.json": {
+      "sha256": "9b5c7d99390b3ff09e45ce22d23f9971cdd710d1a06aa39291673bd48766bc52",
+      "size": 317,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb-15m-qualification.json": {
+      "sha256": "8f8f0c91dafe23c05374b0afe66724be99e15412d10cea28f5940bb0d40a69cd",
+      "size": 1472,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb-15m-runtime.json": {
+      "sha256": "9d565052c2a43c4f012426c4c9e082e4a2e81e66dae456ff2be4cb3d1b316b96",
+      "size": 393,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb10-bootstrap.json": {
+      "sha256": "4ea13a8f77186b18e5bdfe998916133e4fb0951d0f77a628a7ffa49a53220abf",
+      "size": 179667,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb10-compact-arbitration.json": {
+      "sha256": "53091f97ce5e74c24d10131210f5149aede03d81780c8fed1d2e8ed62785745c",
+      "size": 461,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb10-eval-linear750.json": {
+      "sha256": "53312fb229dac22333a8553cd8e8e1d1950e142504a9d2c7c4928b1db7399bd6",
+      "size": 78239,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb10-eval-raw-10m.json": {
+      "sha256": "35ce1380db6d0b1db17d21095a0f70debfbf2d2f8c1c49d9bc7d368a2e45e798",
+      "size": 96417,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb10-eval-stock.json": {
+      "sha256": "b4c80feca2f9923a811da34b9197398565b18106ede82626d637b8be6b2bbe18",
+      "size": 96333,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb10-summary.json": {
+      "sha256": "8542c80a11e5e7fe42b8bf586bde48ceec203f7759b8a3bc1aeabdd5a18d4204",
+      "size": 4558,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb15-bootstrap.json": {
+      "sha256": "86d376c4698c7f458d01498c53930fc054e9c072872f8510197cc1c941dc88e1",
+      "size": 178974,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb15-compact-arbitration.json": {
+      "sha256": "53091f97ce5e74c24d10131210f5149aede03d81780c8fed1d2e8ed62785745c",
+      "size": 461,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb15-eval-linear750.json": {
+      "sha256": "4896afcc674bb32b47aafea8d0a920eafc5f11589cdb401351deee6dda4d1b3f",
+      "size": 78228,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb15-eval-raw-15m.json": {
+      "sha256": "c767bb17495c702497c9270fa9dced21829958fa2bc11cf1877ae53912079ec3",
+      "size": 96441,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb15-eval-stock.json": {
+      "sha256": "b4c80feca2f9923a811da34b9197398565b18106ede82626d637b8be6b2bbe18",
+      "size": 96333,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/arb15-summary.json": {
+      "sha256": "c267c1a33a8a0911a84c7cc8da8574c5537ff3833acc7e45a0d344da37eb09d8",
+      "size": 4556,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/benchmark-4b.json": {
+      "sha256": "f36e9dc4d042437f78392ecde49f7fcca5fd4bb7f3b586ac9beb8b294d7d8d58",
+      "size": 2438,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/benchmark-execution-parity.json": {
+      "sha256": "3189deac7906c56a2447ef6b049a0c37a1ae5abc2198f442534c1848d5d37546",
+      "size": 687,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/benchmark-execution.json": {
+      "sha256": "0f6bcb4025fe59f91370dfc108f141c80b5956e4b6bc1b72da88c335c08a50f9",
+      "size": 289,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/benchmark-runtime.json": {
+      "sha256": "9d565052c2a43c4f012426c4c9e082e4a2e81e66dae456ff2be4cb3d1b316b96",
+      "size": 393,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/compact-qualification.json": {
+      "sha256": "0bc5855ffc478645030b62f408303292aa3e05fc7599294a27d007fa041cb0b3",
+      "size": 1203,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/compact-reader-0-5m.json": {
+      "sha256": "b1c6312e3b6b592cb103dee70ac4044e8c64f5fe40d3a1af433548f00b8010f5",
+      "size": 1214,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/compact-reader-10-15m.json": {
+      "sha256": "2c7281789e98d95589b068a0b07327d75701cff8cb5614ab9258ab2d66f0d7c1",
+      "size": 1222,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/compact-reader-5-10m.json": {
+      "sha256": "4559b0f31045187fc09aa6017ff18cc61f2d47f28fc5b530fd4bb8ae1f0f02ca",
+      "size": 1221,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/comparison.json": {
+      "sha256": "135410db7245792f2885dd115c1ea57b08c116f5cbe694ff9dc9ffee12f3dc30",
+      "size": 217484,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/control-compact-controls-500k.json": {
+      "sha256": "7f0ec393e38a9afad1746cf1c09eb2a4566f67fd85311c4fb6049955c3cf4b54",
+      "size": 1213,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/control-control-eval-DISABLED.json": {
+      "sha256": "cd02d1600e75bf4d8caffcfdcc0ee5b31a7c901929bca21d5c33ed1c82cc15c6",
+      "size": 50750,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/control-control-eval-PERMUTED.json": {
+      "sha256": "09f04e993e77c53edf75b2da88c9cb96493d17c893da6693de7db3cbe21c74de",
+      "size": 50829,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/control-control-eval-RANDOM.json": {
+      "sha256": "d6327e5581beb9d2939116f60d54907dab385bea13bfb33edfec2133a9c0a50b",
+      "size": 50745,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/control-control-eval-REAL.json": {
+      "sha256": "2fc3c6933278cc8daff6209cb4d1bfde1eb997d59c6b0adb38927f7751f38197",
+      "size": 50763,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/control-controls-500k-summary.json": {
+      "sha256": "3bd30f93b15504f0a7f368449cb346e4605d539dd282e00a11a9630b3460a5a7",
+      "size": 10253,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/controls-execution-parity.json": {
+      "sha256": "3189deac7906c56a2447ef6b049a0c37a1ae5abc2198f442534c1848d5d37546",
+      "size": 687,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/controls-execution.json": {
+      "sha256": "5042e0f05448db61a6b9c839ddb9117b588620ddcb333e5f095f574127018e32",
+      "size": 319,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/controls-qualification.json": {
+      "sha256": "9b8433609afa4d3043cbbeffd1c5b1dfda024e845cc3a04f6a5cff5d75be3558",
+      "size": 1470,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/controls-runtime.json": {
+      "sha256": "9d565052c2a43c4f012426c4c9e082e4a2e81e66dae456ff2be4cb3d1b316b96",
+      "size": 393,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/cross-scale-reference.json": {
+      "sha256": "76b75e95f95d9e331f207b013a58c3276cfa6ec8ee7f9da79a16fb82383bdd86",
+      "size": 4000,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/evaluation-streams.json": {
+      "sha256": "94d5cb15059c0c4a7f1ed80e48b90b20a5462f058eb8c0adabce32b5d0534307",
+      "size": 1155,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/execution-t4x2.json": {
+      "sha256": "3d955767827e69a92a482eb86b5f2c85a77ffaf5690bd064deca292792b1bd01",
+      "size": 467,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/execution.json": {
+      "sha256": "7dad80a97996f8eb15ee80270b12a6771f5492689334f24b6d626e5f8b0c624e",
+      "size": 609,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/interrupted-run-353083069.json": {
+      "sha256": "baf823c7f4c933f9eac4de57117e3efcc23eeca3565b3b42c6b6d50518fbe587",
+      "size": 797,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/interrupted-run.json": {
+      "sha256": "5cbefdc5f0dc5c82e089cf19889d47807d65e5eedde76adce13327ab74f5690c",
+      "size": 359,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/local-parity.json": {
+      "sha256": "b28acef0b3ad045db6d2bb6d5ad74a88f51b0137eb506ae08f2abb8016accc5c",
+      "size": 1126,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/milestone-shas.json": {
+      "sha256": "832d668e5b39510ef3239c1934ad1aff4c8e5f580fd667641a070968b6e667a7",
+      "size": 14880,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/qualification.json": {
+      "sha256": "64fc5b21de0dda49d35b1774c587f17637d8bab1e13e59dfc29e99ebff051b4c",
+      "size": 1470,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/reader-10m-summary.json": {
+      "sha256": "163f9e228dcf83bc3c679190f4b5076050a1ed241c3953e17e36b42563c788b5",
+      "size": 1292,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/reader-15m-summary.json": {
+      "sha256": "5596082d91efb357f5ba49e47e4952f2d60c4883bef07796e3d9a096ee52b3e7",
+      "size": 1416,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/reader-5m-summary.json": {
+      "sha256": "86760212ff8c7d6d754188701fd230201637b2493e6f938599a86f8eafeff987",
+      "size": 2028,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/reader-train-15m.json": {
+      "sha256": "a70009257b3662578f41d5dd0e51bf04f6338cc5b4fd0abe322904fdcbd85f2e",
+      "size": 561,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/recovery-1m.json": {
+      "sha256": "00410ac3a859abc0a3d8d7065c1aafa621eea882c3de8573f7ff79aa87839a2b",
+      "size": 1270,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/single-t4-failure.json": {
+      "sha256": "db6c13ad076b9c11e9e3ddea90ca44cf35b07f85678de32cd150cdb010ef0145",
+      "size": 1934,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/study-code-shas.json": {
+      "sha256": "1237fa0efcb127cafedb72725fa8d9c315d1ec439063ae46ca93c900d95e9ab0",
+      "size": 3291,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-10m-execution-parity.json": {
+      "sha256": "3189deac7906c56a2447ef6b049a0c37a1ae5abc2198f442534c1848d5d37546",
+      "size": 687,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-10m-execution.json": {
+      "sha256": "6138f2036a87165e087e0f09a99eb516d38795b5de0b43c1b3f076a7ac243603",
+      "size": 320,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-10m-qualification.json": {
+      "sha256": "7e72b1fedf30bfb56b88be0eadcff5a9663560d866c9e8263406d2d087fd6e0a",
+      "size": 1472,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-10m-runtime.json": {
+      "sha256": "9d565052c2a43c4f012426c4c9e082e4a2e81e66dae456ff2be4cb3d1b316b96",
+      "size": 393,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-15m-execution-parity.json": {
+      "sha256": "3189deac7906c56a2447ef6b049a0c37a1ae5abc2198f442534c1848d5d37546",
+      "size": 687,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-15m-execution.json": {
+      "sha256": "98f76e1d1a6790d31d823e52887c614380b47c953a31c7a9cf6ad8dfa89f35be",
+      "size": 320,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-15m-qualification.json": {
+      "sha256": "115be14b5a50766142a2f42a67e95abccc0c912f879778814e5e2f65d5c2a850",
+      "size": 1468,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-15m-runtime.json": {
+      "sha256": "9d565052c2a43c4f012426c4c9e082e4a2e81e66dae456ff2be4cb3d1b316b96",
+      "size": 393,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-5m-execution-parity.json": {
+      "sha256": "3189deac7906c56a2447ef6b049a0c37a1ae5abc2198f442534c1848d5d37546",
+      "size": 687,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-5m-execution.json": {
+      "sha256": "a6141a8bd07eba4e8e0f709ad2e5743f037faa87982eac556c7afa7500bd7c23",
+      "size": 318,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-5m-qualification.json": {
+      "sha256": "b2a7391d4a931f41995c627110d1cdfcbd4505dbdb265bd1531a3f053845fb73",
+      "size": 1470,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/train-5m-runtime.json": {
+      "sha256": "9d565052c2a43c4f012426c4c9e082e4a2e81e66dae456ff2be4cb3d1b316b96",
+      "size": 393,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "evaluation/results/transport-recovery.json": {
+      "sha256": "914375c754db79ba65016f9a6b5a76f44d6c2e97ba3e143582c3ccc4eb02369b",
+      "size": 170,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "qwengram-4b.json": {
+      "sha256": "eb554adfcd939cb78ec47700d9722ae49f75939c8020097f2a176089bf656c4f",
+      "size": 1603,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "reader.safetensors": {
+      "sha256": "a981fb9f761c68bf950b5f74a1e7ea0f660e25b305a63c87719e8132a09de277",
+      "size": 104858304,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "runtime/README.md": {
+      "sha256": "777e0b88c3837750a860f507dd54d1a0792c76cca68cad0da01e4ca6e4c45fe9",
+      "size": 3404,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/analyze.py": {
+      "sha256": "5e0641838684fda95a8c59728986145837742867db293a9c8c7a44f1e9c1c364",
+      "size": 4109,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/download.py": {
+      "sha256": "3daeb62d6dbaa6563c2c41fc91167f430e89ecf47bdaf4b64e623954a5e36ed0",
+      "size": 1733,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/fork.json": {
+      "sha256": "12575be99506c9d99fdf38ebced4eedeb9659686f8554d0895206741671015c0",
+      "size": 707,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/legacy-reference.json": {
+      "sha256": "f0dfe20db6ce561d6621c66595e704960a5dc4a32ba2c62e24bc3c06fa65a996",
+      "size": 576,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/legacy-smoke.json": {
+      "sha256": "75beb221df77942fcdf2ca82f9b1f1c75985fb7e8dc32dd19df521acd9a22d88",
+      "size": 1644,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/llama-qwengram-4b.patch": {
+      "sha256": "74a50a970e6578fe6a8e88a41c3240ec513095528811e452cadea19d37f7ecb7",
+      "size": 3127,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/analyze.log": {
+      "sha256": "b72317016a8a38b5dde2ebaa9a87a78aaf73382f7537b119e5e1ff32564d301a",
+      "size": 376,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/build-cpu.log": {
+      "sha256": "5e6781cdf887da1794624892bfb80a2288b38b232eb5e0f7617cebecc57238d9",
+      "size": 4842,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/build-vulkan.log": {
+      "sha256": "04e6d5a6e264e634410be03c8623b60433ba31d2036adf7f6e1031920f784ae0",
+      "size": 4810,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/convert-stock.log": {
+      "sha256": "24079ec8f085f7ae724c087e9a17e86e6340a38e0d2a7c361b061e5f687f4ae0",
+      "size": 65887,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/download.log": {
+      "sha256": "4f3089e274095f909a5557bc28afc87176d5fbd22ea359f83fd05ed79ed5991f",
+      "size": 2401,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/package.log": {
+      "sha256": "392a6f5756c10e26335ec0ceff5ff33d8323e77b3091dbda57df4cb6b31893d7",
+      "size": 482,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/q6-fallback.log": {
+      "sha256": "1721b718b03c4af79fb7c02eb4981082a14c97d13b876a469a7e18327d68e83c",
+      "size": 678,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q4.log": {
+      "sha256": "f2d503cdddd6f9efe8aaad01dc54c58130bd7183fbfa6ce98b393041b90c213a",
+      "size": 72201,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q4.run.json": {
+      "sha256": "7a83fc65b0eb9f2b0e9fd6db549e3c1e8ff41f73e85ef16e15f70544051a141b",
+      "size": 523,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q6.log": {
+      "sha256": "878da6ca486d5c87bfa38c48cea1b7a2442c9a754c02e634076dedec9f2d8292",
+      "size": 72197,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q6.run.json": {
+      "sha256": "7644d31b22eca4ee28080ed9ac71873f22dead2387fd0e2cf4e5f457612443a4",
+      "size": 520,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q8.log": {
+      "sha256": "3529eb3678310780a62719952618b3f5fa8b405ff69d326f95e89ff403065930",
+      "size": 72197,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-qwengram-q8.run.json": {
+      "sha256": "7ffebed8779b5087a7980846025d07f88449cd86bf375433b1899f13744fe94c",
+      "size": 520,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q4.log": {
+      "sha256": "1fd3145034042aa561aa2ced0cb2331628eb7347c5cecd7f977c957482054bf3",
+      "size": 67159,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q4.run.json": {
+      "sha256": "975518d78e46e059de0b3ed152a277baecb641542abf5eb59a7e1d9eb4eca850",
+      "size": 496,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q6.log": {
+      "sha256": "bdb0a8c959844e853819d4653d65e9f7ce6584ab10666fd5975941c28af3e2f3",
+      "size": 67155,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q6.run.json": {
+      "sha256": "9fb9e8d146c3789ddc982fe50afaeef12362744a6a36502965ad86bd223c9097",
+      "size": 491,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q8.log": {
+      "sha256": "272c8144a463cdb1dcaa1ed49b15c49aca4377c3fc452c721cfa01475c440411",
+      "size": 67155,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/quant-stock-q8.run.json": {
+      "sha256": "a30ac3bdd56582a5434492b823e416c6cbec46c96fba718e105be7325912c70c",
+      "size": 491,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-bf16.log": {
+      "sha256": "b75d1bb4b356a6df6803e15bd97347883f9adc5e84eb6877c8796136a719a2a2",
+      "size": 4724,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-bf16.run.json": {
+      "sha256": "f73ea9df00d3f3f5a6c9ac9bd830f550972156e072b3d9cf173522f121bfb492",
+      "size": 642,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q4.log": {
+      "sha256": "2d63c843b0b20b727204432af96aba8974cb16987b93b3049b333804e45206e6",
+      "size": 4724,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q4.run.json": {
+      "sha256": "c861bc9141b540aa8ac71028e5a32e3dc3a5c5c2818c3eba37e074107fc2a518",
+      "size": 644,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q6.log": {
+      "sha256": "a95c93021af4d3622295cea3905acacf7e51c56132d56f9f8609c279ef529727",
+      "size": 4726,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q6.run.json": {
+      "sha256": "acdd571ecb047c6070f0570bebb7f2038478f3f50db919b3e8c9b7f6c1252017",
+      "size": 642,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q8.log": {
+      "sha256": "189771bb033eac65f6240babd2e2e13186f5213a8a40e40bd626609ac92d6faa",
+      "size": 4725,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/qwengram-q8.run.json": {
+      "sha256": "a524137ad6a69947757aa2186a2a105b1df5fbbbcd8c91593484ae937c21cb23",
+      "size": 642,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/run-qwengram.log": {
+      "sha256": "dcdd872213b37fb81b583f703c16312651f91d4e673c69a6a815e92697ed05e3",
+      "size": 248,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/run-stock.log": {
+      "sha256": "569ad7eeefd1e322fca166afe90a0f4812193249487bc6f0309bc611d339c4e3",
+      "size": 227,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/sidecar.log": {
+      "sha256": "b26333599c967f5c28d37c7c1760f8a3900c1390a3a14e6c18767fe631c1d174",
+      "size": 1042,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-BF16-cpu.log": {
+      "sha256": "dd84b2e719ac8194fa3711b9bee6d998e9b29e07454c5fd16b9bd0bc504e61d3",
+      "size": 3684,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-BF16-vulkan.log": {
+      "sha256": "cc4ea495b8e2ed9c121e9622c833eaa98f91fa48e9f93402cd39a9f928a5de92",
+      "size": 3478,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q4_K_M-cpu.log": {
+      "sha256": "c91a764e8b828ff29055448fd948e8d4618baffe190d2170ef563c6531274aab",
+      "size": 3682,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q4_K_M-vulkan.log": {
+      "sha256": "a9fc51446b7eae4855eebc5f26242526fb76acea64940917bca532995dfd7622",
+      "size": 3476,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q6_K-cpu.log": {
+      "sha256": "478617a8e995dd3845d908cd196c806234ce7e82ec45ae6faf41a51cf866d389",
+      "size": 3683,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q6_K-vulkan-ngl33.log": {
+      "sha256": "c3272ba7c361b00852738b7097d79dfa64e3cac06caab9c79c8ff704cf31798e",
+      "size": 3477,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q6_K-vulkan.log": {
+      "sha256": "ac59eabf596587dc43014ed6347c37ec8545111af1dad6bd3533af1c390e98df",
+      "size": 3462,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q8_0-cpu.log": {
+      "sha256": "22062a0db2ad5ce1d39a13e362c692cf946b900d40c5e065ddaeec360bad0d57",
+      "size": 3684,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-Q8_0-vulkan.log": {
+      "sha256": "dcffa9bc1d152e0c55bf8ff52dd560054685c28623fb6c0dee59529221fd2ac2",
+      "size": 3478,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-invalid-ple.log": {
+      "sha256": "b2cbe56ad801e18e5df01752ada502da307d027cc9631fd587c1139cc244bd3e",
+      "size": 1053,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-legacy-0.8B.log": {
+      "sha256": "5758a01de5bc86ab09b71833fe8d183690a38f67197fe9a00d0a3a07829c0a7f",
+      "size": 3672,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-legacy-2B.log": {
+      "sha256": "68be60df85453a507fa7bee179c2493c4ebb67d1e1896b189dee279f914288f0",
+      "size": 3676,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-missing-ple.log": {
+      "sha256": "ba1ffe994757d1bb5d5d12a864759e854eb09026ba05673a2019c64e5a919f97",
+      "size": 1095,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke-wrong-site.log": {
+      "sha256": "e262516a11f74ffa090ec83f2857883cbae0961c0d6a5e1096b78098a3631500",
+      "size": 1113,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/smoke.log": {
+      "sha256": "76a15c91b9c2755558c5e0a25ed3e7c1aeb5a8ea9d85296e48212a91f0ac4199",
+      "size": 586,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-bf16.log": {
+      "sha256": "2cd80bb30cd52eb17885efe74c81f7b74d1a256c6a0414e9710181e6ec5e4c09",
+      "size": 4726,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-bf16.run.json": {
+      "sha256": "d53bfa2fa0b88819a04d4f73efe48f929d45e863765f9006beb4e242fb4567e7",
+      "size": 629,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q4.log": {
+      "sha256": "014a6666cebd36efbd5d9f39b9b5f7c00673e0a08ebe35b9fde235be73245f51",
+      "size": 4726,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q4.run.json": {
+      "sha256": "884cb30500d6fbae33ca217526bf8c173f057a26ec39178a93c2ab26d3e1a40b",
+      "size": 630,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q6.log": {
+      "sha256": "84da7342b77ddd518b49c8735491b399c63e356c9e92434cedd226a6ca18000c",
+      "size": 4727,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q6.run.json": {
+      "sha256": "f16f037102095699bc54948d83389e39df7f2c090bea1f810294569fe98cf5cc",
+      "size": 627,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q8.log": {
+      "sha256": "02c66aa7e9c978c5f912fe00bbc2854e5ebcbce2c60e8b6d7e27e977505a6f40",
+      "size": 4726,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/stock-q8.run.json": {
+      "sha256": "aa5394a9c0ebb83bd7003332c9f5ed710e543d91d2a7ac0d19cc0e346cd7e8d4",
+      "size": 626,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/logs/verify.log": {
+      "sha256": "343fff33730617e665c1f1aaf936bc51bc0dee3bf80ada3196da6df6bc00c0d3",
+      "size": 2307,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/package.py": {
+      "sha256": "8efadce7a87e515f197037fb2d3b828fea4e91453f438c96a719889003d19e0f",
+      "size": 6762,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/packaging.json": {
+      "sha256": "392a6f5756c10e26335ec0ceff5ff33d8323e77b3091dbda57df4cb6b31893d7",
+      "size": 482,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/publish.py": {
+      "sha256": "72027786be16c37a999a2b0e4859254903564efd6c5868aa6077ab2cf745ab13",
+      "size": 5005,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/q6-fallback.json": {
+      "sha256": "1721b718b03c4af79fb7c02eb4981082a14c97d13b876a469a7e18327d68e83c",
+      "size": 678,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/q6-smoke.json": {
+      "sha256": "6fa532c5e8e08e9fd90ab288f97f1beaec64ec3d837a21bab6fb957a7f5d7dbf",
+      "size": 1335,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/q6-verification.json": {
+      "sha256": "41c7b34561b83a8dd2f5d135b3c91c37d7fc3c423767a7add4e73464fbd3dd92",
+      "size": 969,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/q6_fallback.py": {
+      "sha256": "a0789fd0a1439d187281bc9d30ef7c1e2785acdc8077611ea1d9c9435a4b49a6",
+      "size": 640,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/report.py": {
+      "sha256": "99c08d21e5464a0dbbdccd21fd7b4175f10c436e6ca7cb2474e9891c755c4a7c",
+      "size": 14632,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/results.json": {
+      "sha256": "6bd0feaac2e55f273830b01df3a6b67fce7257f52e9a3433cae8c982348bc1de",
+      "size": 24197,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/run.py": {
+      "sha256": "0d294cd76cf208ce0076fc7a6607fd7f48a586e6b756fd6b208e35ddb5200506",
+      "size": 3296,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/sidecar-validation.json": {
+      "sha256": "b26333599c967f5c28d37c7c1760f8a3900c1390a3a14e6c18767fe631c1d174",
+      "size": 1042,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/sidecar.cpp": {
+      "sha256": "284a4c1982505eab4d20a2da6f712b0a66d24db0c39c88487d1e014ab5883eff",
+      "size": 2297,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/smoke.json": {
+      "sha256": "37e98e49d671037394c14ebbd6536dbc7cf385fec785d4c8274d2b0c021012e5",
+      "size": 5263,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/smoke.py": {
+      "sha256": "2ad7678c71d9c7ca7c686e6562e5a1cb156b1ed6b13510ed12212a771b079c38",
+      "size": 3894,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/source.json": {
+      "sha256": "8852d361b67ad8ba68cf9806f6b81e8c637cd5989c74f5fa300f9e80396074fd",
+      "size": 1550,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/validate_sidecar.py": {
+      "sha256": "85ad61549b7ea57c89d9e7d4123f960a4bc9a711bcb691c5efe913854968cd2e",
+      "size": 3280,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/verification.json": {
+      "sha256": "343fff33730617e665c1f1aaf936bc51bc0dee3bf80ada3196da6df6bc00c0d3",
+      "size": 2307,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "runtime/verify.py": {
+      "sha256": "c81768120289fc8454007a55665812e5dc0d0e8a04cdd3ebddba98e525bfb835",
+      "size": 4263,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "tokenizer.json": {
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "size": 12807982,
+      "verification": "HF content-addressed LFS SHA256 and byte size"
+    },
+    "tokenizer_config.json": {
+      "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+      "size": 16710,
+      "verification": "Downloaded content SHA256 and byte size"
+    },
+    "SHA256.json": {
+      "sha256": "c497fb5bca6bed1eb359157726994f95822d468c8e06fbe0b71c433708d0bb3b",
+      "size": 26736,
+      "verification": "Downloaded content SHA256 and byte size"
+    }
+  }
+}
