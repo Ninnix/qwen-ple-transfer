@@ -41,6 +41,18 @@ The Git commit pins this tool snapshot; these Kaggle versions pin its runs:
 
 The local CLI versions are pinned in [`requirements.txt`](../requirements.txt).
 
+## Completed follow-up studies toward v2 (2026-10-07)
+
+The [study record](v2-study/README.md) adds the completed matched LoRA,
+receiver-local LoRA, reader/head-routing and utility-gate studies, sparse
+DeltaPLE, and official-style ParScale P=2. It includes frozen protocols,
+paired results, memory controls and persistence hashes for future research.
+
+None replaces the balanced 15M R=1 canonical v1. ParScale stops at matched
+500,224-token checkpoints: A remains a useful ParScale-only research endpoint,
+and B remains a negative-combination result after full frozen evaluation.
+No further ParScale training or GPU evaluation is scheduled.
+
 ## Files
 
 - `kaggle_qwen35_08b_ple_train.ipynb` — original training notebook (all run gates OFF at rest).

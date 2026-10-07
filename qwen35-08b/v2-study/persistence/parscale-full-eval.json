@@ -1,0 +1,8 @@
+{
+  "dataset": "ninnix/qwengram-parscale-08b-final-ablation",
+  "private": true,
+  "download_back_verified": true,
+  "file_count": 36,
+  "manifest_sha256": "5136f92aca1dd483f2158b1bb14fa038a1753da62d215993874af7f3c1801276",
+  "report_sha256": "3ee1a2b7825712db61af8a205643e18512ccc37a0a69312631ee6d61a1239d01"
+}

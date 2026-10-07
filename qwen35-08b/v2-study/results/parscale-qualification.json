@@ -1,0 +1,58 @@
+[
+  {
+    "arm": "A",
+    "checkpointing": false,
+    "passed": true,
+    "seconds": 5.157203062999997,
+    "input_tokens_per_second": 794.2289551067852,
+    "peak_allocated_vram_gib": 7.3430938720703125,
+    "peak_reserved_vram_gib": 7.431640625,
+    "host_peak_ram_gib": 2.9714126586914062,
+    "effective_tokens_per_step": 512,
+    "ce_targets_per_step": 511,
+    "backbone_tokens_per_step": 1024,
+    "activation_cost": "two stream batches; checkpointing replays each decoder block"
+  },
+  {
+    "arm": "B",
+    "checkpointing": false,
+    "passed": true,
+    "seconds": 5.558409797999957,
+    "input_tokens_per_second": 736.9014068509009,
+    "peak_allocated_vram_gib": 7.3853020668029785,
+    "peak_reserved_vram_gib": 7.46875,
+    "host_peak_ram_gib": 9.958362579345703,
+    "effective_tokens_per_step": 512,
+    "ce_targets_per_step": 511,
+    "backbone_tokens_per_step": 1024,
+    "activation_cost": "two stream batches; checkpointing replays each decoder block"
+  },
+  {
+    "arm": "A",
+    "checkpointing": true,
+    "passed": true,
+    "seconds": 6.855285013999946,
+    "input_tokens_per_second": 597.4952159735298,
+    "peak_allocated_vram_gib": 3.325608730316162,
+    "peak_reserved_vram_gib": 3.54296875,
+    "host_peak_ram_gib": 9.97176742553711,
+    "effective_tokens_per_step": 512,
+    "ce_targets_per_step": 511,
+    "backbone_tokens_per_step": 1024,
+    "activation_cost": "two stream batches; checkpointing replays each decoder block"
+  },
+  {
+    "arm": "B",
+    "checkpointing": true,
+    "passed": true,
+    "seconds": 7.29546937300006,
+    "input_tokens_per_second": 561.4443417662699,
+    "peak_allocated_vram_gib": 3.3392081260681152,
+    "peak_reserved_vram_gib": 3.548828125,
+    "host_peak_ram_gib": 9.97176742553711,
+    "effective_tokens_per_step": 512,
+    "ce_targets_per_step": 511,
+    "backbone_tokens_per_step": 1024,
+    "activation_cost": "two stream batches; checkpointing replays each decoder block"
+  }
+]

@@ -1,0 +1,562 @@
+{
+  "arm": "RAW",
+  "datasets": {
+    "hellaswag": {
+      "tokens": 324535,
+      "reader_ratio_per_token": {
+        "mean": 1.283535214813632,
+        "std": 0.3247420135665534,
+        "p05": 0.7622086405754089,
+        "p50": 1.2811284065246582,
+        "p95": 1.785410451889038,
+        "min": 0.009866428561508656,
+        "max": 6.434371471405029
+      },
+      "injection_ratio_per_token": {
+        "mean": 1.2835352174289687,
+        "std": 0.3247420160595212,
+        "p05": 0.7622087001800537,
+        "p50": 1.2811284065246582,
+        "p95": 1.7854103326797484,
+        "min": 0.009866428561508656,
+        "max": 6.434370517730713
+      },
+      "scale": {
+        "mean": 1.0,
+        "std": 0.0,
+        "p05": 1.0,
+        "p50": 1.0,
+        "p95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "reader_rms": {
+        "ratio": 1.4302587288047746,
+        "ci95": [
+          1.4278581642256851,
+          1.43258182892716
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "injection_rms": {
+        "ratio": 1.4474956135291839,
+        "ci95": [
+          1.4439179961585873,
+          1.450952556712578
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "rounded_injection_rms": {
+        "ratio": 1.447492681402415,
+        "ci95": [
+          1.4439155898106757,
+          1.4509501624540873
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "zero_canonical_tokens": 0,
+      "zero_rounded_canonical_nonzero_selected": 0,
+      "rounded_injection_ratio_per_token": {
+        "mean": 1.2835314383105296,
+        "std": 0.32474402746679326,
+        "p05": 0.7622269213199616,
+        "p50": 1.2810786962509155,
+        "p95": 1.785396301746368,
+        "min": 0.010661667212843895,
+        "max": 6.4398512840271
+      }
+    },
+    "lambada": {
+      "tokens": 75868,
+      "reader_ratio_per_token": {
+        "mean": 1.2687844354620037,
+        "std": 0.3430837256357978,
+        "p05": 0.7363961935043335,
+        "p50": 1.2617195844650269,
+        "p95": 1.7650221943855284,
+        "min": 0.03251729905605316,
+        "max": 5.728672981262207
+      },
+      "injection_ratio_per_token": {
+        "mean": 1.2687844359553833,
+        "std": 0.3430837276313527,
+        "p05": 0.7363962143659591,
+        "p50": 1.2617196440696716,
+        "p95": 1.7650222301483154,
+        "min": 0.03251729905605316,
+        "max": 5.728673458099365
+      },
+      "scale": {
+        "mean": 1.0,
+        "std": 0.0,
+        "p05": 1.0,
+        "p50": 1.0,
+        "p95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "reader_rms": {
+        "ratio": 1.4172399253757317,
+        "ci95": [
+          1.414626613158984,
+          1.4198322722184806
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "injection_rms": {
+        "ratio": 1.4477684825459538,
+        "ci95": [
+          1.4441489542494985,
+          1.4513192545777045
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "rounded_injection_rms": {
+        "ratio": 1.447768765273819,
+        "ci95": [
+          1.444147856330191,
+          1.4513194077297182
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "zero_canonical_tokens": 0,
+      "zero_rounded_canonical_nonzero_selected": 0,
+      "rounded_injection_ratio_per_token": {
+        "mean": 1.2687818307835432,
+        "std": 0.3430767443444322,
+        "p05": 0.7363117754459382,
+        "p50": 1.2617515325546265,
+        "p95": 1.7650418519973754,
+        "min": 0.03276001289486885,
+        "max": 5.726220607757568
+      }
+    },
+    "full-val": {
+      "tokens": 524288,
+      "reader_ratio_per_token": {
+        "mean": 1.305961043381144,
+        "std": 0.7115407848370155,
+        "p05": 0.7213524967432022,
+        "p50": 1.2875587344169617,
+        "p95": 1.849017935991287,
+        "min": 0.011332758702337742,
+        "max": 142.69261169433594
+      },
+      "injection_ratio_per_token": {
+        "mean": 1.305961043045702,
+        "std": 0.7115407831433344,
+        "p05": 0.7213525176048279,
+        "p50": 1.2875587344169617,
+        "p95": 1.8490178942680358,
+        "min": 0.011332757771015167,
+        "max": 142.692626953125
+      },
+      "scale": {
+        "mean": 1.0,
+        "std": 0.0,
+        "p05": 1.0,
+        "p50": 1.0,
+        "p95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "reader_rms": {
+        "ratio": 1.465871833367985,
+        "ci95": [
+          1.4638519792989366,
+          1.467832071992476
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "injection_rms": {
+        "ratio": 1.566970798132992,
+        "ci95": [
+          1.5620633545479925,
+          1.5718190806657226
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "rounded_injection_rms": {
+        "ratio": 1.5669677304693757,
+        "ci95": [
+          1.5620604980827697,
+          1.5718162271076943
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "zero_canonical_tokens": 0,
+      "zero_rounded_canonical_nonzero_selected": 28,
+      "rounded_injection_ratio_per_token": {
+        "mean": 1.309616208845991,
+        "std": 1.22946457570996,
+        "p05": 0.7213586568832397,
+        "p50": 1.2874958515167236,
+        "p95": 1.8490238189697266,
+        "min": 0.0,
+        "max": 408.0303955078125
+      }
+    },
+    "general": {
+      "tokens": 32768,
+      "reader_ratio_per_token": {
+        "mean": 3.147122397459043,
+        "std": 26.59469049959536,
+        "p05": 0.6885559499263764,
+        "p50": 1.2810136675834656,
+        "p95": 1.9441765010356902,
+        "min": 0.04296727851033211,
+        "max": 1444.6229248046875
+      },
+      "injection_ratio_per_token": {
+        "mean": 3.147122401400111,
+        "std": 26.59469063433997,
+        "p05": 0.6885559499263764,
+        "p50": 1.2810136675834656,
+        "p95": 1.9441764950752258,
+        "min": 0.04296727851033211,
+        "max": 1444.6229248046875
+      },
+      "scale": {
+        "mean": 1.0,
+        "std": 0.0,
+        "p05": 1.0,
+        "p50": 1.0,
+        "p95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "reader_rms": {
+        "ratio": 1.4490749335229065,
+        "ci95": [
+          1.439474661962946,
+          1.4576791475909774
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "injection_rms": {
+        "ratio": 1.4836175592407321,
+        "ci95": [
+          1.4730662146273676,
+          1.4940707569166416
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "rounded_injection_rms": {
+        "ratio": 1.4836152547344554,
+        "ci95": [
+          1.4730616992307506,
+          1.494066446003668
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "zero_canonical_tokens": 0,
+      "zero_rounded_canonical_nonzero_selected": 0,
+      "rounded_injection_ratio_per_token": {
+        "mean": 5.5630703019712655,
+        "std": 74.09975589655481,
+        "p05": 0.6886453241109848,
+        "p50": 1.281059443950653,
+        "p95": 1.944046545028686,
+        "min": 0.04304250329732895,
+        "max": 4914.26416015625
+      }
+    },
+    "code": {
+      "tokens": 32768,
+      "reader_ratio_per_token": {
+        "mean": 1.2142022904371856,
+        "std": 0.4720352035273849,
+        "p05": 0.6400994807481766,
+        "p50": 1.1929240226745605,
+        "p95": 1.76867703795433,
+        "min": 0.027387069538235664,
+        "max": 14.511053085327148
+      },
+      "injection_ratio_per_token": {
+        "mean": 1.214202290794617,
+        "std": 0.4720352043733089,
+        "p05": 0.6400994598865509,
+        "p50": 1.1929240226745605,
+        "p95": 1.768677002191543,
+        "min": 0.027387069538235664,
+        "max": 14.511054039001465
+      },
+      "scale": {
+        "mean": 1.0,
+        "std": 0.0,
+        "p05": 1.0,
+        "p50": 1.0,
+        "p95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "reader_rms": {
+        "ratio": 1.3495881919948145,
+        "ci95": [
+          1.3390770654799362,
+          1.3602502431646788
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "injection_rms": {
+        "ratio": 1.4042178742785,
+        "ci95": [
+          1.388492375043962,
+          1.4192599324700104
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "rounded_injection_rms": {
+        "ratio": 1.404217402377175,
+        "ci95": [
+          1.3884900912871385,
+          1.4192584085932196
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "zero_canonical_tokens": 0,
+      "zero_rounded_canonical_nonzero_selected": 0,
+      "rounded_injection_ratio_per_token": {
+        "mean": 1.214226838962702,
+        "std": 0.4720189534129791,
+        "p05": 0.6402450025081635,
+        "p50": 1.192902684211731,
+        "p95": 1.7688413798809048,
+        "min": 0.027468418702483177,
+        "max": 14.497340202331543
+      }
+    },
+    "math": {
+      "tokens": 32768,
+      "reader_ratio_per_token": {
+        "mean": 1.2059657728705417,
+        "std": 0.3522140783651108,
+        "p05": 0.6568039864301681,
+        "p50": 1.2005481719970703,
+        "p95": 1.7345724165439604,
+        "min": 0.011882497929036617,
+        "max": 6.185079097747803
+      },
+      "injection_ratio_per_token": {
+        "mean": 1.2059657719180166,
+        "std": 0.3522140769578611,
+        "p05": 0.6568040072917939,
+        "p50": 1.2005481719970703,
+        "p95": 1.734572458267212,
+        "min": 0.011882497929036617,
+        "max": 6.1850786209106445
+      },
+      "scale": {
+        "mean": 1.0,
+        "std": 0.0,
+        "p05": 1.0,
+        "p50": 1.0,
+        "p95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "reader_rms": {
+        "ratio": 1.2880325678399474,
+        "ci95": [
+          1.280601230424591,
+          1.2953683227489214
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "injection_rms": {
+        "ratio": 1.2776756681242543,
+        "ci95": [
+          1.2623338301190778,
+          1.2940460030801457
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "rounded_injection_rms": {
+        "ratio": 1.2776709685246592,
+        "ci95": [
+          1.2623294099061575,
+          1.2940408393079954
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "zero_canonical_tokens": 0,
+      "zero_rounded_canonical_nonzero_selected": 0,
+      "rounded_injection_ratio_per_token": {
+        "mean": 1.2059631839409235,
+        "std": 0.3522029281234223,
+        "p05": 0.6568634152412415,
+        "p50": 1.2005941271781921,
+        "p95": 1.7346095383167266,
+        "min": 0.011871714144945145,
+        "max": 6.182164192199707
+      }
+    },
+    "scientific": {
+      "tokens": 32768,
+      "reader_ratio_per_token": {
+        "mean": 1.3114895881973325,
+        "std": 0.370319334341387,
+        "p05": 0.7138325721025467,
+        "p50": 1.3165841102600098,
+        "p95": 1.8572883367538453,
+        "min": 0.030072718858718872,
+        "max": 8.561535835266113
+      },
+      "injection_ratio_per_token": {
+        "mean": 1.3114895880790414,
+        "std": 0.3703193347035071,
+        "p05": 0.7138325333595277,
+        "p50": 1.3165842294692993,
+        "p95": 1.857288259267807,
+        "min": 0.030072716996073723,
+        "max": 8.56153678894043
+      },
+      "scale": {
+        "mean": 1.0,
+        "std": 0.0,
+        "p05": 1.0,
+        "p50": 1.0,
+        "p95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "reader_rms": {
+        "ratio": 1.4724570595023005,
+        "ci95": [
+          1.4674593200999702,
+          1.477322805270355
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "injection_rms": {
+        "ratio": 1.513567759228642,
+        "ci95": [
+          1.502449880795259,
+          1.5244916921241185
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "rounded_injection_rms": {
+        "ratio": 1.5135663656790495,
+        "ci95": [
+          1.502450272088371,
+          1.524485968019986
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "zero_canonical_tokens": 0,
+      "zero_rounded_canonical_nonzero_selected": 0,
+      "rounded_injection_ratio_per_token": {
+        "mean": 1.3114921852736074,
+        "std": 0.3703168909147934,
+        "p05": 0.7138092696666718,
+        "p50": 1.3165519833564758,
+        "p95": 1.857304000854492,
+        "min": 0.030224962159991264,
+        "max": 8.562829971313477
+      }
+    },
+    "multilingual": {
+      "tokens": 32768,
+      "reader_ratio_per_token": {
+        "mean": 1.1719774963797818,
+        "std": 0.5624036832703322,
+        "p05": 0.6303227603435516,
+        "p50": 1.139371395111084,
+        "p95": 1.7896165907382964,
+        "min": 0.031868673861026764,
+        "max": 77.23516845703125
+      },
+      "injection_ratio_per_token": {
+        "mean": 1.1719774967893954,
+        "std": 0.562403684515222,
+        "p05": 0.6303227812051773,
+        "p50": 1.139371395111084,
+        "p95": 1.789616709947586,
+        "min": 0.03186867758631706,
+        "max": 77.23516845703125
+      },
+      "scale": {
+        "mean": 1.0,
+        "std": 0.0,
+        "p05": 1.0,
+        "p50": 1.0,
+        "p95": 1.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "reader_rms": {
+        "ratio": 1.365676322419763,
+        "ci95": [
+          1.355073097417538,
+          1.375813916113016
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "injection_rms": {
+        "ratio": 1.6183823359132146,
+        "ci95": [
+          1.5995985160734656,
+          1.635997630597091
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "rounded_injection_rms": {
+        "ratio": 1.6183727456350567,
+        "ci95": [
+          1.5995893947559752,
+          1.6359852230083198
+        ],
+        "bootstrap_unit": "block or benchmark example; HellaSwag options clustered"
+      },
+      "zero_canonical_tokens": 0,
+      "zero_rounded_canonical_nonzero_selected": 0,
+      "rounded_injection_ratio_per_token": {
+        "mean": 1.1743193773997973,
+        "std": 0.9258082560745329,
+        "p05": 0.63036450445652,
+        "p50": 1.1392989754676819,
+        "p95": 1.7896937906742096,
+        "min": 0.03199545294046402,
+        "max": 154.50291442871094
+      }
+    }
+  },
+  "artifacts": {
+    "hellaswag": {
+      "file": "norms-RAW-hellaswag.npz",
+      "sha256": "9107c5d911d48fe3f8abb2fe6a31a81453ba398388c8cd78b89af2e72b5a4083"
+    },
+    "lambada": {
+      "file": "norms-RAW-lambada.npz",
+      "sha256": "c9b2e3e589c493a976cad25a99fedf47b6cba34e26cef8c065d74cd0af3e60ad"
+    },
+    "full-val": {
+      "file": "norms-RAW-full-val.npz",
+      "sha256": "3555a6a9771bdce5175a240b0c4f95d1d47c3208c7f854f7d5852aefa9e01c10"
+    },
+    "general": {
+      "file": "norms-RAW-general.npz",
+      "sha256": "0759ea9bad9a087eb4cbb683c0b1c05ad350cb0dd2361b2614ef90a07ea093e1"
+    },
+    "code": {
+      "file": "norms-RAW-code.npz",
+      "sha256": "b4e5f89ea6b50885721faf9150b3f0605ac699be74a1e66fd745fbc515c0703a"
+    },
+    "math": {
+      "file": "norms-RAW-math.npz",
+      "sha256": "3634ae999448a594820cb5b3c6544c3d416063e2d49c174a0df196ee0ce085d4"
+    },
+    "scientific": {
+      "file": "norms-RAW-scientific.npz",
+      "sha256": "ddaa6f8ba15a9681ce0f85c769be8b51a13f447ab5ffca8f583e228f0fd067c8"
+    },
+    "multilingual": {
+      "file": "norms-RAW-multilingual.npz",
+      "sha256": "cec1875528bb0cfbb99c3f3cfeec459c242e6e10c36eb0e5933681a21c578bba"
+    }
+  },
+  "population": "all memory-read positions, including unscored positions",
+  "asserted_output": "FP32 pre-gamma reader output and FP32 gamma8*alpha8 reader branch",
+  "rounding_note": "canonical FP16 reader residual cast, subtraction and alpha8 multiplication preserved; separately audited"
+}

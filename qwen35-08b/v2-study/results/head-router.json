@@ -1,0 +1,428 @@
+{
+  "answer": "This endpoint does not establish a promotable improvement from head/token selectivity with the canonical WHEN policy fixed.",
+  "comparisons": {
+    "UNIFORM": {
+      "full_val_nll": {
+        "delta": -0.0025639762617137283,
+        "ci95": [
+          -0.0026650329654463985,
+          -0.0024634408857491094
+        ],
+        "pairs": 1024,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "lambada_nll": {
+        "delta": -0.0009914849267030758,
+        "ci95": [
+          -0.0023152802107390034,
+          0.0003013122736476355
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "lambada_accuracy": {
+        "delta": 0.0,
+        "ci95": [
+          -0.005,
+          0.005
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "hellaswag_accuracy": {
+        "delta": 0.001,
+        "ci95": [
+          -0.002,
+          0.005
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "general_nll": {
+        "delta": -0.0034016946990429175,
+        "ci95": [
+          -0.0037215155398075575,
+          -0.0030795511667509176
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "code_nll": {
+        "delta": -0.0007551672873898282,
+        "ci95": [
+          -0.0011167595997715184,
+          -0.0004239114763218844
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "math_nll": {
+        "delta": -0.00373288656634126,
+        "ci95": [
+          -0.0041465989297616666,
+          -0.0033357149700829073
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "scientific_nll": {
+        "delta": -0.0034545405736874715,
+        "ci95": [
+          -0.0038770875352236475,
+          -0.003046876437043514
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "multilingual_nll": {
+        "delta": -0.0022364614527752708,
+        "ci95": [
+          -0.0026256958799119674,
+          -0.0018526541976779326
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "five_domain_mean_nll": {
+        "delta": -0.0027161501158473496,
+        "ci95": [
+          -0.0028884035640500054,
+          -0.002548185183344051
+        ],
+        "supported_improvement": true,
+        "supported_regression": false,
+        "bootstrap": "paired blocks, stratified by domain"
+      }
+    },
+    "HEAD-SHUFFLED": {
+      "full_val_nll": {
+        "delta": -0.0028559100137998004,
+        "ci95": [
+          -0.002984920823527411,
+          -0.002728083368150222
+        ],
+        "pairs": 1024,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "lambada_nll": {
+        "delta": -0.0009319586766262849,
+        "ci95": [
+          -0.002524320799966034,
+          0.0006031196242043118
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "lambada_accuracy": {
+        "delta": -0.001,
+        "ci95": [
+          -0.006,
+          0.004
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "hellaswag_accuracy": {
+        "delta": 0.002,
+        "ci95": [
+          -0.002,
+          0.006
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "general_nll": {
+        "delta": -0.0036600639208888702,
+        "ci95": [
+          -0.004141210343273202,
+          -0.0032064844717485178
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "code_nll": {
+        "delta": -0.0008937066781777546,
+        "ci95": [
+          -0.0012664040007470021,
+          -0.0005390923083878357
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "math_nll": {
+        "delta": -0.004189750686317049,
+        "ci95": [
+          -0.00476961817060198,
+          -0.003629814901930479
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "scientific_nll": {
+        "delta": -0.003837326034874366,
+        "ci95": [
+          -0.004384993433719025,
+          -0.0033192765222836915
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "multilingual_nll": {
+        "delta": -0.0025183869901235154,
+        "ci95": [
+          -0.002978820296882924,
+          -0.00205572561275233
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "five_domain_mean_nll": {
+        "delta": -0.003019846862076311,
+        "ci95": [
+          -0.0032422167774282615,
+          -0.0028016408642210756
+        ],
+        "supported_improvement": true,
+        "supported_regression": false,
+        "bootstrap": "paired blocks, stratified by domain"
+      }
+    },
+    "TOKEN-SHUFFLED": {
+      "full_val_nll": {
+        "delta": -0.001080739054894498,
+        "ci95": [
+          -0.001151270598698042,
+          -0.0010111853451178268
+        ],
+        "pairs": 1024,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "lambada_nll": {
+        "delta": -0.0011500300541520112,
+        "ci95": [
+          -0.002171846322606627,
+          -0.00012003066482332774
+        ],
+        "pairs": 1000,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "lambada_accuracy": {
+        "delta": 0.001,
+        "ci95": [
+          -0.003,
+          0.005
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "hellaswag_accuracy": {
+        "delta": 0.001,
+        "ci95": [
+          0.0,
+          0.003
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "general_nll": {
+        "delta": -0.002359498503623436,
+        "ci95": [
+          -0.002697656859157189,
+          -0.0019946746863497605
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "code_nll": {
+        "delta": -0.0005183005286289559,
+        "ci95": [
+          -0.0007393530903497137,
+          -0.00029179473679124873
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "math_nll": {
+        "delta": -0.0032099165795133958,
+        "ci95": [
+          -0.003665471263594356,
+          -0.002760287763554514
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "scientific_nll": {
+        "delta": -0.001963540765870568,
+        "ci95": [
+          -0.002317409692678406,
+          -0.0016293897554132326
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "multilingual_nll": {
+        "delta": -0.0014902626231691335,
+        "ci95": [
+          -0.0018169055946185135,
+          -0.0011654984461117398
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "five_domain_mean_nll": {
+        "delta": -0.0019083038001610978,
+        "ci95": [
+          -0.0020622093943466987,
+          -0.0017555346554272763
+        ],
+        "supported_improvement": true,
+        "supported_regression": false,
+        "bootstrap": "paired blocks, stratified by domain"
+      }
+    }
+  },
+  "checks": {
+    "full_val_supported_gain": true,
+    "five_domain_mean_preserved": true,
+    "lambada_no_supported_nll_regression": true,
+    "lambada_no_supported_accuracy_regression": true,
+    "hellaswag_no_supported_accuracy_regression": true,
+    "no_supported_domain_regression": true,
+    "beats_head_shuffled": true,
+    "beats_token_shuffled": true,
+    "no_material_reader_norm_inflation": false
+  },
+  "supported_domain_regressions": [],
+  "material_reader_norm_inflation": [
+    "hellaswag",
+    "lambada",
+    "full-val",
+    "general",
+    "code",
+    "math",
+    "scientific",
+    "multilingual"
+  ],
+  "decision": "research endpoint only: generalization or fixed-strength attribution failed; retain v1",
+  "promote_toward_v2": false,
+  "publish": false,
+  "interval_note": "paired percentile bootstrap, unadjusted 95%; NLL negative favors learned; accuracy positive favors learned",
+  "norm_rule": "predeclared conservative attribution guard: reader RMS ratio lower CI above 1.05 blocks promotion; no renormalization",
+  "training": {
+    "seconds": 486.9763175439999,
+    "tokens": 749568,
+    "next_token_targets": 748104,
+    "loss_scale_retries": 7
+  },
+  "max_per_token_budget_error": 2.980232238769531e-07,
+  "alpha8_bit_exact_all_arms": true,
+  "frozen_tensor_shas_unchanged": true,
+  "router_checkpoint_tokens": 749568,
+  "protocol": {
+    "experiment": "Qwengram-v2-0.8B WHAT-to-read",
+    "seed": 20261006,
+    "seq": 512,
+    "target_tokens": 750000,
+    "actual_tokens": 749568,
+    "checkpoint_tokens": [
+      250368,
+      500736,
+      749568
+    ],
+    "trainable": [
+      "head_router.weight",
+      "head_router.bias"
+    ],
+    "hidden": 1024,
+    "heads": 16,
+    "head_dim": 160,
+    "head_order": [
+      "bigram_1",
+      "bigram_2",
+      "bigram_3",
+      "bigram_4",
+      "bigram_5",
+      "bigram_6",
+      "bigram_7",
+      "bigram_8",
+      "trigram_1",
+      "trigram_2",
+      "trigram_3",
+      "trigram_4",
+      "trigram_5",
+      "trigram_6",
+      "trigram_7",
+      "trigram_8"
+    ],
+    "router": "16 * softmax(Linear(RMSNorm(h8.detach().float())))",
+    "objective": "ordinary next-token cross entropy only",
+    "optimizer": "AdamW",
+    "peak_lr": 0.001,
+    "warmup_steps": 32,
+    "decay": "cosine to zero at final update",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0,
+    "clip_grad_norm": 1,
+    "precision": "FP16 backbone; FP32 frozen readers, arbiter, router and CE; GradScaler",
+    "calibration_sha256": "379e484148e94b08e71870e6fabe67116260d965d9420b7a7d323cb09e4bd828",
+    "calibration_manifest_sha256": "090f99d7e78d5f0fa06b4080018db06b02ee0c903f254651dcfdb611d44a0ba0",
+    "sources": [
+      "general",
+      "narrative",
+      "code",
+      "math",
+      "scientific",
+      "multilingual"
+    ],
+    "heldout": "exact frozen v1 blocks, benchmarks, calibration byte order and established 32768-token source exclusions",
+    "identity_nll_tolerance": 1e-07,
+    "budget_tolerance": 2e-06,
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 20261006,
+    "controls": [
+      "LEARNED",
+      "UNIFORM",
+      "HEAD-SHUFFLED",
+      "TOKEN-SHUFFLED"
+    ],
+    "shuffle_seed": 726194,
+    "token_shuffle": "deterministic permutation within each complete inference sequence; may move future-derived routing vectors to earlier positions; inference-only causal control",
+    "selection": "750K endpoint only; no held-out checkpoint selection",
+    "reader_norm_renormalization": false,
+    "norm_material_change": 0.05,
+    "promotion": "supported full-val gain; five-domain mean nonpositive; no supported domain or LAMBADA regression; supported full-val advantage over both shuffled controls; no material reader-norm inflation",
+    "publish": false,
+    "followup": false
+  }
+}

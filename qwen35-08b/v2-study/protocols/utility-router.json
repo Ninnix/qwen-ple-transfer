@@ -1,0 +1,27 @@
+{
+  "experiment": "Canonical v1 explicit total-memory-utility linear router",
+  "seed": 20261005,
+  "collection_blocks": 512,
+  "train_blocks": 384,
+  "validation_blocks": 128,
+  "sequence_length": 512,
+  "epochs": 5,
+  "batch_tokens": 4096,
+  "optimizer": "AdamW",
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "utility": "loss_disabled - loss_real from frozen canonical v1",
+  "objective": "BCEWithLogits sign(utility), weighted by min(abs(utility),1); no class balancing",
+  "target_alignment": "hidden state at position t predicts token t+1; final position excluded",
+  "features": "canonical early-active, late pre-injection RMS-normalized IDX8 hidden state",
+  "trainable": "late gate w and b only, 1025 parameters",
+  "frozen": "base backbone, PLE, reader, gammas, beta, alpha_early, alpha2_raw; no LoRA",
+  "selection": "last epoch only; calibration monitored, never select on frozen evaluation",
+  "data": "first 512 blocks of the frozen v2 training stream, not held-out diagnostics",
+  "split": "blocks 0:384 train,384:512 calibration; existing stream disjoint from evaluation",
+  "budget_wall_seconds": 10800,
+  "retention_diagnostic": {
+    "permutation_seed": 777
+  },
+  "publish": false
+}

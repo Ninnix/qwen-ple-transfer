@@ -1,0 +1,72 @@
+{
+  "experiment": "Qwengram-v2-0.8B matched general-LM LoRA",
+  "status": "preparation",
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0,
+  "seed": 20261003,
+  "seq": 512,
+  "batch_size": 1,
+  "gradient_accumulation": 1,
+  "target_tokens": 15000000,
+  "actual_tokens": 15000064,
+  "milestone_tokens": [
+    1000448,
+    5000192,
+    10000384,
+    15000064
+  ],
+  "optimizer": "AdamW",
+  "peak_lr": 0.0001,
+  "warmup_fraction": 0.05,
+  "decay": "cosine to zero at final update",
+  "weight_decay": 0.01,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "clip_grad_norm": 1.0,
+  "precision": "FP16 frozen backbone; FP32 adapters, reader, arbiter, CE; GradScaler",
+  "target_families": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "in_proj_qkv",
+    "out_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "semantic_mapping": {
+    "full_attention": "q_proj/k_proj/v_proj/o_proj; q_proj includes the native output-gate channel",
+    "linear_attention": "in_proj_qkv is the fused q/k/v projection; out_proj is the output projection",
+    "mlp": "gate_proj/up_proj/down_proj",
+    "excluded": "linear-attention in_proj_z/in_proj_a/in_proj_b, conv, norms, embeddings, vision, MTP"
+  },
+  "stream": "FineWeb-Edu sample-10BT pinned v1 revision; continue after the complete document containing the 20M reader endpoint; exclude frozen eval/calibration documents and exact token spans",
+  "budget_gpu_hours": 30,
+  "later_arms": "Blocked until matched A1/B1 15M persistence, evaluation and paired decision; C requires case 1; joint refinement additionally requires substantial remaining budget",
+  "publish": false,
+  "fairness": "A1 and B1 use identical new stream and schedule. B1 additionally inherits 15,000,064 reader tokens and 749,568 arbiter calibration tokens; it is not total-compute matched against A1.",
+  "retention_diagnostic": {
+    "full_validation_blocks": 32,
+    "blocks_per_domain": 8,
+    "order": "full first, then general/code/math/scientific/multilingual; original block order",
+    "permutation_seed": 777,
+    "milestones": [
+      5000192,
+      10000384,
+      15000064
+    ],
+    "conditions": [
+      "real",
+      "permuted",
+      "disabled"
+    ],
+    "training": false,
+    "utility_targets": "disabled token CE minus real token CE; align alpha_late at logit position predicting each target token",
+    "router_utility_ablation": "prepare only; never launch or alter the existing CE-trained arbiter"
+  }
+}

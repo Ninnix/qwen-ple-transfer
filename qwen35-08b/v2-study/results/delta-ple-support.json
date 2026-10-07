@@ -1,0 +1,9 @@
+{
+  "exact_observed_training_address_set": true,
+  "unobserved_rows": 0,
+  "duplicate_addresses": 0,
+  "unique_rows": 35121420,
+  "seen_tokens": 5000192,
+  "stream_sha256": "19a6180a95685fae67224f4bbef69540926680cefae1cedf3b2453c6d8c1ee28",
+  "addresses_sha256": "0448ca2d5946b4e34212da610c2fc5c49e26ee4fba03cfb7e77b1dfbf0b8a2f9"
+}

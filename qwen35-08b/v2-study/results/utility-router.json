@@ -1,0 +1,1140 @@
+{
+  "decision": "research endpoint, no canonical promotion",
+  "reason": "Supported LAMBADA NLL regression; gate-utility correlation did not improve",
+  "paired_vs_v1": {
+    "full_val_nll": {
+      "mean": -0.002368305177371327,
+      "ci95": [
+        -0.0024602312776907066,
+        -0.002278792826046904
+      ],
+      "bootstrap_resamples": 10000,
+      "seed": 1234,
+      "ppl_candidate": 17.31230996033677,
+      "ppl_reference": 17.35335938324176,
+      "ppl_delta": {
+        "mean": -0.04104942290499025,
+        "ci95": [
+          -0.04320630630723858,
+          -0.03896431034703633
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      },
+      "ppl_reduction_percent": {
+        "mean": 0.23655029552736018,
+        "ci95": [
+          0.22761983488076648,
+          0.24572073890509138
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      }
+    },
+    "hellaswag_accuracy": {
+      "mean": 0.001,
+      "ci95": [
+        0.0,
+        0.003
+      ],
+      "bootstrap_resamples": 10000,
+      "seed": 1234
+    },
+    "lambada_accuracy": {
+      "mean": -0.002,
+      "ci95": [
+        -0.008,
+        0.004
+      ],
+      "bootstrap_resamples": 10000,
+      "seed": 1234
+    },
+    "lambada_nll": {
+      "mean": 0.013150424358745414,
+      "ci95": [
+        0.010745344712794758,
+        0.015591826895205304
+      ],
+      "bootstrap_resamples": 10000,
+      "seed": 1234,
+      "ppl_candidate": 9.303837978034666,
+      "ppl_reference": 9.182289519013256,
+      "ppl_delta": {
+        "mean": 0.12154845902140998,
+        "ci95": [
+          0.09682151716292271,
+          0.14902343811227806
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      },
+      "ppl_reduction_percent": {
+        "mean": -1.3237271463693911,
+        "ci95": [
+          -1.571401364039196,
+          -1.080328326660065
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      }
+    },
+    "general_nll": {
+      "mean": -0.004282635951928661,
+      "ci95": [
+        -0.004695277204718824,
+        -0.00387113920163265
+      ],
+      "bootstrap_resamples": 10000,
+      "seed": 1234,
+      "ppl_candidate": 22.86965671510787,
+      "ppl_reference": 22.96780915473006,
+      "ppl_delta": {
+        "mean": -0.09815243962219,
+        "ci95": [
+          -0.11299551747764705,
+          -0.08434893527703684
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      },
+      "ppl_reduction_percent": {
+        "mean": 0.4273478543859399,
+        "ci95": [
+          0.386365600154176,
+          0.4684271622192812
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      }
+    },
+    "code_nll": {
+      "mean": -0.00024719947471544927,
+      "ci95": [
+        -0.0005013018671547216,
+        7.58800954501176e-06
+      ],
+      "bootstrap_resamples": 10000,
+      "seed": 1234,
+      "ppl_candidate": 4.459128835833669,
+      "ppl_reference": 4.460231266394089,
+      "ppl_delta": {
+        "mean": -0.0011024305604205864,
+        "ci95": [
+          -0.0023263130571246292,
+          3.2288598082330385e-05
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      },
+      "ppl_reduction_percent": {
+        "mean": 0.02471689234427865,
+        "ci95": [
+          -0.0007588038334266355,
+          0.050117623636746766
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      }
+    },
+    "math_nll": {
+      "mean": -1.910987898793952e-05,
+      "ci95": [
+        -0.000232730779629147,
+        0.00019459708096231839
+      ],
+      "bootstrap_resamples": 10000,
+      "seed": 1234,
+      "ppl_candidate": 4.064645004273015,
+      "ppl_reference": 4.06472267988936,
+      "ppl_delta": {
+        "mean": -7.76756163443082e-05,
+        "ci95": [
+          -0.0009598006283360272,
+          0.000783878435020413
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      },
+      "ppl_reduction_percent": {
+        "mean": 0.0019109696395402942,
+        "ci95": [
+          -0.01946160162063948,
+          0.0232703699922121
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      }
+    },
+    "scientific_nll": {
+      "mean": -0.000739817983250339,
+      "ci95": [
+        -0.001021173928815065,
+        -0.0004576232801911537
+      ],
+      "bootstrap_resamples": 10000,
+      "seed": 1234,
+      "ppl_candidate": 9.428636919390376,
+      "ppl_reference": 9.43561497546829,
+      "ppl_delta": {
+        "mean": -0.006978056077914019,
+        "ci95": [
+          -0.009751459479256708,
+          -0.00426510095931012
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      },
+      "ppl_reduction_percent": {
+        "mean": 0.07395443854012473,
+        "ci95": [
+          0.04575185866291798,
+          0.10206527081527444
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      }
+    },
+    "multilingual_nll": {
+      "mean": -0.0020134621636974867,
+      "ci95": [
+        -0.002318339711766002,
+        -0.0017198729655047342
+      ],
+      "bootstrap_resamples": 10000,
+      "seed": 1234,
+      "ppl_candidate": 38.29252952745983,
+      "ppl_reference": 38.369707758466056,
+      "ppl_delta": {
+        "mean": -0.07717823100622923,
+        "ci95": [
+          -0.09437030446182551,
+          -0.06201876742661217
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      },
+      "ppl_reduction_percent": {
+        "mean": 0.20114365085099895,
+        "ci95": [
+          0.17183948315170866,
+          0.2315654437779904
+        ],
+        "bootstrap_resamples": 10000,
+        "seed": 1234
+      }
+    },
+    "five_domain_mean_nll": {
+      "mean": -0.001460445090515975,
+      "ci95": [
+        -0.0015953621938970357,
+        -0.001327332199902932
+      ],
+      "bootstrap_resamples": 10000,
+      "seed": 1234
+    }
+  },
+  "retention": {
+    "checkpoint": "ROUTER",
+    "inference_only": true,
+    "diagnostic_manifest_sha256": "a62eb31c4a292013d0e2543be3eb1fb89cab42bb11b8716f79907e09e64a1262",
+    "reader_sha256": "e4a760163ec07568178ab48aa533235a9af878183caf120d4e29ce1c8ce4b9dc",
+    "arbiter_sha256": "d884ce65279e9bc3ccca6c7b57dccbed8509ba7edc023ed19f2faed9bf322589",
+    "adapter_sha256": null,
+    "per_token_file": "memory-utility-ROUTER.npz",
+    "per_token_sha256": "2518cb93654a10d55c0b96ef385ef1dc8477e785d9b631a70ed0ff86b6ddb275",
+    "token_count": 36792,
+    "nll": {
+      "real": 2.613087068001429,
+      "permuted": 2.6278691680894957,
+      "disabled": 2.6601186295350394
+    },
+    "contrasts": {
+      "real-minus-disabled": {
+        "mean": -0.047031561533610024,
+        "ci95": [
+          -0.05402559557308753,
+          -0.04024470825162199
+        ],
+        "resampling_unit": "paired 512-token block",
+        "resamples": 10000,
+        "seed": 1234
+      },
+      "real-minus-permuted": {
+        "mean": -0.014782100088066526,
+        "ci95": [
+          -0.01771566652589374,
+          -0.011846738163795736
+        ],
+        "resampling_unit": "paired 512-token block",
+        "resamples": 10000,
+        "seed": 1234
+      },
+      "permuted-minus-disabled": {
+        "mean": -0.0322494614455435,
+        "ci95": [
+          -0.037194330472913054,
+          -0.027484372113313938
+        ],
+        "resampling_unit": "paired 512-token block",
+        "resamples": 10000,
+        "seed": 1234
+      }
+    },
+    "utility": {
+      "mean": 0.04703152875370639,
+      "std": 0.3184871643581084,
+      "p05_p50_p95": [
+        -0.31880592107772826,
+        0.0002172234235331416,
+        0.5304219722747792
+      ],
+      "positive_fraction": 0.5179930419656447,
+      "pearson_benefit_alpha_late": 0.07385953285781578,
+      "gate_near_closed_fraction": 0.0,
+      "gate_near_open_fraction": 0.0032615786040443573,
+      "pearson_block_bootstrap_ci95": [
+        0.06233707152114903,
+        0.08494577233530108
+      ],
+      "spearman_benefit_alpha_late": 0.056521234833563784,
+      "alpha_bins": [
+        {
+          "alpha_range": [
+            0,
+            0.05
+          ],
+          "tokens": 171,
+          "benefit_mean": 0.040126927460818085,
+          "positive_benefit_fraction": 0.52046783625731
+        },
+        {
+          "alpha_range": [
+            0.05,
+            0.1
+          ],
+          "tokens": 1476,
+          "benefit_mean": 0.007235848486793623,
+          "positive_benefit_fraction": 0.4796747967479675
+        },
+        {
+          "alpha_range": [
+            0.1,
+            0.2
+          ],
+          "tokens": 7403,
+          "benefit_mean": 0.02192945215321475,
+          "positive_benefit_fraction": 0.49223287856274484
+        },
+        {
+          "alpha_range": [
+            0.2,
+            0.3
+          ],
+          "tokens": 11505,
+          "benefit_mean": 0.03807262222666437,
+          "positive_benefit_fraction": 0.5045632333767927
+        },
+        {
+          "alpha_range": [
+            0.3,
+            0.4
+          ],
+          "tokens": 10446,
+          "benefit_mean": 0.05842357505585671,
+          "positive_benefit_fraction": 0.5322611525942945
+        },
+        {
+          "alpha_range": [
+            0.4,
+            0.5
+          ],
+          "tokens": 5791,
+          "benefit_mean": 0.08671736675920513,
+          "positive_benefit_fraction": 0.5615610429977551
+        }
+      ],
+      "interpretation_limit": "Both early and late memory are disabled together. This is total-memory counterfactual utility, not isolated causal utility of the late gate. Correlation alone does not justify changing gate training.",
+      "negative_fraction": 0.4820069580343553,
+      "positive_benefit_mean": 0.2115893424638706,
+      "negative_benefit_mean": -0.12981198166065638
+    },
+    "buckets": {
+      "full": {
+        "nll": {
+          "real": 2.872177727520466,
+          "permuted": 2.895039215683937,
+          "disabled": 2.9326101392507553
+        },
+        "utility": {
+          "mean": 0.06043237502368549,
+          "std": 0.3290828715780778,
+          "p05_p50_p95": [
+            -0.32202485799789426,
+            0.0025521786883473396,
+            0.5774895906448358
+          ],
+          "positive_fraction": 0.5259907045009785,
+          "pearson_benefit_alpha_late": 0.07856352884859016,
+          "gate_near_closed_fraction": 0.0,
+          "gate_near_open_fraction": 0.002629647749510763,
+          "pearson_block_bootstrap_ci95": [
+            0.060599325330878855,
+            0.0958560720203334
+          ],
+          "spearman_benefit_alpha_late": 0.06294960643141208,
+          "alpha_bins": [
+            {
+              "alpha_range": [
+                0,
+                0.05
+              ],
+              "tokens": 18,
+              "benefit_mean": 0.07728734056541321,
+              "positive_benefit_fraction": 0.4444444444444444
+            },
+            {
+              "alpha_range": [
+                0.05,
+                0.1
+              ],
+              "tokens": 283,
+              "benefit_mean": 0.016620254348159287,
+              "positive_benefit_fraction": 0.5229681978798587
+            },
+            {
+              "alpha_range": [
+                0.1,
+                0.2
+              ],
+              "tokens": 2688,
+              "benefit_mean": 0.032657624318081085,
+              "positive_benefit_fraction": 0.49962797619047616
+            },
+            {
+              "alpha_range": [
+                0.2,
+                0.3
+              ],
+              "tokens": 5693,
+              "benefit_mean": 0.04578463397808928,
+              "positive_benefit_fraction": 0.5088705427718251
+            },
+            {
+              "alpha_range": [
+                0.3,
+                0.4
+              ],
+              "tokens": 5233,
+              "benefit_mean": 0.0685959286860193,
+              "positive_benefit_fraction": 0.5365946875597172
+            },
+            {
+              "alpha_range": [
+                0.4,
+                0.5
+              ],
+              "tokens": 2437,
+              "benefit_mean": 0.11271948381550895,
+              "positive_benefit_fraction": 0.5732457940090275
+            }
+          ],
+          "interpretation_limit": "Both early and late memory are disabled together. This is total-memory counterfactual utility, not isolated causal utility of the late gate. Correlation alone does not justify changing gate training."
+        },
+        "contrasts": {
+          "real-minus-disabled": {
+            "mean": -0.06043241173028946,
+            "ci95": [
+              -0.0698153244331479,
+              -0.05157255418598652
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "real-minus-permuted": {
+            "mean": -0.022861488163471222,
+            "ci95": [
+              -0.027356359735131265,
+              -0.018642120435833933
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "permuted-minus-disabled": {
+            "mean": -0.03757092356681824,
+            "ci95": [
+              -0.043263921700418,
+              -0.03239159267395735
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          }
+        }
+      },
+      "general": {
+        "nll": {
+          "real": 3.2478645741939545,
+          "permuted": 3.2556775510311127,
+          "disabled": 3.318966418504715
+        },
+        "utility": {
+          "mean": 0.07110185718774868,
+          "std": 0.32366164722916696,
+          "p05_p50_p95": [
+            -0.31748816967010496,
+            0.013273090124130249,
+            0.5742556452751156
+          ],
+          "positive_fraction": 0.5743639921722113,
+          "pearson_benefit_alpha_late": 0.08360212335185084,
+          "gate_near_closed_fraction": 0.0,
+          "gate_near_open_fraction": 0.007583170254403131,
+          "pearson_block_bootstrap_ci95": [
+            0.06876500433834705,
+            0.10045396869252234
+          ],
+          "spearman_benefit_alpha_late": 0.0530585132207585,
+          "alpha_bins": [
+            {
+              "alpha_range": [
+                0,
+                0.05
+              ],
+              "tokens": 9,
+              "benefit_mean": -0.0012437951647573048,
+              "positive_benefit_fraction": 0.4444444444444444
+            },
+            {
+              "alpha_range": [
+                0.05,
+                0.1
+              ],
+              "tokens": 82,
+              "benefit_mean": 0.08349195625221288,
+              "positive_benefit_fraction": 0.5487804878048781
+            },
+            {
+              "alpha_range": [
+                0.1,
+                0.2
+              ],
+              "tokens": 498,
+              "benefit_mean": 0.040003265384290124,
+              "positive_benefit_fraction": 0.570281124497992
+            },
+            {
+              "alpha_range": [
+                0.2,
+                0.3
+              ],
+              "tokens": 1287,
+              "benefit_mean": 0.04817482668428973,
+              "positive_benefit_fraction": 0.5695415695415695
+            },
+            {
+              "alpha_range": [
+                0.3,
+                0.4
+              ],
+              "tokens": 1315,
+              "benefit_mean": 0.07338544884322569,
+              "positive_benefit_fraction": 0.5733840304182509
+            },
+            {
+              "alpha_range": [
+                0.4,
+                0.5
+              ],
+              "tokens": 897,
+              "benefit_mean": 0.1175080853895416,
+              "positive_benefit_fraction": 0.5886287625418061
+            }
+          ],
+          "interpretation_limit": "Both early and late memory are disabled together. This is total-memory counterfactual utility, not isolated causal utility of the late gate. Correlation alone does not justify changing gate training."
+        },
+        "contrasts": {
+          "real-minus-disabled": {
+            "mean": -0.0711018443107605,
+            "ci95": [
+              -0.08936455249786376,
+              -0.054581137001514436
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "real-minus-permuted": {
+            "mean": -0.007812976837158203,
+            "ci95": [
+              -0.013189494609832764,
+              -0.0027318596839904785
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "permuted-minus-disabled": {
+            "mean": -0.0632888674736023,
+            "ci95": [
+              -0.07894772663712502,
+              -0.05029724314808846
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          }
+        }
+      },
+      "code": {
+        "nll": {
+          "real": 1.2020386308431625,
+          "permuted": 1.2043811157345772,
+          "disabled": 1.2096531093120575
+        },
+        "utility": {
+          "mean": 0.007614474165027481,
+          "std": 0.2513073612784698,
+          "p05_p50_p95": [
+            -0.28423741757869714,
+            -3.6161698517389596e-05,
+            0.3311716035008429
+          ],
+          "positive_fraction": 0.47309197651663404,
+          "pearson_benefit_alpha_late": 0.032728926281830446,
+          "gate_near_closed_fraction": 0.0,
+          "gate_near_open_fraction": 0.0019569471624266144,
+          "pearson_block_bootstrap_ci95": [
+            -0.003153797200176945,
+            0.0663461791677561
+          ],
+          "spearman_benefit_alpha_late": 0.00588759702212666,
+          "alpha_bins": [
+            {
+              "alpha_range": [
+                0,
+                0.05
+              ],
+              "tokens": 72,
+              "benefit_mean": 0.011125003041418799,
+              "positive_benefit_fraction": 0.5416666666666666
+            },
+            {
+              "alpha_range": [
+                0.05,
+                0.1
+              ],
+              "tokens": 483,
+              "benefit_mean": 0.0036937624040876763,
+              "positive_benefit_fraction": 0.45962732919254656
+            },
+            {
+              "alpha_range": [
+                0.1,
+                0.2
+              ],
+              "tokens": 1408,
+              "benefit_mean": -0.0019036209990068317,
+              "positive_benefit_fraction": 0.47798295454545453
+            },
+            {
+              "alpha_range": [
+                0.2,
+                0.3
+              ],
+              "tokens": 981,
+              "benefit_mean": 0.004265223018673809,
+              "positive_benefit_fraction": 0.4413863404689093
+            },
+            {
+              "alpha_range": [
+                0.3,
+                0.4
+              ],
+              "tokens": 787,
+              "benefit_mean": 0.02883153063132122,
+              "positive_benefit_fraction": 0.47903430749682335
+            },
+            {
+              "alpha_range": [
+                0.4,
+                0.5
+              ],
+              "tokens": 357,
+              "benefit_mean": 0.012180904495542447,
+              "positive_benefit_fraction": 0.5322128851540616
+            }
+          ],
+          "interpretation_limit": "Both early and late memory are disabled together. This is total-memory counterfactual utility, not isolated causal utility of the late gate. Correlation alone does not justify changing gate training."
+        },
+        "contrasts": {
+          "real-minus-disabled": {
+            "mean": -0.0076144784688949585,
+            "ci95": [
+              -0.016392365097999573,
+              0.00030018910765647534
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "real-minus-permuted": {
+            "mean": -0.0023424848914146423,
+            "ci95": [
+              -0.007687494158744812,
+              0.002485758997499941
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "permuted-minus-disabled": {
+            "mean": -0.005271993577480316,
+            "ci95": [
+              -0.009543895721435547,
+              -0.001564084738492967
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          }
+        }
+      },
+      "math": {
+        "nll": {
+          "real": 1.358325943350792,
+          "permuted": 1.3633777052164078,
+          "disabled": 1.380123257637024
+        },
+        "utility": {
+          "mean": 0.021797312873761056,
+          "std": 0.33627618254270897,
+          "p05_p50_p95": [
+            -0.33697130382061,
+            -6.132989074103534e-05,
+            0.47795831859111654
+          ],
+          "positive_fraction": 0.47137964774951074,
+          "pearson_benefit_alpha_late": 0.05641938295379362,
+          "gate_near_closed_fraction": 0.0,
+          "gate_near_open_fraction": 0.0029354207436399216,
+          "pearson_block_bootstrap_ci95": [
+            0.04761153557762789,
+            0.06662558756713065
+          ],
+          "spearman_benefit_alpha_late": 0.02761608914072907,
+          "alpha_bins": [
+            {
+              "alpha_range": [
+                0,
+                0.05
+              ],
+              "tokens": 25,
+              "benefit_mean": 0.08237902831257088,
+              "positive_benefit_fraction": 0.56
+            },
+            {
+              "alpha_range": [
+                0.05,
+                0.1
+              ],
+              "tokens": 267,
+              "benefit_mean": -0.024169426089496883,
+              "positive_benefit_fraction": 0.4344569288389513
+            },
+            {
+              "alpha_range": [
+                0.1,
+                0.2
+              ],
+              "tokens": 1045,
+              "benefit_mean": 0.0043053270059878945,
+              "positive_benefit_fraction": 0.4296650717703349
+            },
+            {
+              "alpha_range": [
+                0.2,
+                0.3
+              ],
+              "tokens": 1128,
+              "benefit_mean": 0.022415361634241418,
+              "positive_benefit_fraction": 0.46187943262411346
+            },
+            {
+              "alpha_range": [
+                0.3,
+                0.4
+              ],
+              "tokens": 855,
+              "benefit_mean": 0.034162476436100216,
+              "positive_benefit_fraction": 0.495906432748538
+            },
+            {
+              "alpha_range": [
+                0.4,
+                0.5
+              ],
+              "tokens": 768,
+              "benefit_mean": 0.044933156365194314,
+              "positive_benefit_fraction": 0.5247395833333334
+            }
+          ],
+          "interpretation_limit": "Both early and late memory are disabled together. This is total-memory counterfactual utility, not isolated causal utility of the late gate. Correlation alone does not justify changing gate training."
+        },
+        "contrasts": {
+          "real-minus-disabled": {
+            "mean": -0.021797314286231995,
+            "ci95": [
+              -0.030713334679603577,
+              -0.013669974356889731
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "real-minus-permuted": {
+            "mean": -0.005051761865615845,
+            "ci95": [
+              -0.010555267333984375,
+              0.0006002187728881836
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "permuted-minus-disabled": {
+            "mean": -0.01674555242061615,
+            "ci95": [
+              -0.020852714776992798,
+              -0.012603119015693665
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          }
+        }
+      },
+      "scientific": {
+        "nll": {
+          "real": 2.28406298160553,
+          "permuted": 2.297093480825424,
+          "disabled": 2.313873142004013
+        },
+        "utility": {
+          "mean": 0.029810077942651298,
+          "std": 0.32429641539186255,
+          "p05_p50_p95": [
+            -0.3179151177406311,
+            -2.905874134739861e-05,
+            0.4913893043994897
+          ],
+          "positive_fraction": 0.49681996086105673,
+          "pearson_benefit_alpha_late": 0.03643614127934119,
+          "gate_near_closed_fraction": 0.0,
+          "gate_near_open_fraction": 0.0031800391389432484,
+          "pearson_block_bootstrap_ci95": [
+            0.02018968173404469,
+            0.054803798157490924
+          ],
+          "spearman_benefit_alpha_late": 0.02139539042459635,
+          "alpha_bins": [
+            {
+              "alpha_range": [
+                0,
+                0.05
+              ],
+              "tokens": 10,
+              "benefit_mean": 0.01653782171124476,
+              "positive_benefit_fraction": 0.7
+            },
+            {
+              "alpha_range": [
+                0.05,
+                0.1
+              ],
+              "tokens": 118,
+              "benefit_mean": -0.015669079861493365,
+              "positive_benefit_fraction": 0.4322033898305085
+            },
+            {
+              "alpha_range": [
+                0.1,
+                0.2
+              ],
+              "tokens": 852,
+              "benefit_mean": 0.02280572164188481,
+              "positive_benefit_fraction": 0.49765258215962443
+            },
+            {
+              "alpha_range": [
+                0.2,
+                0.3
+              ],
+              "tokens": 1305,
+              "benefit_mean": 0.030830646497897445,
+              "positive_benefit_fraction": 0.4850574712643678
+            },
+            {
+              "alpha_range": [
+                0.3,
+                0.4
+              ],
+              "tokens": 1080,
+              "benefit_mean": 0.02517709871159847,
+              "positive_benefit_fraction": 0.49722222222222223
+            },
+            {
+              "alpha_range": [
+                0.4,
+                0.5
+              ],
+              "tokens": 723,
+              "benefit_mean": 0.050748875116091156,
+              "positive_benefit_fraction": 0.5242047026279392
+            }
+          ],
+          "interpretation_limit": "Both early and late memory are disabled together. This is total-memory counterfactual utility, not isolated causal utility of the late gate. Correlation alone does not justify changing gate training."
+        },
+        "contrasts": {
+          "real-minus-disabled": {
+            "mean": -0.029810160398483276,
+            "ci95": [
+              -0.04158760160207749,
+              -0.019040584564208984
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "real-minus-permuted": {
+            "mean": -0.01303049921989441,
+            "ci95": [
+              -0.018985874950885773,
+              -0.007422426342964176
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "permuted-minus-disabled": {
+            "mean": -0.016779661178588867,
+            "ci95": [
+              -0.023206812143325806,
+              -0.010777294635772705
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          }
+        }
+      },
+      "multilingual": {
+        "nll": {
+          "real": 3.936780571937561,
+          "permuted": 3.9501357972621918,
+          "disabled": 3.9880111813545227
+        },
+        "utility": {
+          "mean": 0.051230536519427106,
+          "std": 0.2995998001842867,
+          "p05_p50_p95": [
+            -0.31142454147338866,
+            0.006725270301103592,
+            0.5106982827186584
+          ],
+          "positive_fraction": 0.5423189823874756,
+          "pearson_benefit_alpha_late": 0.05536865629895023,
+          "gate_near_closed_fraction": 0.0,
+          "gate_near_open_fraction": 0.0031800391389432484,
+          "pearson_block_bootstrap_ci95": [
+            0.020482945402085496,
+            0.09542809679557224
+          ],
+          "spearman_benefit_alpha_late": 0.06154654483160008,
+          "alpha_bins": [
+            {
+              "alpha_range": [
+                0,
+                0.05
+              ],
+              "tokens": 37,
+              "benefit_mean": 0.06637493184314587,
+              "positive_benefit_fraction": 0.4594594594594595
+            },
+            {
+              "alpha_range": [
+                0.05,
+                0.1
+              ],
+              "tokens": 243,
+              "benefit_mean": 0.02324420132376292,
+              "positive_benefit_fraction": 0.5185185185185185
+            },
+            {
+              "alpha_range": [
+                0.1,
+                0.2
+              ],
+              "tokens": 912,
+              "benefit_mean": 0.03661093286000961,
+              "positive_benefit_fraction": 0.5164473684210527
+            },
+            {
+              "alpha_range": [
+                0.2,
+                0.3
+              ],
+              "tokens": 1111,
+              "benefit_mean": 0.04110701183918175,
+              "positive_benefit_fraction": 0.5292529252925292
+            },
+            {
+              "alpha_range": [
+                0.3,
+                0.4
+              ],
+              "tokens": 1176,
+              "benefit_mean": 0.06440281158372155,
+              "positive_benefit_fraction": 0.5612244897959183
+            },
+            {
+              "alpha_range": [
+                0.4,
+                0.5
+              ],
+              "tokens": 609,
+              "benefit_mean": 0.07640304194980459,
+              "positive_benefit_fraction": 0.5829228243021346
+            }
+          ],
+          "interpretation_limit": "Both early and late memory are disabled together. This is total-memory counterfactual utility, not isolated causal utility of the late gate. Correlation alone does not justify changing gate training."
+        },
+        "contrasts": {
+          "real-minus-disabled": {
+            "mean": -0.05123060941696167,
+            "ci95": [
+              -0.06170440763235092,
+              -0.043593890964984915
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "real-minus-permuted": {
+            "mean": -0.013355225324630737,
+            "ci95": [
+              -0.019535798579454422,
+              -0.008482962846755981
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          },
+          "permuted-minus-disabled": {
+            "mean": -0.03787538409233093,
+            "ci95": [
+              -0.04296706542372704,
+              -0.033196479082107544
+            ],
+            "resampling_unit": "paired 512-token block",
+            "resamples": 10000,
+            "seed": 1234
+          }
+        }
+      }
+    },
+    "router_training_launched": true,
+    "utility_labels_role": "held-out diagnostic only; never use these labels to train a future router",
+    "utility_correlations": {
+      "entropy_disabled": 0.08759892345259808,
+      "confidence_disabled": -0.08010840239425145,
+      "target_position": -0.010644367637214016
+    },
+    "benefit_quantiles": [
+      {
+        "tokens": 3680,
+        "benefit_mean": -0.4156796722996818,
+        "alpha_mean": 0.30461299419403076
+      },
+      {
+        "tokens": 3680,
+        "benefit_mean": -0.1314481147625686,
+        "alpha_mean": 0.2927212119102478
+      },
+      {
+        "tokens": 3679,
+        "benefit_mean": -0.05831589708755314,
+        "alpha_mean": 0.2821445167064667
+      },
+      {
+        "tokens": 3679,
+        "benefit_mean": -0.018641409787573945,
+        "alpha_mean": 0.27212002873420715
+      },
+      {
+        "tokens": 3679,
+        "benefit_mean": -0.0014900091002769862,
+        "alpha_mean": 0.21200153231620789
+      },
+      {
+        "tokens": 3679,
+        "benefit_mean": 0.007533733840498222,
+        "alpha_mean": 0.249407097697258
+      },
+      {
+        "tokens": 3679,
+        "benefit_mean": 0.04598856225486244,
+        "alpha_mean": 0.28391072154045105
+      },
+      {
+        "tokens": 3679,
+        "benefit_mean": 0.12007788918076018,
+        "alpha_mean": 0.2965325117111206
+      },
+      {
+        "tokens": 3679,
+        "benefit_mean": 0.24878464638376793,
+        "alpha_mean": 0.3014354407787323
+      },
+      {
+        "tokens": 3679,
+        "benefit_mean": 0.673679842917159,
+        "alpha_mean": 0.3210550546646118
+      }
+    ],
+    "source_arbiter_sha256": "54b7a98dd5a6b0fcde69deddc8ad2efabfe86daaeca840e949c74ed3bd6d8138"
+  },
+  "winning_gate_sha256": "d884ce65279e9bc3ccca6c7b57dccbed8509ba7edc023ed19f2faed9bf322589",
+  "v1_preserved": true,
+  "promotion": false,
+  "training_only_late_gate": true,
+  "trainable_parameters": 1025,
+  "protocol": {
+    "experiment": "Canonical v1 explicit total-memory-utility linear router",
+    "seed": 20261005,
+    "collection_blocks": 512,
+    "train_blocks": 384,
+    "validation_blocks": 128,
+    "sequence_length": 512,
+    "epochs": 5,
+    "batch_tokens": 4096,
+    "optimizer": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "utility": "loss_disabled - loss_real from frozen canonical v1",
+    "objective": "BCEWithLogits sign(utility), weighted by min(abs(utility),1); no class balancing",
+    "target_alignment": "hidden state at position t predicts token t+1; final position excluded",
+    "features": "canonical early-active, late pre-injection RMS-normalized IDX8 hidden state",
+    "trainable": "late gate w and b only, 1025 parameters",
+    "frozen": "base backbone, PLE, reader, gammas, beta, alpha_early, alpha2_raw; no LoRA",
+    "selection": "last epoch only; calibration monitored, never select on frozen evaluation",
+    "data": "first 512 blocks of the frozen v2 training stream, not held-out diagnostics",
+    "split": "blocks 0:384 train,384:512 calibration; existing stream disjoint from evaluation",
+    "budget_wall_seconds": 10800,
+    "retention_diagnostic": {
+      "permutation_seed": 777
+    },
+    "publish": false
+  }
+}

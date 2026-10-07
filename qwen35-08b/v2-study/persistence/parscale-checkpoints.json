@@ -1,0 +1,28 @@
+{
+  "dataset": "ninnix/qwengram-parscale-08b-probe-v2-results",
+  "private": true,
+  "download_back_verified": true,
+  "manifest_sha256": "09c8074d8b4c4037ea2753c6d2f170610beb4e35ac8db2a5e77c3474c27452c4",
+  "checkpoints": {
+    "A-100352.pt": {
+      "size": 117328027,
+      "sha256": "cc37b1ca3bfcd1dba631495b80bdfc4f0148e26fd8243de2e4e2c121848f1eda"
+    },
+    "A-500224.pt": {
+      "size": 117328603,
+      "sha256": "03312cc503db94b05766ac7bb91c91f3e1169f334cec417d841353422e18ad3a"
+    },
+    "B-100352.pt": {
+      "size": 117328027,
+      "sha256": "62f2498d0f0636f21e5815eec0612ef4647c0a3e8ff4202a3dcec9029d760e68"
+    },
+    "B-500224.pt": {
+      "size": 117328603,
+      "sha256": "3144ac29c7de57a3faa3d67df4a23ba32dacd8ed4d5b4742001539b448722e19"
+    },
+    "initial.pt": {
+      "size": 39139265,
+      "sha256": "359cf812fb11e1a4a35b543aca453db7d527d2e038c402affd2408f45f3dd104"
+    }
+  }
+}

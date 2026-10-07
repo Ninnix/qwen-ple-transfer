@@ -1,0 +1,107 @@
+{
+  "recorded": "2026-10-07",
+  "canonical": "Qwengram v1",
+  "model_promotion": false,
+  "parscale_final_ablation": true,
+  "new_training_launched": false,
+  "sign_convention": "candidate minus reference; negative NLL is better; accuracy is a fraction",
+  "budgets": {
+    "global_lora_per_arm": 15000064,
+    "receiver_lora_per_arm": 5000192,
+    "head_router": 749568,
+    "norm_matched_new_training": 0,
+    "utility_collection_blocks": 512,
+    "utility_train_blocks": 384,
+    "utility_calibration_blocks": 128,
+    "utility_epochs": 5,
+    "delta_ple": 5000192,
+    "parscale_per_arm": 500224
+  },
+  "endpoints": {
+    "Stock": {
+      "val_nll": 2.905584982696578,
+      "domain_mean": 2.4223597612399645,
+      "lambada_nll": 2.2581867072666064,
+      "lambada_acc": 0.446,
+      "hs_acc": 0.393
+    },
+    "Canonical v1": {
+      "val_nll": 2.853786112044422,
+      "domain_mean": 2.3846798831469393,
+      "lambada_nll": 2.2172765764792763,
+      "lambada_acc": 0.456,
+      "hs_acc": 0.4
+    },
+    "Stock + LoRA, 15M": {
+      "val_nll": 2.810860037103791,
+      "domain_mean": 2.4439133352962723,
+      "lambada_nll": 2.1966200901241972,
+      "lambada_acc": 0.478,
+      "hs_acc": 0.409
+    },
+    "v1 + LoRA, 15M": {
+      "val_nll": 2.8108544883895994,
+      "domain_mean": 2.440398302283539,
+      "lambada_nll": 2.2137252638479694,
+      "lambada_acc": 0.469,
+      "hs_acc": 0.409
+    },
+    "Receiver LoRA REAL, 5M": {
+      "val_nll": 2.8279692195866204,
+      "domain_mean": 2.4026604478839793,
+      "lambada_nll": 2.2408743736982966,
+      "lambada_acc": 0.462,
+      "hs_acc": 0.407
+    },
+    "Receiver LoRA DISABLED, 5M": {
+      "val_nll": 2.82809281232539,
+      "domain_mean": 2.4071230171711244,
+      "lambada_nll": 2.2418838351440304,
+      "lambada_acc": 0.454,
+      "hs_acc": 0.408
+    },
+    "Head router, 750K": {
+      "val_nll": 2.8512221357827086,
+      "domain_mean": 2.3819637330310917,
+      "lambada_nll": 2.2162850915525727,
+      "lambada_acc": 0.456,
+      "hs_acc": 0.401
+    },
+    "Same head router, norm-matched": {
+      "val_nll": 2.853945644401058,
+      "domain_mean": 2.3847007665615494,
+      "lambada_nll": 2.2169060166825854,
+      "lambada_acc": 0.455,
+      "hs_acc": 0.399
+    },
+    "Utility-trained late gate": {
+      "val_nll": 2.8514178068670506,
+      "domain_mean": 2.3832194380564236,
+      "lambada_nll": 2.230427000838022,
+      "lambada_acc": 0.454,
+      "hs_acc": 0.401
+    },
+    "Sparse DeltaPLE, 5M": {
+      "val_nll": 2.853628759164866,
+      "domain_mean": 2.3846240739766396,
+      "lambada_nll": 2.2174306583534924,
+      "lambada_acc": 0.454,
+      "hs_acc": 0.4
+    },
+    "ParScale A, 500K": {
+      "val_nll": 2.8648653352330578,
+      "domain_mean": 2.393476177708277,
+      "lambada_nll": 2.4831442018989476,
+      "lambada_acc": 0.456,
+      "hs_acc": 0.391
+    },
+    "ParScale B, 500K": {
+      "val_nll": 2.861767055353773,
+      "domain_mean": 2.4074653140252815,
+      "lambada_nll": 2.587626711615361,
+      "lambada_acc": 0.429,
+      "hs_acc": 0.392
+    }
+  },
+  "utility_endpoint_means_note": "reconstructed from canonical means plus saved paired deltas"
+}

@@ -1,0 +1,512 @@
+[
+  {
+    "name": "prefixes.0.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.0.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.1.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.1.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.2.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.2.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.3.prefix_k",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.3.prefix_v",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.4.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.4.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.5.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.5.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.6.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.6.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.7.prefix_k",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.7.prefix_v",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.8.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.8.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.9.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.9.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.10.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.10.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.11.prefix_k",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.11.prefix_v",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.12.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.12.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.13.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.13.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.14.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.14.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.15.prefix_k",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.15.prefix_v",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.16.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.16.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.17.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.17.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.18.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.18.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.19.prefix_k",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.19.prefix_v",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.20.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.20.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.21.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.21.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.22.prefix_k",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.22.prefix_v",
+    "shape": [
+      2,
+      16,
+      48,
+      128
+    ],
+    "numel": 196608
+  },
+  {
+    "name": "prefixes.23.prefix_k",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "prefixes.23.prefix_v",
+    "shape": [
+      2,
+      2,
+      48,
+      256
+    ],
+    "numel": 49152
+  },
+  {
+    "name": "aggregate_layer.0.weight",
+    "shape": [
+      1024,
+      2048
+    ],
+    "numel": 2097152
+  },
+  {
+    "name": "aggregate_layer.0.bias",
+    "shape": [
+      1024
+    ],
+    "numel": 1024
+  },
+  {
+    "name": "aggregate_layer.2.weight",
+    "shape": [
+      2,
+      1024
+    ],
+    "numel": 2048
+  },
+  {
+    "name": "aggregate_layer.2.bias",
+    "shape": [
+      2
+    ],
+    "numel": 2
+  }
+]

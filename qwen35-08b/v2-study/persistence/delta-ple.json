@@ -1,0 +1,84 @@
+{
+  "kernel": "ninnix/qwengram-delta-0-8b-5m",
+  "version": 4,
+  "local_bytes_verified": true,
+  "verified_at": "2026-10-06T20:53:19.485279+00:00",
+  "artifact_manifest_sha256": "54473966f3e00fee702f0be80006bf354d871747b2018b41414316ee6b1726ec",
+  "files": {
+    "causal-delta-5000192.json": {
+      "size": 17286,
+      "sha256": "76fbded7d22412338a0b3d3386756e9f68b0299451a003984aaaf43e23dacaf5"
+    },
+    "causal-v1.json": {
+      "size": 16940,
+      "sha256": "c8cc3751f1e079757f8ef8fc14badf5cac68643383806a019cde3cdcb116f42c"
+    },
+    "code-shas.json": {
+      "size": 1406,
+      "sha256": "8b7add41db74d5c0280247d27d01384b683b2a8a40c8c4acbea5c2604b3b044c"
+    },
+    "decision-5000192.json": {
+      "size": 7726,
+      "sha256": "605e8ca1d8cfe8111aa1e7433b1ac8207f04e0c0d688989ed44a7bf4af4a39c6"
+    },
+    "eval-delta-5000192.json": {
+      "size": 122714,
+      "sha256": "f51988b32496d271eea93ccc5cf44d83d6a0ee2d27497297593b6c6cf81bf4d4"
+    },
+    "eval-v1.json": {
+      "size": 122728,
+      "sha256": "105acb85eda2a17631c0a1279e688cb50e9e2362345d426e9be92189f9acee37"
+    },
+    "frozen-input.json": {
+      "size": 377,
+      "sha256": "b89b6f3f42a35db5303d3a4c08648e8ba437c4dbfc73043657068f9a49a56906"
+    },
+    "frozen-tensor-shas.json": {
+      "size": 40252,
+      "sha256": "073140827e44929af94f31551186d7467375cd45f0afa94419b91f1fe1157aab"
+    },
+    "numerical-events.json": {
+      "size": 927,
+      "sha256": "2efcc4a0794b0b11384e404154665e623dbb43cb11292d303da580c92a210f23"
+    },
+    "overlay-5000192/addresses.u32": {
+      "size": 140485680,
+      "sha256": "0448ca2d5946b4e34212da610c2fc5c49e26ee4fba03cfb7e77b1dfbf0b8a2f9"
+    },
+    "overlay-5000192/delta.f16": {
+      "size": 11238854400,
+      "sha256": "25386c54b4488ca34661c5c75015e7ccbdb1332e98396683087861c73a932f67"
+    },
+    "overlay-5000192/overlay.json": {
+      "size": 2309,
+      "sha256": "c1590786a53ab7b5f39c715fe6a4cd120118124a5f39eb05a816a8ee29a71835"
+    },
+    "protocol.json": {
+      "size": 2231,
+      "sha256": "4f060dba4913d701fe2f7c0f07ee5ef9d99dafe2ee4fbf9e0355de47a29babbf"
+    },
+    "run-cost.json": {
+      "size": 256,
+      "sha256": "f4a4077c4c0699e93ef6b2d39afbd622e5c43ffffd5066b0aa0daee686594760"
+    },
+    "sources.json": {
+      "size": 11864,
+      "sha256": "4a13e3e5b6e3bb12a484e66ddba55048f3746b78c4da1d5b91851f3283e11e2e"
+    },
+    "storage-plan.json": {
+      "size": 378,
+      "sha256": "83557e7fb8a0e37a73bf2060570ee3638208f1b21a458f4ec3b646d2353e5bd9"
+    },
+    "training-progress.json": {
+      "size": 276,
+      "sha256": "d54d22486945cfa425257ca04a291933542763585ff57bdb201a88e28cbac87c"
+    },
+    "v1-pin.json": {
+      "size": 61815,
+      "sha256": "f1a3513d86ac95c0437fe2a9ff7c00cd95224ffa252c33bd0c3ebfbee42416a9"
+    }
+  },
+  "sidecar_stored_separately": true,
+  "v1_preserved": true,
+  "10m_started": false
+}

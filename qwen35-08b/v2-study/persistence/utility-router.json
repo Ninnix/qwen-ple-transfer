@@ -1,0 +1,55 @@
+{
+  "dataset": "ninnix/qwengram-router-08b-explicit-results",
+  "download_back_verified": true,
+  "manifest_sha256": "6503ae3e93f005ab5b5b29afef65b9cce31f8758e8319fa41362c46e92890453",
+  "files": {
+    "analysis.json": {
+      "size": 34664,
+      "sha256": "23955dd727398df854dfc3f9c55cf7d9b0545fdea9327a279e30ac364c333c57"
+    },
+    "arbiter.pt": {
+      "size": 6181,
+      "sha256": "d884ce65279e9bc3ccca6c7b57dccbed8509ba7edc023ed19f2faed9bf322589"
+    },
+    "eval-ROUTER.json": {
+      "size": 122857,
+      "sha256": "586ba47090ca4a4bd29e282e0feedb7cfa4e1334f5fd14db062c0c46d92bbdfb"
+    },
+    "eval-V1.json": {
+      "size": 122963,
+      "sha256": "eaab97d10fa77c59dd968ad456144a9be06a87de1a6695e913e8f4f65ee3fe68"
+    },
+    "memory-utility-ROUTER.npz": {
+      "size": 1122832,
+      "sha256": "2518cb93654a10d55c0b96ef385ef1dc8477e785d9b631a70ed0ff86b6ddb275"
+    },
+    "memory-utility-V1.npz": {
+      "size": 1135696,
+      "sha256": "0b6a8e8ec78b8a489341eb2a7545220d6e493e3ca46fe54b4d4e347dce55a276"
+    },
+    "retention-ROUTER.json": {
+      "size": 25694,
+      "sha256": "a0b065db44b0ebe5e7640187cf8dc4a9370d78a1c25028dfcdcc2ae3523417b3"
+    },
+    "retention-V1.json": {
+      "size": 25706,
+      "sha256": "4f8d6e98fd068c0b192b4b62e04f2375851e9dfad08b97c1acb1aade7e3e2e11"
+    },
+    "routing-targets.pt": {
+      "size": 1194787697,
+      "sha256": "11011b3ebb9a3e0e11b6dca579af6d7f858a4efbe825aa3aaacc6bdb4539cc98"
+    },
+    "run-cost.json": {
+      "size": 187,
+      "sha256": "28be9f496f573e15bc3233f96e0f1f60b2566ffe06f7a8e8bb18d455c976b77e"
+    },
+    "target-manifest.json": {
+      "size": 593,
+      "sha256": "70ab7f0d2a628043cc63cc9abc20bd0223a5ad5f90ce450499bdacd6f79e981b"
+    },
+    "training.json": {
+      "size": 1365,
+      "sha256": "477d70984ee7b8525242f4af9eb4ed0bf275497e3f62b835a9b35318a8a4cc71"
+    }
+  }
+}

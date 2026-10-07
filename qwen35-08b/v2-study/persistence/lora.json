@@ -1,0 +1,24 @@
+{
+  "decision": {
+    "case": 3,
+    "candidate": null,
+    "localized_ablation_allowed": false,
+    "publish_allowed": false,
+    "reasons": [
+      "B1 improvement over A1 is not established for full_val_nll",
+      "B1 regression versus A1 for code_nll",
+      "B1 regression versus A1 for lambada_nll",
+      "B1 improvement over B0 is not established for five_domain_mean_nll",
+      "B1 regression versus B0 for general_nll",
+      "B1 regression versus B0 for code_nll",
+      "B1 regression versus B0 for math_nll",
+      "B1 regression versus B0 for scientific_nll",
+      "B1 regression versus B0 for multilingual_nll"
+    ]
+  },
+  "report_sha256": "647518c1b4abc8aec9f5dd634af51f8f0855b8df18dcfc743b1fc5027aa34a3f",
+  "analysis_sha256": "28c6db948c6fd0956d079ba48fd920e15ffa0141005684ec75b236ef46a62d33",
+  "all_milestones_download_back_verified": true,
+  "v1_preserved": true,
+  "publication_allowed": false
+}

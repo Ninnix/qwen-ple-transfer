@@ -1,0 +1,14 @@
+{
+  "A": {
+    "mean_nll_delta": 0.0005777825911839803,
+    "max_abs_block_nll_delta": 0.0031964778900146484,
+    "lambada_nll_delta": -0.001431603729724884,
+    "passed": true
+  },
+  "B": {
+    "mean_nll_delta": 0.0003356734911600749,
+    "max_abs_block_nll_delta": 0.003946542739868164,
+    "lambada_nll_delta": 0.0015110716223716736,
+    "passed": true
+  }
+}

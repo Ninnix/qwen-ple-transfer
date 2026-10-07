@@ -1,0 +1,368 @@
+{
+  "seed": 20261005,
+  "sources": [
+    {
+      "domain": "general",
+      "dataset": "HuggingFaceFW/fineweb-edu",
+      "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+      "weight": 40,
+      "prefixes": [
+        "sample/100BT/"
+      ],
+      "files": [
+        {
+          "rfilename": "sample/100BT/002_00006.parquet",
+          "blobId": "b3aca0e6579847dc777aacc0824ddf98dcf6f4cf",
+          "size": 2152081882,
+          "lfs": {
+            "sha256": "7726945362c39720377929d50afe53ca82c792f6c62545e1d2aedf86f09648ad",
+            "size": 2152081882,
+            "pointerSize": 135
+          }
+        },
+        {
+          "rfilename": "sample/100BT/007_00006.parquet",
+          "blobId": "c8275fbdf884cc372ca866a6fd68fce431648871",
+          "size": 2153194366,
+          "lfs": {
+            "sha256": "4ced9db298b90aa92b3ad9207c3146bc79123381673ab4e8d68fdf3690b3693c",
+            "size": 2153194366,
+            "pointerSize": 135
+          }
+        }
+      ],
+      "field": "text"
+    },
+    {
+      "domain": "multilingual",
+      "dataset": "epfml/FineWeb2-HQ",
+      "revision": "c0c06e94fd3a44ae9e802b2b0fc533817601eb5e",
+      "weight": 15,
+      "prefixes": [
+        "deu_Latn/",
+        "fra_Latn/",
+        "spa_Latn/",
+        "ita_Latn/",
+        "cmn_Hani/"
+      ],
+      "files": [
+        {
+          "rfilename": "deu_Latn/000_00444.parquet",
+          "blobId": "4b974b9aa7cb9bbf98275fe1d15c935b99ff3d52",
+          "size": 806265149,
+          "lfs": {
+            "sha256": "132a6470f78cb894e5640a7b33794b57d9ab5a8d7a3430b70de59c230d7941c5",
+            "size": 806265149,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "deu_Latn/000_00004.parquet",
+          "blobId": "73b78e1bf3114d3972723561517c82a3d363036e",
+          "size": 1807850397,
+          "lfs": {
+            "sha256": "85428a042cc968a629a197a64ad5818dcb1c00946ec8168893878d8f69d9a894",
+            "size": 1807850397,
+            "pointerSize": 135
+          }
+        },
+        {
+          "rfilename": "fra_Latn/000_00252.parquet",
+          "blobId": "b73b9ada7cc9f883415cf11525230931b6ee8216",
+          "size": 1323786446,
+          "lfs": {
+            "sha256": "abe635d63675704fe4f84396bc61835a380e2348b43b7a9b9ca68e2edbb82697",
+            "size": 1323786446,
+            "pointerSize": 135
+          }
+        },
+        {
+          "rfilename": "fra_Latn/000_00382.parquet",
+          "blobId": "e31ecff42d42d585141f3261607799f55b2130f9",
+          "size": 877597102,
+          "lfs": {
+            "sha256": "30d5ca3ac7a1999a4a0301c2e6ebc24913ff2a10529f915aa0761a90df988366",
+            "size": 877597102,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "spa_Latn/000_00341.parquet",
+          "blobId": "7d6650be9df9e5521feaf9bf34d1ac0872180943",
+          "size": 1176442257,
+          "lfs": {
+            "sha256": "da2ac5e349c14f5b2135279016ac665c65f00ff8d40b354b02eff80976dfc710",
+            "size": 1176442257,
+            "pointerSize": 135
+          }
+        },
+        {
+          "rfilename": "spa_Latn/000_00483.parquet",
+          "blobId": "9bc40c5edcd592e581051b5e1f7bdc439338de9d",
+          "size": 876073268,
+          "lfs": {
+            "sha256": "6a10a73206a374051d4660231e2c0ace777b0361f0e8d02289437681a09b1afa",
+            "size": 876073268,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "ita_Latn/000_00122.parquet",
+          "blobId": "e15376e9810c5befc8cb2c57d451af50eb6da8c4",
+          "size": 1102387331,
+          "lfs": {
+            "sha256": "e3e17a6ae3ddfba2d18db87211e233999f237a580e83669b5a7e2743943df327",
+            "size": 1102387331,
+            "pointerSize": 135
+          }
+        },
+        {
+          "rfilename": "ita_Latn/000_00111.parquet",
+          "blobId": "14c0abae504a0fd09e027b94e8361a587a425165",
+          "size": 1108935956,
+          "lfs": {
+            "sha256": "09787ea6575b12ccd3e85c163d35b683ce7e92483a00662c52ae25cc9cb205a4",
+            "size": 1108935956,
+            "pointerSize": 135
+          }
+        },
+        {
+          "rfilename": "cmn_Hani/000_00237.parquet",
+          "blobId": "85b28e90fb25664d97b6a3771729fa430c8ac932",
+          "size": 1050891951,
+          "lfs": {
+            "sha256": "50a8fd49a03de77fe1f74620771de9899ecb6642f8c9b41740c28d4b9b447274",
+            "size": 1050891951,
+            "pointerSize": 135
+          }
+        },
+        {
+          "rfilename": "cmn_Hani/000_00578.parquet",
+          "blobId": "f3fe3e21e6c72904293bf55ac9d2e01c8c9466fc",
+          "size": 1077876086,
+          "lfs": {
+            "sha256": "6bf8030dc08213c583a11cc193fa726c3ba19b971c4278bdff28468ae7e04ff3",
+            "size": 1077876086,
+            "pointerSize": 135
+          }
+        }
+      ],
+      "field": "text"
+    },
+    {
+      "domain": "code",
+      "dataset": "HuggingFaceTB/stack-edu",
+      "revision": "eeec5caac5cc3758a18f1d3ba4416837a9ba814c",
+      "weight": 15,
+      "prefixes": [
+        "Python/",
+        "C/",
+        "Cpp/",
+        "JavaScript/",
+        "Java/"
+      ],
+      "files": [
+        {
+          "rfilename": "Python/train-00003-of-00005.parquet",
+          "blobId": "e58337dc202b3a2fb85fbf81c05ee8af66ea1309",
+          "size": 500169900,
+          "lfs": {
+            "sha256": "81d0de22657b77282312e38db7b1ea4edaf0fcb5e04d4fa0b276f2e4e68872b8",
+            "size": 500169900,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "Python/train-00000-of-00005.parquet",
+          "blobId": "51ab71050f1178512fa2ef7f9d83a9e3b00dd8e0",
+          "size": 500150393,
+          "lfs": {
+            "sha256": "f0e25975bff184163a7ff1aca53678617c6eace1328b1b2c51a39ff79a6262bd",
+            "size": 500150393,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "C/train-00000-of-00002.parquet",
+          "blobId": "68bbbd2d531715078dcc181bbdbc0936ce219b2f",
+          "size": 285895794,
+          "lfs": {
+            "sha256": "202e212704307ef2c91cb3c82638e52d0590d4ca78b6a8768a598d18f79f28fd",
+            "size": 285895794,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "C/train-00001-of-00002.parquet",
+          "blobId": "c1f862f89bccf53645996dc8fd41db3797d507ee",
+          "size": 285920259,
+          "lfs": {
+            "sha256": "85e65a2630e6627f50e2e8443097d780549509a9b24960c0fb5c914c37f68b25",
+            "size": 285920259,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "Cpp/train-00000-of-00004.parquet",
+          "blobId": "7fc93c386910575b170665afb647804dd29c10b6",
+          "size": 408155819,
+          "lfs": {
+            "sha256": "232acd36bdabcbff9eb61c34f31aac933f1317ba7b3ae4022b38fe36e71be5f0",
+            "size": 408155819,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "Cpp/train-00001-of-00004.parquet",
+          "blobId": "69e66dd343d35fecda5709aefe5ac498fdd63d51",
+          "size": 408201065,
+          "lfs": {
+            "sha256": "7c73d327ec0340cddc1547460e82f174f615881c0c847f674cb0e55a481ce6fd",
+            "size": 408201065,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "JavaScript/train-00000-of-00003.parquet",
+          "blobId": "b92b3bbf422990882fff4c86251ca9368865787d",
+          "size": 429067183,
+          "lfs": {
+            "sha256": "486657e11ed4b3c67db5fc9655be01181897c7ab8226338cca17ea1de8fcdef2",
+            "size": 429067183,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "JavaScript/train-00002-of-00003.parquet",
+          "blobId": "645b8a2aa5d62355ac5be1962682171161332f42",
+          "size": 428961128,
+          "lfs": {
+            "sha256": "52a3d8851b47f9debd315957240927118d54976b875572961c7c054285d3425e",
+            "size": 428961128,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "Java/train-00007-of-00011.parquet",
+          "blobId": "a6c76496f90b728b25b6f2c4acc7ad1579308256",
+          "size": 481081862,
+          "lfs": {
+            "sha256": "bb3cd0d8ea0c5364be2f695ebd493a00bc3eefe45087f877dff4e163702beff9",
+            "size": 481081862,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "Java/train-00002-of-00011.parquet",
+          "blobId": "506903fac8983db658de15c0b51413c46db29494",
+          "size": 481089004,
+          "lfs": {
+            "sha256": "6cadbb9c859758eee037633cb5f46a849ee5542a7ea4560a41b2e8861ebfab04",
+            "size": 481089004,
+            "pointerSize": 134
+          }
+        }
+      ],
+      "field": "blob_id"
+    },
+    {
+      "domain": "math",
+      "dataset": "HuggingFaceTB/finemath",
+      "revision": "e92b25a616738fe95dc186b64dfb19f9c8525594",
+      "weight": 15,
+      "prefixes": [
+        "finemath-4plus/"
+      ],
+      "files": [
+        {
+          "rfilename": "finemath-4plus/train-00020-of-00064.parquet",
+          "blobId": "9b22fd52e8742f64bf460632f61fcb96a11e4cfd",
+          "size": 288418140,
+          "lfs": {
+            "sha256": "938e6ffcf290d7925df11239d67fc953791c361f1d3db37527fcb5468a371a95",
+            "size": 288418140,
+            "pointerSize": 134
+          }
+        },
+        {
+          "rfilename": "finemath-4plus/train-00002-of-00064.parquet",
+          "blobId": "dd607b253787aaa150318c0157e01782aa773143",
+          "size": 287634720,
+          "lfs": {
+            "sha256": "aed5a2aed72e2683c6c967f669b12214c3a2370738a75b83fb92f6194217ab04",
+            "size": 287634720,
+            "pointerSize": 134
+          }
+        }
+      ],
+      "field": "text"
+    },
+    {
+      "domain": "scientific",
+      "dataset": "allenai/peS2o",
+      "revision": "636a503e44a3ca1b58e01fb61eab0825cd574de0",
+      "weight": 10,
+      "prefixes": [
+        "data/v2/train-"
+      ],
+      "files": [
+        {
+          "rfilename": "data/v2/train-00018-of-00020.json.gz",
+          "blobId": "22215c03f3be90d2df90e9de9e8b5a1270fbd644",
+          "size": 7084182657,
+          "lfs": {
+            "sha256": "bf5f3ca10799111f9911edb848c97a6c972d8cdaf8caa32b9e4e0dba9493e3f5",
+            "size": 7084182657,
+            "pointerSize": 135
+          }
+        },
+        {
+          "rfilename": "data/v2/train-00002-of-00020.json.gz",
+          "blobId": "530fed57b4991ac205430c494157eb9f81c786da",
+          "size": 1575994864,
+          "lfs": {
+            "sha256": "a5d42ab3006c5ea74198519f66be6574c0f6f4799198f5d28d0eec9c9c26905c",
+            "size": 1575994864,
+            "pointerSize": 135
+          }
+        }
+      ],
+      "field": "text"
+    },
+    {
+      "domain": "prose",
+      "dataset": "HuggingFaceTB/smollm-corpus",
+      "revision": "3ba9d605774198c5868892d7a8deda78031a781f",
+      "weight": 5,
+      "prefixes": [
+        "cosmopedia-v2/"
+      ],
+      "files": [
+        {
+          "rfilename": "cosmopedia-v2/train-00086-of-00104.parquet",
+          "blobId": "a02bf2402f372cff0ba1e602b2f249625a585c8c",
+          "size": 1176242767,
+          "lfs": {
+            "sha256": "78ce8aed0ff688aff2ace46183c5f888f22becd7207cf8c5d6277d9978b393e5",
+            "size": 1176242767,
+            "pointerSize": 135
+          }
+        },
+        {
+          "rfilename": "cosmopedia-v2/train-00093-of-00104.parquet",
+          "blobId": "73914cfcc4cfd7d2ed19358eacb7afcceae186e2",
+          "size": 1177409071,
+          "lfs": {
+            "sha256": "7d1b3edae1c4e19865f26a9fc1d80f62f93d2634cf87cd2ce8cfad318eb58dcb",
+            "size": 1177409071,
+            "pointerSize": 135
+          }
+        }
+      ],
+      "field": "text"
+    }
+  ],
+  "instruction_or_sft_sources": [],
+  "fallbacks": [],
+  "frozen_before_training": true
+}

@@ -1,0 +1,542 @@
+{
+  "decision": "retain v1: no supported matched advantage over v1; raw gain is not evidence of a fixed-amplitude improvement",
+  "checks": {
+    "matched_beats_v1": false,
+    "matched_beats_head_shuffled": true,
+    "matched_beats_token_shuffled": true,
+    "five_domain_mean_preserved": false,
+    "no_supported_domain_regression": false,
+    "no_supported_lambada_nll_regression": true,
+    "no_supported_lambada_accuracy_regression": true,
+    "no_supported_hellaswag_accuracy_regression": true,
+    "norms_matched_per_token_and_dataset": true
+  },
+  "comparisons": {
+    "UNIFORM": {
+      "full_val_nll": {
+        "delta": 0.00015953235663546247,
+        "ci95": [
+          0.00012968336241120184,
+          0.00019418829924438766
+        ],
+        "pairs": 1024,
+        "supported_improvement": false,
+        "supported_regression": true
+      },
+      "lambada_nll": {
+        "delta": -0.00037055979669094175,
+        "ci95": [
+          -0.0008431354709280043,
+          0.00011423512295975001
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "lambada_accuracy": {
+        "delta": -0.001,
+        "ci95": [
+          -0.003,
+          0.0
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "hellaswag_accuracy": {
+        "delta": -0.001,
+        "ci95": [
+          -0.003,
+          0.0
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "general_nll": {
+        "delta": 0.0006205601701531407,
+        "ci95": [
+          0.0004918184299058182,
+          0.0007507438995600526
+        ],
+        "pairs": 64,
+        "supported_improvement": false,
+        "supported_regression": true
+      },
+      "code_nll": {
+        "delta": -0.00016402918298650745,
+        "ci95": [
+          -0.00028014796587353747,
+          -5.9475544147528274e-05
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "math_nll": {
+        "delta": -0.00041904468125793064,
+        "ci95": [
+          -0.0005185398803531744,
+          -0.0003176975623502291
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "scientific_nll": {
+        "delta": -0.00029826117588349285,
+        "ci95": [
+          -0.0004368526828266026,
+          -0.00015863560417158945
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "multilingual_nll": {
+        "delta": 0.00036519194302488817,
+        "ci95": [
+          0.00026233406216195356,
+          0.0004724957938297056
+        ],
+        "pairs": 64,
+        "supported_improvement": false,
+        "supported_regression": true
+      },
+      "five_domain_mean_nll": {
+        "delta": 2.0883414610019592e-05,
+        "ci95": [
+          -3.11333605921465e-05,
+          7.423078477264658e-05
+        ],
+        "supported_improvement": false,
+        "supported_regression": false,
+        "bootstrap": "paired blocks, stratified by domain"
+      }
+    },
+    "RAW": {
+      "full_val_nll": {
+        "delta": 0.0027235086183491908,
+        "ci95": [
+          0.0026230518365326157,
+          0.0028254148982275627
+        ],
+        "pairs": 1024,
+        "supported_improvement": false,
+        "supported_regression": true
+      },
+      "lambada_nll": {
+        "delta": 0.0006209251300121339,
+        "ci95": [
+          -0.0006887082539654037,
+          0.0019575394145445895
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "lambada_accuracy": {
+        "delta": -0.001,
+        "ci95": [
+          -0.006,
+          0.004
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "hellaswag_accuracy": {
+        "delta": -0.002,
+        "ci95": [
+          -0.005,
+          0.0
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "general_nll": {
+        "delta": 0.004022254869196058,
+        "ci95": [
+          0.0036482931349842186,
+          0.004383476839606805
+        ],
+        "pairs": 64,
+        "supported_improvement": false,
+        "supported_regression": true
+      },
+      "code_nll": {
+        "delta": 0.0005911381044033208,
+        "ci95": [
+          0.0002932313137091904,
+          0.0009013427913539
+        ],
+        "pairs": 64,
+        "supported_improvement": false,
+        "supported_regression": true
+      },
+      "math_nll": {
+        "delta": 0.003313841885083329,
+        "ci95": [
+          0.0029241501935074196,
+          0.0037135429578284513
+        ],
+        "pairs": 64,
+        "supported_improvement": false,
+        "supported_regression": true
+      },
+      "scientific_nll": {
+        "delta": 0.0031562793978039787,
+        "ci95": [
+          0.0027483704505367633,
+          0.003572729655674508
+        ],
+        "pairs": 64,
+        "supported_improvement": false,
+        "supported_regression": true
+      },
+      "multilingual_nll": {
+        "delta": 0.002601653395800159,
+        "ci95": [
+          0.002222222124760346,
+          0.0029858521985913302
+        ],
+        "pairs": 64,
+        "supported_improvement": false,
+        "supported_regression": true
+      },
+      "five_domain_mean_nll": {
+        "delta": 0.0027370335304573693,
+        "ci95": [
+          0.002571671806902782,
+          0.0029045805212569438
+        ],
+        "supported_improvement": false,
+        "supported_regression": true,
+        "bootstrap": "paired blocks, stratified by domain"
+      }
+    },
+    "HEAD-SHUFFLED-MATCHED": {
+      "full_val_nll": {
+        "delta": -0.000575933204471723,
+        "ci95": [
+          -0.0006237144368735335,
+          -0.0005290412827014068
+        ],
+        "pairs": 1024,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "lambada_nll": {
+        "delta": -0.000630866525384287,
+        "ci95": [
+          -0.0013202653063694014,
+          5.4505939215111074e-05
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "lambada_accuracy": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "hellaswag_accuracy": {
+        "delta": -0.001,
+        "ci95": [
+          -0.003,
+          0.0
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "general_nll": {
+        "delta": -0.0009135341457657611,
+        "ci95": [
+          -0.0011110318850163993,
+          -0.0007333957052510433
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "code_nll": {
+        "delta": -0.00026543126414199474,
+        "ci95": [
+          -0.00040463370119752734,
+          -0.00013809784984401274
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "math_nll": {
+        "delta": -0.0014742797134907181,
+        "ci95": [
+          -0.0017239400318690703,
+          -0.0012377572386232164
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "scientific_nll": {
+        "delta": -0.0011601121458289024,
+        "ci95": [
+          -0.001379414780499175,
+          -0.0009424486738828854
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "multilingual_nll": {
+        "delta": -0.0005684048229001246,
+        "ci95": [
+          -0.0007532756155950802,
+          -0.000388396089557597
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "five_domain_mean_nll": {
+        "delta": -0.0008763524184255001,
+        "ci95": [
+          -0.0009649216358908884,
+          -0.0007902022070614049
+        ],
+        "supported_improvement": true,
+        "supported_regression": false,
+        "bootstrap": "paired blocks, stratified by domain"
+      }
+    },
+    "TOKEN-SHUFFLED-MATCHED": {
+      "full_val_nll": {
+        "delta": -9.621997635426006e-05,
+        "ci95": [
+          -0.00012195218215950412,
+          -7.013127703490653e-05
+        ],
+        "pairs": 1024,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "lambada_nll": {
+        "delta": -0.00042998644895851656,
+        "ci95": [
+          -0.0009334392830419045,
+          7.975985331771234e-05
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "lambada_accuracy": {
+        "delta": 0.0,
+        "ci95": [
+          -0.003,
+          0.003
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "hellaswag_accuracy": {
+        "delta": -0.001,
+        "ci95": [
+          -0.003,
+          0.0
+        ],
+        "pairs": 1000,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "general_nll": {
+        "delta": -0.0004944250774943024,
+        "ci95": [
+          -0.0006260871887206621,
+          -0.0003643694689128837
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "code_nll": {
+        "delta": -0.00022214546128964188,
+        "ci95": [
+          -0.00034041556360206844,
+          -0.00011325633689150193
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "math_nll": {
+        "delta": -0.0008285124941114826,
+        "ci95": [
+          -0.0010301344548652863,
+          -0.0006361826991848174
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "scientific_nll": {
+        "delta": -0.0002945901829669445,
+        "ci95": [
+          -0.00045700726443775945,
+          -0.00013473813081212038
+        ],
+        "pairs": 64,
+        "supported_improvement": true,
+        "supported_regression": false
+      },
+      "multilingual_nll": {
+        "delta": -7.162821969410732e-05,
+        "ci95": [
+          -0.0001717845521094781,
+          2.569751030307585e-05
+        ],
+        "pairs": 64,
+        "supported_improvement": false,
+        "supported_regression": false
+      },
+      "five_domain_mean_nll": {
+        "delta": -0.0003822602871112957,
+        "ci95": [
+          -0.00044643013444666267,
+          -0.00031645991797551553
+        ],
+        "supported_improvement": true,
+        "supported_regression": false,
+        "bootstrap": "paired blocks, stratified by domain"
+      }
+    }
+  },
+  "raw_vs_uniform": {
+    "full_val_nll": {
+      "delta": -0.0025639762617137283,
+      "ci95": [
+        -0.0026650329654463985,
+        -0.0024634408857491094
+      ],
+      "pairs": 1024,
+      "supported_improvement": true,
+      "supported_regression": false
+    },
+    "lambada_nll": {
+      "delta": -0.0009914849267030758,
+      "ci95": [
+        -0.0023152802107390034,
+        0.0003013122736476355
+      ],
+      "pairs": 1000,
+      "supported_improvement": false,
+      "supported_regression": false
+    },
+    "lambada_accuracy": {
+      "delta": 0.0,
+      "ci95": [
+        -0.005,
+        0.005
+      ],
+      "pairs": 1000,
+      "supported_improvement": false,
+      "supported_regression": false
+    },
+    "hellaswag_accuracy": {
+      "delta": 0.001,
+      "ci95": [
+        -0.002,
+        0.005
+      ],
+      "pairs": 1000,
+      "supported_improvement": false,
+      "supported_regression": false
+    },
+    "general_nll": {
+      "delta": -0.0034016946990429175,
+      "ci95": [
+        -0.0037215155398075575,
+        -0.0030795511667509176
+      ],
+      "pairs": 64,
+      "supported_improvement": true,
+      "supported_regression": false
+    },
+    "code_nll": {
+      "delta": -0.0007551672873898282,
+      "ci95": [
+        -0.0011167595997715184,
+        -0.0004239114763218844
+      ],
+      "pairs": 64,
+      "supported_improvement": true,
+      "supported_regression": false
+    },
+    "math_nll": {
+      "delta": -0.00373288656634126,
+      "ci95": [
+        -0.0041465989297616666,
+        -0.0033357149700829073
+      ],
+      "pairs": 64,
+      "supported_improvement": true,
+      "supported_regression": false
+    },
+    "scientific_nll": {
+      "delta": -0.0034545405736874715,
+      "ci95": [
+        -0.0038770875352236475,
+        -0.003046876437043514
+      ],
+      "pairs": 64,
+      "supported_improvement": true,
+      "supported_regression": false
+    },
+    "multilingual_nll": {
+      "delta": -0.0022364614527752708,
+      "ci95": [
+        -0.0026256958799119674,
+        -0.0018526541976779326
+      ],
+      "pairs": 64,
+      "supported_improvement": true,
+      "supported_regression": false
+    },
+    "five_domain_mean_nll": {
+      "delta": -0.0027161501158473496,
+      "ci95": [
+        -0.0028884035640500054,
+        -0.002548185183344051
+      ],
+      "supported_improvement": true,
+      "supported_regression": false,
+      "bootstrap": "paired blocks, stratified by domain"
+    }
+  },
+  "supported_domain_regressions": [
+    "general",
+    "multilingual"
+  ],
+  "candidate_toward_v2": false,
+  "interval_note": "paired percentile bootstrap, 10000 draws, unadjusted 95%; NLL negative favors candidate; accuracy positive favors candidate",
+  "norm_note": "matching is asserted on FP32 reader output and gamma8*alpha8 reader branch before canonical residual rounding; rounded branch norms are separately reported",
+  "equivalence_note": "a CI including zero does not establish equivalence",
+  "publish": false,
+  "router_checkpoint_sha256": "9af0e47d20395b7098a182362db18b4ec9ed891bb2bf3b8e1ec5bcd2d5b2c318",
+  "frozen_tensor_shas_unchanged": true,
+  "alpha8_bit_exact_all_arms": true,
+  "max_per_token_budget_error": 2.980232238769531e-07,
+  "optimizer": null,
+  "training_steps": 0,
+  "followup": false
+}

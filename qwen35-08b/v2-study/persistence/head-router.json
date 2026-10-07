@@ -1,0 +1,118 @@
+{
+  "downloaded_and_sha_verified": true,
+  "manifest_sha256": "71becdc9d7773fca367c53b869dda012fa359f5e3ec0f46eacc058ed7f34ee82",
+  "files": {
+    "analysis.json": {
+      "size": 11943,
+      "sha256": "a977c87c2c21775a8bc96c7eae83015842012091ab36dcb990b95e9d91f1c7c4"
+    },
+    "eval-HEAD-SHUFFLED.json": {
+      "size": 122910,
+      "sha256": "66d5be5309bda06466ad459a7c41229c8def487756ca81a72d024b5ccedc6d44"
+    },
+    "eval-LEARNED.json": {
+      "size": 122819,
+      "sha256": "a67edbe8e6c0f466dc8d8cf07fd4ab765e080bae8d4d769edc0065673c20abf9"
+    },
+    "eval-TOKEN-SHUFFLED.json": {
+      "size": 122903,
+      "sha256": "0b8f0ddd297dca893f3b3d431be2e7d69214662474c93c88af15eb001cfe5b04"
+    },
+    "eval-UNIFORM.json": {
+      "size": 122912,
+      "sha256": "1a848fc2141a76e2bc7f364586f331c5a082dd4f5786afa4cfe54c8135d4fb11"
+    },
+    "eval-V1.json": {
+      "size": 122913,
+      "sha256": "466d3955054230f2c05debd7cbf1b03fbb530b3f4601e9736bc424e9ff69e204"
+    },
+    "frozen-tensor-shas.json": {
+      "size": 40260,
+      "sha256": "14df815a4ce869a8e87cd07b90723a794958d0e473d02b7250002e0865e5fd96"
+    },
+    "head-router-250368.resume.pt": {
+      "size": 228389,
+      "sha256": "8845e9d5e4200039999363e549a444275e193bc8dfce0bf0ebc052e44a2e8b33"
+    },
+    "head-router-250368.safetensors": {
+      "size": 65760,
+      "sha256": "1e271699416ae166e2f36fbb547fc1dc56a881e1b5fd29953cd3de98676ae3ca"
+    },
+    "head-router-500736.resume.pt": {
+      "size": 228389,
+      "sha256": "21626cf4496f91eeeafac3bfd8b0302f9a83a10b7993f437c2bb06d824ac9976"
+    },
+    "head-router-500736.safetensors": {
+      "size": 65760,
+      "sha256": "aa2d362c01f43d7b32cabb0b6d3624d4450a3dbf53af7c16654f194d5cd88532"
+    },
+    "head-router-749568.resume.pt": {
+      "size": 228389,
+      "sha256": "965658c5eed85194c4e1c57816e11e374273c4507aee0482c0576dfa8a3dbd02"
+    },
+    "head-router-749568.safetensors": {
+      "size": 65760,
+      "sha256": "9af0e47d20395b7098a182362db18b4ec9ed891bb2bf3b8e1ec5bcd2d5b2c318"
+    },
+    "invariants.json": {
+      "size": 6228,
+      "sha256": "02c10541c999d792e1f134f48dd0570dac56074e89519d24be9f0e6a56fab640"
+    },
+    "numerical-events.json": {
+      "size": 1111,
+      "sha256": "592c5e148cb66bf27ccbfc2d308743ae9f89a7137098d53e20875a73b8a8caa6"
+    },
+    "report.md": {
+      "size": 7577,
+      "sha256": "2f8012a91c9904b0fcbb63f1f0066383693cd6d026158aa9fbe8993b9e3af173"
+    },
+    "routing-LEARNED-code.npz": {
+      "size": 4327340,
+      "sha256": "e386b202b42493adadfe026944a6879c80d8aa3359dc6afa76241f53656cbfff"
+    },
+    "routing-LEARNED-full-val.npz": {
+      "size": 69728450,
+      "sha256": "a7c9ba519062274119961cfca2804b6cf483415dd99c0c0870e356f8112157f8"
+    },
+    "routing-LEARNED-general.npz": {
+      "size": 4374654,
+      "sha256": "8f5948977a4d25ab56c85c3b043f81002530ea08c1c5e503dc7f3d17c35bd2ad"
+    },
+    "routing-LEARNED-hellaswag.npz": {
+      "size": 26531950,
+      "sha256": "3228e911411728fc4297c7c5de4670ba5d4454bf212c12b363be6331fa169372"
+    },
+    "routing-LEARNED-lambada.npz": {
+      "size": 10115548,
+      "sha256": "ba9e564b5f5eefea329283423ba6083d516ea2007ec9068c3ded05401a458ae3"
+    },
+    "routing-LEARNED-math.npz": {
+      "size": 4354455,
+      "sha256": "0eaf9283d8ce7a8dfe469fd01c26a6802206bc4212b5bdb2a51c5acb8546629e"
+    },
+    "routing-LEARNED-multilingual.npz": {
+      "size": 4370472,
+      "sha256": "8908568b0d9ca683253ca8b69a2db0c688f76c6608cb366b8ca5bff82f3f10b2"
+    },
+    "routing-LEARNED-scientific.npz": {
+      "size": 4376491,
+      "sha256": "5136dbde195e6c347e6cf1cb485b00534b1dd7546f2a38bbf7cb8bd4e87913d7"
+    },
+    "routing-LEARNED.json": {
+      "size": 977589,
+      "sha256": "01e0cd79fa297003326ccd939003799ece521cc7c827c8d090f7ba0ef2776513"
+    },
+    "run-cost.json": {
+      "size": 257,
+      "sha256": "4c037ab2255236bec9b130b58aa14c7aa10193785aaa82f5317744eff6858b1c"
+    },
+    "training-progress.json": {
+      "size": 172,
+      "sha256": "6571d70f3c5bce6742dedaad320b3749a752a14b8adbc8b6784a065aafda50df"
+    },
+    "training.json": {
+      "size": 11273,
+      "sha256": "36edcbaf8a9411ef16057ac770acf201e0be6720c1bd4365f2178448cce68385"
+    }
+  }
+}

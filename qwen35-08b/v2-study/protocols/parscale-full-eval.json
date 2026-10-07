@@ -1,0 +1,55 @@
+{
+  "experiment": "Final frozen ParScale P=2 ablation at matched 500,224 tokens",
+  "launch_reference": "ninnix/qwengram-parscale-08b-final-eval-fixed-inputs",
+  "inference_only": true,
+  "new_training_tokens": 0,
+  "maximum_checkpoint_tokens": 500224,
+  "checkpoint_dataset": "ninnix/qwengram-parscale-08b-probe-v2-results/1",
+  "checkpoints": {
+    "A": {
+      "size": 117328603,
+      "sha256": "03312cc503db94b05766ac7bb91c91f3e1169f334cec417d841353422e18ad3a"
+    },
+    "B": {
+      "size": 117328603,
+      "sha256": "3144ac29c7de57a3faa3d67df4a23ba32dacd8ed4d5b4742001539b448722e19"
+    }
+  },
+  "baseline_source": "v2-lora/qualify-numeric frozen A0/B0; base replay qualification required",
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 1234,
+  "diagnostic_permutation_seed": 777,
+  "full_validation_blocks": 1024,
+  "domain_blocks": 64,
+  "hellaswag_items": 1000,
+  "lambada_items": 1000,
+  "quota_before": {
+    "quotaRefreshTime": "2026-10-10T00:00:00.000Z",
+    "gpuQuota": {
+      "timeUsed": "15860.564.0s",
+      "timeReserved": "0s",
+      "totalTimeAllowed": "21600s",
+      "minimumTimeAllowed": "21600s",
+      "hasEverRun": true
+    },
+    "tpuQuota": {
+      "timeUsed": "0s",
+      "timeReserved": "0s",
+      "totalTimeAllowed": "72000s",
+      "minimumTimeAllowed": "72000s"
+    }
+  },
+  "remaining_kaggle_quota_seconds": 5739.436,
+  "wall_limit_seconds": 4500,
+  "machine_shape": "NvidiaTeslaT4",
+  "execution": "parallel",
+  "allocation": "P=2 remains inside each arm; A/B use separate T4s or sequentially use one P100",
+  "canonical": "Qwengram v1",
+  "A": "useful ParScale-only research endpoint",
+  "B": "Qwengram+ParScale negative-combination result",
+  "continuation_allowed": false,
+  "baseline_file_shas": {
+    "stock": "995b162696b3ce69a7b860bfa8afdc1a0e04de238f4e4bc64c42b8f1438eb773",
+    "v1": "c880c7d15a6c759acd956dd006b679b1a0f9f3e71352132ee806f54b279e3237"
+  }
+}

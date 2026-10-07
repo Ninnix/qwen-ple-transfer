@@ -1,0 +1,39 @@
+{
+  "parent_manifest_sha256": "d9ad0ffb6ff6685cc65397caf1df13747ffd20e043f6bf5c7c5af3b81bbae0d1",
+  "stream_sha256": "19a6180a95685fae67224f4bbef69540926680cefae1cedf3b2453c6d8c1ee28",
+  "prefixes": {
+    "100352": {
+      "sha256": "b8b9478489ac38361f0f75a5fd1195115b6648a1e0c83bee35b1d2455e6733b5",
+      "domain_blocks": {
+        "scientific": 19,
+        "general": 80,
+        "code": 29,
+        "math": 30,
+        "multilingual": 28,
+        "prose": 10
+      }
+    },
+    "500224": {
+      "sha256": "9d35658245621dcae6809c2d170a3bceba4d9f5a5b0922abef39b7079cc681c2",
+      "domain_blocks": {
+        "scientific": 97,
+        "general": 392,
+        "code": 147,
+        "math": 147,
+        "multilingual": 145,
+        "prose": 49
+      }
+    },
+    "1000448": {
+      "sha256": "e13eabcfb441865f80446bb82b73e17bb0fa054dae22727eb3cc394312295759",
+      "domain_blocks": {
+        "scientific": 195,
+        "general": 782,
+        "code": 293,
+        "math": 294,
+        "multilingual": 292,
+        "prose": 98
+      }
+    }
+  }
+}

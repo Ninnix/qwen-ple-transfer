@@ -1,0 +1,360 @@
+{
+  "scope": "Completed 0.8B follow-up studies; documentation/results only",
+  "recorded": "2026-10-07",
+  "canonical": "Qwengram v1",
+  "model_promotion": false,
+  "copied_evidence": [
+    {
+      "file": "results/lora.json",
+      "source": "qwen35-08b/v2-lora/matched-analysis/analysis.json",
+      "bytes": 1527679,
+      "sha256": "28c6db948c6fd0956d079ba48fd920e15ffa0141005684ec75b236ef46a62d33",
+      "transformation": "none"
+    },
+    {
+      "file": "results/receiver-lora.json",
+      "source": "qwen35-08b/v2-receiver-lora/results/decision.json",
+      "bytes": 1872574,
+      "sha256": "e431ac24a88a4a8bc308f55788fd06c54c59c3cfaafc94861ee3d63210ec3253",
+      "transformation": "none"
+    },
+    {
+      "file": "results/head-router.json",
+      "source": "qwen35-08b/v2-head-router/outputs/run/head-router-results/analysis.json",
+      "bytes": 11943,
+      "sha256": "a977c87c2c21775a8bc96c7eae83015842012091ab36dcb990b95e9d91f1c7c4",
+      "transformation": "none"
+    },
+    {
+      "file": "results/norm-matched.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/outputs/run/norm-matched-results/analysis.json",
+      "bytes": 14515,
+      "sha256": "5f560cffdab3c4eae21952059ee21dc0681b3c5b2646a2ce2d2e1910ab7f6014",
+      "transformation": "none"
+    },
+    {
+      "file": "results/norm-matched-comparisons.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/endpoint-comparisons.json",
+      "bytes": 21737,
+      "sha256": "5316de9634cac44b666a7c08deb62f986c2867a642bc4f12c2d1d74ad9af5d8b",
+      "transformation": "none"
+    },
+    {
+      "file": "results/utility-router.json",
+      "source": "qwen35-08b/v3-router-utility/results/decision.json",
+      "bytes": 34813,
+      "sha256": "741d18e61d458fdf727a1f9f3e731ac5dcac97a38cc75827acafa71986f23881",
+      "transformation": "none"
+    },
+    {
+      "file": "results/delta-ple.json",
+      "source": "qwen35-08b/sparse-delta/decision-5m.json",
+      "bytes": 7726,
+      "sha256": "605e8ca1d8cfe8111aa1e7433b1ac8207f04e0c0d688989ed44a7bf4af4a39c6",
+      "transformation": "none"
+    },
+    {
+      "file": "results/parscale.json",
+      "source": "qwen35-08b/parscale/full-eval/outputs/parscale-full-eval/final-report.json",
+      "bytes": 682043,
+      "sha256": "3ee1a2b7825712db61af8a205643e18512ccc37a0a69312631ee6d61a1239d01",
+      "transformation": "none"
+    },
+    {
+      "file": "results/delta-ple-support.json",
+      "source": "qwen35-08b/sparse-delta/outputs/5m/support-verification.json",
+      "bytes": 332,
+      "sha256": "7f9cb81699392b8e221df1eec174577c31f9ae87c66c7e7ff76d5d49d7de1cb4",
+      "transformation": "none"
+    },
+    {
+      "file": "results/delta-ple-metric-verification.json",
+      "source": "qwen35-08b/sparse-delta/outputs/5m/metric-verification.json",
+      "bytes": 213,
+      "sha256": "a9b2e747e30a2ff3c13ed2c91887bf102bb37155771b963d1ceda04050028952",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/delta-ple-sources.json",
+      "source": "qwen35-08b/sparse-delta/sources.json",
+      "bytes": 11864,
+      "sha256": "4a13e3e5b6e3bb12a484e66ddba55048f3746b78c4da1d5b91851f3283e11e2e",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/delta-ple-stream.json",
+      "source": "qwen35-08b/sparse-delta/outputs/prepare-v3/delta-frozen/stream-manifest.json",
+      "bytes": 1625,
+      "sha256": "db6ade2aa02875d45efc015b3eaf515d73bc2f8aa6cbfe7635b7d3066a0e713c",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/parscale-full-eval.json",
+      "source": "qwen35-08b/parscale/full-eval/outputs/parscale-full-eval/full-protocol.json",
+      "bytes": 1910,
+      "sha256": "3ed5bb44a7fb8321223061512a355f944efd92148a6128ca3b5249e33246f3ae",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/parscale-stream.json",
+      "source": "qwen35-08b/parscale/outputs/parscale-results/stream-pin.json",
+      "bytes": 1047,
+      "sha256": "9b3a569d5d0830cbe561086f51b875767433a15eeeb448ceb419a1a5c0623183",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/parscale-optimizer-parameters.json",
+      "source": "qwen35-08b/parscale/outputs/parscale-results/optimizer-parameters.json",
+      "bytes": 6421,
+      "sha256": "170552a94764ebf9fad0bc123e91802154eb165f0866cba0f79d9e721dceb401",
+      "transformation": "none"
+    },
+    {
+      "file": "results/parscale-initialization.json",
+      "source": "qwen35-08b/parscale/outputs/parscale-results/initialization.json",
+      "bytes": 362,
+      "sha256": "cbd82a5f632076785ba847f1393b7fba1f1eff98e6b6e6764b209d6d1428c272",
+      "transformation": "none"
+    },
+    {
+      "file": "results/parscale-qualification.json",
+      "source": "qwen35-08b/parscale/outputs/parscale-results/qualification.json",
+      "bytes": 1949,
+      "sha256": "61a118525f231c840c08300709ea3be86ab468ad4dcb3cd6ea9a56eb4b57d42d",
+      "transformation": "none"
+    },
+    {
+      "file": "results/parscale-budget.json",
+      "source": "qwen35-08b/parscale/outputs/parscale-results/budget-selection.json",
+      "bytes": 1296,
+      "sha256": "b42223bcfe68c9a61f4b7c38a5f74a8aee5a58fc453285abc100bbfefa121589",
+      "transformation": "none"
+    },
+    {
+      "file": "results/parscale-resumability.json",
+      "source": "qwen35-08b/parscale/outputs/parscale-results/resumability-500224.json",
+      "bytes": 956,
+      "sha256": "504a69e21d289149c6c2d4432b62c3999fcfcdf6148554cc1f647903acf250e0",
+      "transformation": "none"
+    },
+    {
+      "file": "persistence/lora.json",
+      "source": "qwen35-08b/v2-lora/matched-analysis/report-manifest.json",
+      "bytes": 922,
+      "sha256": "bca3ab328c6b0f55f0298f3fc7d9b537ebcc928bbe582aa0b6414508e5a6f24f",
+      "transformation": "none"
+    },
+    {
+      "file": "persistence/receiver-lora.json",
+      "source": "qwen35-08b/v2-receiver-lora/results/artifact-shas.json",
+      "bytes": 254,
+      "sha256": "0cb561b2bbe571cf510be9097d32d726cb2cad0db45dba2c0fe4d095d54f369b",
+      "transformation": "none"
+    },
+    {
+      "file": "persistence/head-router.json",
+      "source": "qwen35-08b/v2-head-router/persistence.json",
+      "bytes": 4194,
+      "sha256": "f05c992efd8a78ae676d9926d49d34e0cac307c033c2cb9b39fc9b29492a207c",
+      "transformation": "none"
+    },
+    {
+      "file": "persistence/norm-matched.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/persistence.json",
+      "bytes": 8541,
+      "sha256": "0ba3204ed8d57c6b23731602089d0bc111bd286c50f819da835c805ebbd428d5",
+      "transformation": "none"
+    },
+    {
+      "file": "persistence/utility-router.json",
+      "source": "qwen35-08b/v3-router-utility/persistence-explicit.json",
+      "bytes": 1859,
+      "sha256": "99d2b55555dca8d0d01cc850fcb32b6783505bc12d736896009c394c7f518181",
+      "transformation": "none"
+    },
+    {
+      "file": "persistence/delta-ple.json",
+      "source": "qwen35-08b/sparse-delta/persistence-5m.json",
+      "bytes": 2865,
+      "sha256": "fc877ffb83c3ddc6fbf566d130ac0e9c917c2bd8481500ed1d2edcc03e2aacc0",
+      "transformation": "none"
+    },
+    {
+      "file": "persistence/parscale-checkpoints.json",
+      "source": "qwen35-08b/parscale/persistence.json",
+      "bytes": 908,
+      "sha256": "ac802717f54bf01fd7776204df8cc56fd825fded3a60b076d3b1c27b47bf4c39",
+      "transformation": "none"
+    },
+    {
+      "file": "persistence/parscale-full-eval.json",
+      "source": "qwen35-08b/parscale/full-eval/persistence.json",
+      "bytes": 312,
+      "sha256": "7880ed0f89f13d1bc575f8a03b468bad8acce0b388efdba4eb67a6119c0ef058",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/lora.json",
+      "source": "qwen35-08b/v2-lora/protocol.json",
+      "bytes": 2458,
+      "sha256": "d9b196d247ce29dcd4e1f63ca2920f984b9f37400bb7e7be7e4e0c11ca485fcf",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/receiver-lora.json",
+      "source": "qwen35-08b/v2-receiver-lora/protocol.json",
+      "bytes": 2951,
+      "sha256": "90352db160c9e41883187b933956da6e9a26a32753b12e4f89a9068bbe536565",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/head-router.json",
+      "source": "qwen35-08b/v2-head-router/protocol.json",
+      "bytes": 2118,
+      "sha256": "428565193b7105f3de9a13c323e162cfddf0217cc25abd774a58f5eecc35da92",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/norm-matched.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/protocol.json",
+      "bytes": 2314,
+      "sha256": "695ba79d48b2b7a8fff8607c4678fa83f4cf9ad7ae8caa2f411965fa4f5d1979",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/utility-router.json",
+      "source": "qwen35-08b/v3-router-utility/protocol.json",
+      "bytes": 1199,
+      "sha256": "3c565d603e195d3d3155f917d95f8840dd0a357a34c90a52a978fe36b749e61f",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/delta-ple.json",
+      "source": "qwen35-08b/sparse-delta/protocol.json",
+      "bytes": 2231,
+      "sha256": "4f060dba4913d701fe2f7c0f07ee5ef9d99dafe2ee4fbf9e0355de47a29babbf",
+      "transformation": "none"
+    },
+    {
+      "file": "protocols/parscale.json",
+      "source": "qwen35-08b/parscale/protocol.json",
+      "bytes": 3042,
+      "sha256": "72e117eda84ba24362ce7166f859aa1230b0955d48139b91f171d6813c3f39d1",
+      "transformation": "none"
+    },
+    {
+      "file": "results/head-router/eval-UNIFORM.json",
+      "source": "qwen35-08b/v2-head-router/outputs/run/head-router-results/eval-UNIFORM.json",
+      "bytes": 122912,
+      "sha256": "1a848fc2141a76e2bc7f364586f331c5a082dd4f5786afa4cfe54c8135d4fb11",
+      "transformation": "none"
+    },
+    {
+      "file": "results/head-router/eval-LEARNED.json",
+      "source": "qwen35-08b/v2-head-router/outputs/run/head-router-results/eval-LEARNED.json",
+      "bytes": 122819,
+      "sha256": "a67edbe8e6c0f466dc8d8cf07fd4ab765e080bae8d4d769edc0065673c20abf9",
+      "transformation": "none"
+    },
+    {
+      "file": "results/head-router/eval-HEAD-SHUFFLED.json",
+      "source": "qwen35-08b/v2-head-router/outputs/run/head-router-results/eval-HEAD-SHUFFLED.json",
+      "bytes": 122910,
+      "sha256": "66d5be5309bda06466ad459a7c41229c8def487756ca81a72d024b5ccedc6d44",
+      "transformation": "none"
+    },
+    {
+      "file": "results/head-router/eval-TOKEN-SHUFFLED.json",
+      "source": "qwen35-08b/v2-head-router/outputs/run/head-router-results/eval-TOKEN-SHUFFLED.json",
+      "bytes": 122903,
+      "sha256": "0b8f0ddd297dca893f3b3d431be2e7d69214662474c93c88af15eb001cfe5b04",
+      "transformation": "none"
+    },
+    {
+      "file": "results/norm-matched/eval-UNIFORM.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/outputs/run/norm-matched-results/eval-UNIFORM.json",
+      "bytes": 123010,
+      "sha256": "7a09c043b2786d4704ff52e00c036f52f025dc75478f566b8188b93843cc8fb8",
+      "transformation": "none"
+    },
+    {
+      "file": "results/norm-matched/eval-RAW.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/outputs/run/norm-matched-results/eval-RAW.json",
+      "bytes": 122912,
+      "sha256": "da366714f7a68b5a4a29ce4b8d33b3023d102b12ca3dfa2e4292764f9dd529bc",
+      "transformation": "none"
+    },
+    {
+      "file": "results/norm-matched/eval-MATCHED.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/outputs/run/norm-matched-results/eval-MATCHED.json",
+      "bytes": 122802,
+      "sha256": "aaf377018bd3869cb7e43729f0b20271c857d66dec062ffe832381361f1ff8cf",
+      "transformation": "none"
+    },
+    {
+      "file": "results/norm-matched/eval-HEAD-SHUFFLED-MATCHED.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/outputs/run/norm-matched-results/eval-HEAD-SHUFFLED-MATCHED.json",
+      "bytes": 122893,
+      "sha256": "556e09e85029279c9b6c182a0b8e698063d814fac0a6ed44f8b9e95243b46e0b",
+      "transformation": "none"
+    },
+    {
+      "file": "results/norm-matched/eval-TOKEN-SHUFFLED-MATCHED.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/outputs/run/norm-matched-results/eval-TOKEN-SHUFFLED-MATCHED.json",
+      "bytes": 123045,
+      "sha256": "14a112cc83257dbee8a564e68b31744a985b1fed4adb42f11260a5b5edaf4187",
+      "transformation": "none"
+    },
+    {
+      "file": "results/delta-ple/eval-v1.json",
+      "source": "qwen35-08b/sparse-delta/outputs/5m/delta-results/eval-v1.json",
+      "bytes": 122728,
+      "sha256": "105acb85eda2a17631c0a1279e688cb50e9e2362345d426e9be92189f9acee37",
+      "transformation": "none"
+    },
+    {
+      "file": "results/delta-ple/eval-delta-5000192.json",
+      "source": "qwen35-08b/sparse-delta/outputs/5m/delta-results/eval-delta-5000192.json",
+      "bytes": 122714,
+      "sha256": "f51988b32496d271eea93ccc5cf44d83d6a0ee2d27497297593b6c6cf81bf4d4",
+      "transformation": "none"
+    },
+    {
+      "file": "results/delta-ple/causal-v1.json",
+      "source": "qwen35-08b/sparse-delta/outputs/5m/delta-results/causal-v1.json",
+      "bytes": 16940,
+      "sha256": "c8cc3751f1e079757f8ef8fc14badf5cac68643383806a019cde3cdcb116f42c",
+      "transformation": "none"
+    },
+    {
+      "file": "results/delta-ple/causal-delta-5000192.json",
+      "source": "qwen35-08b/sparse-delta/outputs/5m/delta-results/causal-delta-5000192.json",
+      "bytes": 17286,
+      "sha256": "76fbded7d22412338a0b3d3386756e9f68b0299451a003984aaaf43e23dacaf5",
+      "transformation": "none"
+    },
+    {
+      "file": "results/norm-matched/norms-RAW.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/outputs/run/norm-matched-results/norms-RAW.json",
+      "bytes": 16762,
+      "sha256": "5177cf613a0f4d7b608b10473703ad22d706a9833ad142ad536ca2396e992c0d",
+      "transformation": "none"
+    },
+    {
+      "file": "results/norm-matched/norms-MATCHED.json",
+      "source": "qwen35-08b/v2-head-router-norm-matched/outputs/run/norm-matched-results/norms-MATCHED.json",
+      "bytes": 17442,
+      "sha256": "e1bf27f4f49d98f0d6c9bf04e98457c3ca12950916b525d01866490404ce5e99",
+      "transformation": "none"
+    }
+  ],
+  "generated_reports": [
+    "README.md",
+    "lora.md",
+    "reader.md",
+    "delta-ple.md",
+    "parscale.md",
+    "results/summary.json"
+  ],
+  "note": "Copied evidence is byte-identical. Historical plans do not override completed stop decisions. Large artifacts and credentials are excluded."
+}

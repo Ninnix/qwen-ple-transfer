@@ -1,0 +1,49 @@
+{
+  "token_count": 10000384,
+  "seq": 512,
+  "token_stream_sha256": "19a6180a95685fae67224f4bbef69540926680cefae1cedf3b2453c6d8c1ee28",
+  "sources_sha256": "4a13e3e5b6e3bb12a484e66ddba55048f3746b78c4da1d5b91851f3283e11e2e",
+  "protocol_sha256": "4f060dba4913d701fe2f7c0f07ee5ef9d99dafe2ee4fbf9e0355de47a29babbf",
+  "document_order_sha256": "b494b46ad2ad65ddc69f644d13cff33cc1d1093b3e7eb2fbb438168d36ecd449",
+  "block_domains_sha256": "47e34d55b5982d9005b5c62290a7738d59bab819053dcd869161a0bd48930c93",
+  "domain_tokens": {
+    "scientific": 999936,
+    "general": 4000768,
+    "code": 1499648,
+    "math": 1500672,
+    "multilingual": 1499648,
+    "prose": 499712
+  },
+  "block_order_sha256": "76e7396e6da4df81d0d69384e433f9a4244634c1516ba120d20f3a540de8b3c1",
+  "rejected_documents": {
+    "code_span": 66,
+    "general_span": 24,
+    "prose_span": 1,
+    "multilingual_span": 3,
+    "general_packed_boundary": 1
+  },
+  "protected_32_token_spans": 1848855,
+  "overlap_policy": "reject normalized whole-document matches and every exact contiguous 32-token span; audit final packed stream",
+  "milestones": {
+    "5000192": "258ae901e7b7ad3719319c69a24de02304d60abf68408497019cf36c45aeb24f",
+    "10000384": "19a6180a95685fae67224f4bbef69540926680cefae1cedf3b2453c6d8c1ee28"
+  },
+  "milestone_mix": {
+    "5000192": {
+      "scientific": 977,
+      "general": 3908,
+      "code": 1465,
+      "math": 1464,
+      "multilingual": 1464,
+      "prose": 488
+    },
+    "10000384": {
+      "scientific": 1953,
+      "general": 7814,
+      "code": 2929,
+      "math": 2931,
+      "multilingual": 2929,
+      "prose": 976
+    }
+  }
+}

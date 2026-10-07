@@ -1,0 +1,86 @@
+{
+  "experiment": "Qwengram v2 two-block receiver-LoRA",
+  "status": "frozen before training",
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0,
+  "seed": 20261003,
+  "seq": 512,
+  "batch_size": 1,
+  "gradient_accumulation": 1,
+  "target_tokens": 5000000,
+  "actual_tokens": 5000192,
+  "milestone_tokens": [
+    1000448,
+    2500096,
+    5000192
+  ],
+  "optimizer": "AdamW",
+  "peak_lr": 0.0001,
+  "warmup_fraction": 0.05,
+  "decay": "cosine to zero at final update",
+  "weight_decay": 0.01,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "clip_grad_norm": 1.0,
+  "precision": "FP16 frozen backbone; FP32 adapters, reader, arbiter, CE; GradScaler",
+  "target_families": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "in_proj_qkv",
+    "out_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "semantic_mapping": {
+    "full_attention": "q_proj/k_proj/v_proj/o_proj; q_proj includes the native output-gate channel",
+    "linear_attention": "in_proj_qkv is the fused q/k/v projection; out_proj is the output projection",
+    "mlp": "gate_proj/up_proj/down_proj",
+    "excluded": "linear-attention in_proj_z/in_proj_a/in_proj_b, conv, norms, embeddings, vision, MTP"
+  },
+  "stream": "Exact prefix of prior frozen 15M v2 stream; no corpus/order changes",
+  "budget_gpu_hours": 7.48286025034611,
+  "later_arms": "Stop at matched 5M decision; 10M REAL only if balanced gate and retention pass; never automatic 15M",
+  "publish": false,
+  "fairness": "R-REAL and R-DISABLED have identical receiver tensor shapes, initialization, data order, and successful-token budget. Only memory contribution during training differs. Global 15M arms are references, not matched-token comparisons.",
+  "retention_diagnostic": {
+    "full_validation_blocks": 32,
+    "blocks_per_domain": 8,
+    "order": "full first, then general/code/math/scientific/multilingual; original block order",
+    "permutation_seed": 777,
+    "milestones": [
+      1000448,
+      2500096,
+      5000192
+    ],
+    "conditions": [
+      "real",
+      "permuted",
+      "disabled"
+    ],
+    "training": false,
+    "utility_targets": "disabled token CE minus real token CE; align alpha_late at logit position predicting each target token",
+    "router_utility_ablation": "prepare only; never launch or alter the existing CE-trained arbiter"
+  },
+  "receiver_blocks": [
+    2,
+    8
+  ],
+  "receiver_human_layers": [
+    3,
+    9
+  ],
+  "trainable_parameters": 770048,
+  "projection_count": 10,
+  "qualification_steps": 256,
+  "diagnostic_early_stop": "If REAL is significantly worse than PERMUTED on the fixed subset, persist the checkpoint and stop REAL immediately; do not advance to another REAL milestone.",
+  "extension_schedule": "If the 5M gate passes, freeze an independent 5M continuation schedule before proceeding; this controller stops at the matched decision report.",
+  "continuation_10M_enabled": false,
+  "meaningful_full_val_improvement_nll": 0.005
+}

@@ -1,0 +1,28 @@
+{
+  "matched_tokens": 500224,
+  "resumable": true,
+  "checkpoints": [
+    {
+      "file": "qwen35-08b/parscale/outputs/parscale-results/A-500224.pt",
+      "sha256": "03312cc503db94b05766ac7bb91c91f3e1169f334cec417d841353422e18ad3a",
+      "arm": "A",
+      "seen_tokens": 500224,
+      "optimizer_steps": 977,
+      "parameter_count": 9767938,
+      "complete_optimizer_scaler_rng": true,
+      "next_lr_step": 977
+    },
+    {
+      "file": "qwen35-08b/parscale/outputs/parscale-results/B-500224.pt",
+      "sha256": "3144ac29c7de57a3faa3d67df4a23ba32dacd8ed4d5b4742001539b448722e19",
+      "arm": "B",
+      "seen_tokens": 500224,
+      "optimizer_steps": 977,
+      "parameter_count": 9767938,
+      "complete_optimizer_scaler_rng": true,
+      "next_lr_step": 977
+    }
+  ],
+  "restoration": "restore ParScale and AdamW states, GradScaler, CPU/CUDA RNG; next block is seen_tokens/512; use the pinned 5M LR horizon",
+  "continuation_launched": false
+}

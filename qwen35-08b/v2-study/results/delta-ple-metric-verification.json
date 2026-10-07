@@ -1,0 +1,11 @@
+{
+  "aggregates_match_individual_records": true,
+  "gates": {
+    "full_val": true,
+    "five_domain_mean": true,
+    "lambada_nll": false,
+    "lambada_accuracy": false,
+    "causal": true
+  },
+  "pass": false
+}

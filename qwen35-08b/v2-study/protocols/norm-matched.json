@@ -1,0 +1,54 @@
+{
+  "experiment": "Qwengram 0.8B amplitude-matched causal diagnostic",
+  "inference_only": true,
+  "router_checkpoint_tokens": 749568,
+  "router_checkpoint_file": "head-router-749568.safetensors",
+  "router_checkpoint_sha256": "9af0e47d20395b7098a182362db18b4ec9ed891bb2bf3b8e1ec5bcd2d5b2c318",
+  "source_kernel": "ninnix/qwengram-what-to-read-0-8b-run/1",
+  "source_manifest_sha256": "71becdc9d7773fca367c53b869dda012fa359f5e3ec0f46eacc058ed7f34ee82",
+  "source_files": {
+    "head-router-749568.safetensors": {
+      "size": 65760,
+      "sha256": "9af0e47d20395b7098a182362db18b4ec9ed891bb2bf3b8e1ec5bcd2d5b2c318"
+    },
+    "eval-V1.json": {
+      "size": 122913,
+      "sha256": "466d3955054230f2c05debd7cbf1b03fbb530b3f4601e9736bc424e9ff69e204"
+    },
+    "eval-LEARNED.json": {
+      "size": 122819,
+      "sha256": "a67edbe8e6c0f466dc8d8cf07fd4ab765e080bae8d4d769edc0065673c20abf9"
+    },
+    "frozen-tensor-shas.json": {
+      "size": 40260,
+      "sha256": "14df815a4ce869a8e87cd07b90723a794958d0e473d02b7250002e0865e5fd96"
+    }
+  },
+  "arms": [
+    "UNIFORM",
+    "RAW",
+    "MATCHED",
+    "HEAD-SHUFFLED-MATCHED",
+    "TOKEN-SHUFFLED-MATCHED"
+  ],
+  "eps": 1e-12,
+  "per_token_norm_tolerance": 1e-05,
+  "dataset_norm_tolerance": 1e-05,
+  "budget_tolerance": 2e-06,
+  "identity_nll_tolerance": 1e-07,
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20261006,
+  "shuffle_seed": 726194,
+  "seed": 20261006,
+  "torch_threads": 4,
+  "matching": "FP32 pre-gamma reader output; RMS(v1)/(RMS(routed)+1e-12); canonical residual rounding preserved",
+  "injection_assertion": "FP32 gamma8 * alpha8_v1 * matched output versus FP32 gamma8 * alpha8_v1 * uniform output; audit residual rounding separately",
+  "zero_norm_policy": "both zero counts as matched with ratio 1; routed zero with nonzero canonical aborts",
+  "suite": "exact frozen 1024 full-val blocks; 64 blocks each general/code/math/scientific/multilingual; LAMBADA-1000; HellaSwag-1000",
+  "token_shuffle": "same seed and within-sequence permutation as raw experiment; inference-only",
+  "decision": "supported matched full-val gain over uniform and both matched shuffled controls, five-domain mean preserved, no supported critical-domain or LAMBADA regression",
+  "optimizer": null,
+  "training_steps": 0,
+  "followup": false,
+  "publish": false
+}

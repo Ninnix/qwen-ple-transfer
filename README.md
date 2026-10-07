@@ -15,6 +15,12 @@ and residual injection (`h = h + gamma * o`), identity init (`gamma = 0`),
 exact source addressing (`splitmix64-xor`, seed 1234), standard causal-LM loss,
 mandatory disabled/permuted/random-memory controls.
 
+The [completed 0.8B follow-up studies toward v2](qwen35-08b/v2-study/README.md)
+record matched LoRA, receiver-local LoRA, reader/routing controls, sparse
+DeltaPLE and the final matched 500K ParScale P=2 ablation. They preserve
+protocols, paired confidence intervals and artifact provenance. No endpoint
+passed the balanced promotion rules; Qwengram v1 remains canonical.
+
 ## Getting started
 
 For inference with the balanced 15M reader, follow the runtime guide above.
